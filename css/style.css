@@ -1,0 +1,806 @@
+/*!
+ * 
+ * CUSTOM CSS STYLE FOR ACCUTAX WEB 1040 PRO
+ * 
+ */
+
+
+/* Google Fonts - ROBOTO*/
+ @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+
+
+
+
+
+
+	/* MAIN HEADER NAVIGATION STYLE*/
+
+	 .main-navigation .logo-header{
+    display: block;
+    float: left;
+    width: 140px !important;height: 70px;
+    background:url(../img/web1040-logo.png) 0 0 no-repeat;
+    margin-right: 0 !important;
+
+    }
+
+	.main-navigation{
+	background-color: #fafafa !important;
+	}
+
+	.main-navigation .nav-list .nav-link{
+	font-family: "Roboto";
+	font-weight: 400;
+	 color: #353434;
+	text-transform:uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	letter-spacing: 1px !important;
+	margin-right: 15px;
+	margin-top: 10px;
+	}
+
+
+	.nav-list .nav-item .sign-up-button{
+	padding-top: 13px;
+	padding-bottom: 12px;
+	background-color: #ce2027 !important;
+	color: #ffffff;
+	font-size: 13px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	letter-spacing: 2px;
+	font-weight: 400;
+	font-family: "Roboto";
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;padding-bottom: 10px;
+	margin-top: 8px;
+	text-align: center;
+	border-radius: 2px;
+    }
+
+
+	/* STYLE FOR HOME TOP SECTION */
+
+	#home-section{
+	background-color: #ce2027;
+	background-image: url(../img/home-background.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	 padding: 154px 0 100px;
+	}
+
+	#home-section .text-area{
+     display: block;
+     margin-bottom: 30px;
+     margin-top: 5%;
+
+	}
+
+	#home-section .text-area h3{
+	font-family: "Roboto";
+    font-weight: 300;
+    color: #f7f5f5;
+    font-size: 22px;
+    text-align: left;
+   }
+
+   #home-section .text-area h3 span{
+	font-family: "Roboto";
+    font-weight: 500;
+    color: #f7f5f5;
+    font-size: 22px;
+    text-align: left;
+   }
+
+   	#home-section .text-area h2{
+	font-family: "Roboto";
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 25px;
+   }
+
+   	#home-section .text-area .btn-signup-1{
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+    background-color: #36C24E;
+    display: block;
+    text-transform: uppercase;
+    float: left;
+    width: auto !important;
+    border-radius: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 7%;
+   	}
+
+	#home-section .image-side img{
+	display: block;
+	float: right;
+	margin-top: 5%;
+	}
+
+	/* Banner signup  */
+
+    .demo-banner{
+    background-color: #34495e;
+    display: block;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+    .demo-banner .box-content{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    .demo-banner .box-content h3{
+    font-family: "Roboto";
+    font-weight: 400;
+    color:#f7f5f5;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 5px;
+    }
+
+    .demo-banner .box-content p{
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #fafafa;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    }
+
+
+    .demo-banner .box-content .border-line-5{
+      border-bottom: 1px solid #b7b7b9;
+    width: 20%;
+    margin-bottom: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+	}
+
+
+    .demo-banner .box-content .btn-signup-5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:350px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color:#36C24E;;
+    padding-top: 20px;padding-bottom: 20px;
+    border:0;border-radius: 2px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    position: relative;
+        transition: all .2s ease-in-out;
+	}
+
+	.box-content .btn-signup-5:hover{
+	background-color: #ce2027;
+	cursor: pointer;
+	 transform: scale(1.08);
+  	}
+
+	.demo-banner .box-content .btn-signup-5 img{
+	display: block;
+	float: left;
+	margin-right: 10px;
+	margin-left: 15px;
+	margin-top: -5px;
+	}
+
+
+	/* SECTION  ABOUT CSS STYLE*/
+    
+    #about{
+	padding-bottom:100px;
+	padding-top:100px;
+	border-bottom: 1px solid #fafafa;
+    }
+ 
+	.about-side-1{
+	display: block;
+	}
+	
+	.about-side-1 h2{
+	    font-family: "Roboto";
+    font-weight: 500;
+    color: #ce2027;
+    font-size: 43px;
+    text-align: right;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+	}
+
+	.about-side-1 h3{
+	font-family: "Roboto";
+	font-weight: 300;
+	color: #6c6c6e;
+	font-size: 22px;
+	text-align: right;
+	padding-bottom: 5px;
+	background: url(../img/text-shape.png) 100% 0 no-repeat;
+	padding-right: 110px;
+	padding-top: 8px;
+	}
+
+	.about-side-1 p{
+	font-family: "Roboto";
+    font-weight: 400;
+    color: #6c6c6e;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 5px;
+	}
+	
+	/* Top Brand Sectiion Banner*/
+	
+	.top-brand{
+	background-color:#34495e;
+	display:block;
+	width: 100%;
+	padding-top: 40px;padding-bottom:40px;
+	}
+
+	.top-brand .image-badge{
+	float: left;
+	display: block;
+	}
+
+	.top-brand .image-badge img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transition: all .2s ease-in-out;
+	}
+
+	.top-brand .image-badge img:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	}
+
+	.top-brand .text-badge{
+		margin-top:40px;
+	}
+
+	.top-brand .text-badge h3{
+	font-family: "Roboto";
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 18px;
+	text-align:left;
+	padding-bottom: 5px;
+	text-transform: none;
+	margin-bottom: 10px;
+	}
+
+	.top-brand .text-badge h3 span{
+	font-family: "Roboto";
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: none;
+	}
+
+
+	/* Device Section descrpition */
+	.device-feautures{
+	width: 100%;
+	display: block;
+	padding-top: 70px;
+	}
+
+	.device-feautures .text-bxs{
+	width: 100%;
+	display: block;
+	}
+
+	.device-feautures .text-bxs .subtitle {
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #6c6c6e;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align:center;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	background: url(../img/text-shape.png) 25% 0 no-repeat;
+	padding-top: 8px;
+	letter-spacing: 1px;
+	
+	}
+
+	.device-feautures .text-bxs .maintitle{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #ce2027;
+	font-size: 35px;
+	text-align:center;
+	padding-bottom: 5px;
+	text-transform: none;
+	letter-spacing: 2px;
+	margin-bottom: 30px;	
+	}
+
+	.device-feautures .device-box{
+	border-radius:5px;
+	box-shadow: 1px 3px 10px 2px rgba(0,0,0,.1);
+    transition: all .2s ease-in-out;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    display: block;
+    max-width: 250px;
+    margin-right:auto;margin-left: auto;
+    padding-top: 25px;padding-bottom: 25px;
+
+	}
+	
+	.device-feautures .device-box img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.device-feautures .device-box h3{
+	font-family: "Roboto";
+    font-weight: 300;
+    color: #6c6c6e;
+    font-size: 22px;
+    text-align:center;
+    padding-bottom: 5px;
+    padding-top: 25px;
+	}
+
+	.device-feautures .device-box:hover{
+	cursor: pointer;
+	color: #ce2027 !important;
+	border-bottom: 2px solid #ce2027;
+	transform: scale(1.1);
+	}
+	
+	.device-feautures .device-box:hover h3{
+	color: #ce2027 !important;
+	font-weight: 400;	
+	}
+
+	.device-feautures .text-box-2 h4{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #ce2027 ;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 45px;
+	margin-bottom: 10px;
+	}
+
+	.device-feautures .text-box-2 h5{
+	font-family: "Roboto";
+
+	  font-weight: 400;
+    color: #6c6c6e;
+    font-size: 17px;
+	text-transform:none;
+	text-align: center;
+	margin-top:20px;
+	margin-bottom: 10px;
+	}
+
+
+
+	/* FEATURES SECTION */
+
+	#features{
+	padding-top:80px;
+	padding-bottom: 80px;
+	background-color: #f5f5f5;
+	background:#f5f5f5 url(../img/features-pattern-background.png) 0 90% no-repeat;
+
+	}
+
+	#features .text-area{
+		display: block;
+		width: 100%;
+	}
+
+	#features .text-area .subtitle-1 {
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #6c6c6e;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align:center;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-top: 8px;
+	letter-spacing: 1px;
+	
+	}
+
+	#features .text-area .maintitle-2{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #ce2027;
+	font-size: 35px;
+	text-align:center;
+	padding-bottom: 5px;
+	text-transform: none;
+	letter-spacing: 2px;
+	margin-bottom: 45px;
+	background: url(../img/text-shape.png) 80% 0 no-repeat;	
+	}
+
+	.list-fea{
+	display: block;
+	border-radius:3px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 18px;
+	padding-top: 18px;
+	margin-bottom:30px;
+	margin-top:15px;
+	width: 100%;
+	margin-left:auto;margin-right: auto;
+	position: relative;
+	height: 88%;
+	background-color: #fafafa;
+	z-index: 1;
+	box-shadow: 0px 3px 3px 2px rgba(0,0,0,.1);
+	}
+
+	.list-fea .skew-txt{
+	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	background-color:#ce2027;
+	position: absolute;
+	width: 70%;
+	display: block;
+	top:-10%;
+	left:15%;
+
+	}
+
+	.list-fea .skew-txt h3 {
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #ffffff;
+	text-align: center !important;
+	font-size:15px;
+	display:inline-block;
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	letter-spacing: 1px;
+	padding-top:6px;padding-bottom:6px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 0;
+	}
+
+	.list-fea p {
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #6c6c6e;
+	font-size: 14px;
+	margin-top: 30px;
+	}
+
+	.list-fea img{
+	display: block;
+	float: left;
+	margin-right: 15px;
+	margin-top:15px;
+	}
+
+
+	#features .device-img img{
+	display: block;
+	margin-top: 20%;
+	}
+
+	/* 60 PLUS FEATURES list section*/
+
+	.plus-features{
+	
+	padding-top: 70px;	padding-bottom: 70px;
+	background-color: #ce2027;
+	background-image: url(../img/features-red-bckg.jpg);
+	background-size:fit;
+	background-repeat: no-repeat;
+	}
+
+	.plus-features .text-box-3{
+	display: block;
+	width: 100%;
+	}
+
+	.plus-features .text-box-3 h2{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 40px;
+	text-align: center;
+	text-transform: none;
+	letter-spacing: 2px;
+	margin-bottom:15px;
+
+	}
+
+	.plus-features .text-box-3 h3{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 5px;
+	letter-spacing: 1px;
+	}
+
+
+	.plus-features .text-box-3 h4{
+	font-family: "Roboto";
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 20px;
+	text-transform:none;
+	text-align: center;
+	padding-bottom:4%;
+	letter-spacing: 1px;
+	margin-top: 15px;
+	}
+
+	.plus-features .text-box-3 .line-border{
+	width: 20%;
+	display: block;
+	border: 1px solid #ffffff;
+	margin-left: auto;margin-right: auto;
+	}
+
+	/* 60+ list feautures section*/
+	
+	.plus-features .pro-list{
+	  position: relative;
+    border: 1px solid #e5b7b9;
+    margin-top:15px;margin-bottom:15px;
+ 	padding-left:20px;padding-right:20px;
+ 	max-width: 350px;
+ 	display: block;
+ 	position: relative;
+ 	z-index: 1;
+ 	margin-right: auto;margin-left: auto;
+	}
+
+	.pro-list h5{
+	font-family: "Roboto";
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    letter-spacing: 1px;
+	}
+
+	.pro-list p{
+	font-family: "Roboto";
+	font-weight: 300;
+	color: #fafafa;
+	font-size: 15px;
+	text-align:center;
+	margin-top:15px;
+	}
+
+	.pro-list .border{
+	width: 20%;
+	display: block;
+	border: 1px solid #ffffff;
+	margin-left: auto;margin-right: auto;
+	}
+
+	.pro-list img{
+     display: block;
+     margin-left: auto;margin-right: auto;
+     margin-top:5px;
+	}
+
+
+	/* Banner section 60+ features  */
+
+	.badge-60{
+	padding-top:30px;
+	padding-bottom:30px;
+	display: block;
+	width: 100%;
+	background-color: #fafafa;
+	background: url(../img/line-pattern.png) 0 0 repeat;
+	}
+
+	.badge-60 .img-badge{
+	display: block;
+	float: left;
+	}
+
+	.badge-60 .img-badge img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.badge-60 .text-in h3{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #ce2027;
+	font-size: 32px;
+	text-align: center;
+	text-transform:uppercase;
+	letter-spacing: 2px;
+	margin-bottom:15px;
+	margin-top: 5%;
+	}
+
+	.badge-60 .text-in h4{
+	font-family: "Roboto";
+	  font-weight: 400;
+	color: #1d3043;
+	font-size: 20px;
+	text-transform: none;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-top: 8px;
+	}
+
+	/* Reqest demo signup banner section*/
+
+	.signup-banner{
+	background-color: #34495e;
+	display: block;
+	width: 100%;
+	padding-top: 35px;
+	padding-bottom:0px;
+	}
+
+	.signup-banner .txt-title {
+	display: block;
+	width: 100%;
+	margin-bottom: 35px;
+	}
+
+	.signup-banner .txt-title h3 {
+	font-family: "Roboto";
+	font-weight: 300;
+	color: #f7f5f5;
+	font-size: 28px;
+	text-align:center;
+	letter-spacing: 2px;
+
+	}
+
+	.signup-banner .txt-title h3 span{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #f7f5f5;
+	font-size: 28px;
+	text-align: center;
+	letter-spacing: 2px;
+	}
+
+
+	.signup-banner .btn-section{
+	display: block;
+	width: 100%;
+	margin-top: 35px;
+	}
+
+	
+	/*Signup button*/
+
+
+
+/*Signup button*/
+	
+	.two-button-side .two-button{
+	 margin-left:auto;
+    list-style: none;
+    display: block;
+    width:100%;
+   
+	}
+
+	.two-button-side .two-button li{
+	display:block;
+	 margin-left: auto;
+    margin-right: auto;
+	width: 60%;
+	margin-bottom: 15px;
+	}
+
+	.two-button-side .two-button li .btn-signup-2{
+	display: block;
+	margin-right: auto;margin-left: auto;
+	width: 320px;
+	font-family: "Roboto";
+	font-weight: 500;
+	color: #fafafa;
+	text-transform: uppercase;
+	font-size: 18px;
+	background-color: #ce2027;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border: 0;
+	border-radius: 2px;
+	letter-spacing: 2px;
+	position: relative;
+	transition: all .2s ease-in-out;
+	margin-bottom: 15px;
+	}
+	
+	.two-button-side .two-button li .btn-signup-2 img{
+	display: block;
+	float: left;
+	margin-right: 10px;
+	margin-left: 15px;
+	margin-top: -5px;
+	}
+
+	.two-button-side .two-button li .btn-demo-1{
+	display: block;
+	margin-right: auto;margin-left: auto;
+	width:320px;
+	font-family: "Roboto";
+	font-weight: 500;
+	color: #fafafa;
+	text-transform: uppercase;
+	font-size: 18px;
+	background-color: #36C24E;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border: 0;
+	border-radius: 2px;
+	letter-spacing: 2px;
+	position: relative;
+	transition: all .2s ease-in-out;
+	margin-bottom: 15px;
+	}
+	
+	.two-button-side .two-button li .btn-demo-1 img{
+	display: block;
+	float: left;
+	margin-right: 10px;
+	margin-left: 15px;
+	margin-top: -5px;
+	}
+
+
+	.signup-banner .left-side-picture{
+	display: block;
+	float: right;
+	}
+
+	.signup-banner .left-side-picture img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	}
