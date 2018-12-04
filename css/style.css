@@ -686,6 +686,7 @@
 	display: block;
 	width: 100%;
 	margin-bottom: 35px;
+	 margin-top: 5%;
 	}
 
 	.signup-banner .txt-title h3 {
@@ -722,7 +723,7 @@
 /*Signup button*/
 	
 	.two-button-side .two-button{
-	 margin-left:auto;
+	
     list-style: none;
     display: block;
     width:100%;
@@ -740,12 +741,12 @@
 	.two-button-side .two-button li .btn-signup-2{
 	display: block;
 	margin-right: auto;margin-left: auto;
-	width: 320px;
-	font-family: "Roboto";
+	 white-space: normal !important;
+    font-family: "Roboto";
 	font-weight: 500;
 	color: #fafafa;
 	text-transform: uppercase;
-	font-size: 18px;
+	font-size: 16px;
 	background-color: #ce2027;
 	padding-top: 16px;
 	padding-bottom: 16px;
@@ -761,19 +762,20 @@
 	display: block;
 	float: left;
 	margin-right: 10px;
-	margin-left: 15px;
+	margin-left: 5px;
 	margin-top: -5px;
 	}
 
 	.two-button-side .two-button li .btn-demo-1{
 	display: block;
 	margin-right: auto;margin-left: auto;
-	width:320px;
+	  white-space: normal !important;
+	  
 	font-family: "Roboto";
 	font-weight: 500;
 	color: #fafafa;
 	text-transform: uppercase;
-	font-size: 18px;
+	font-size: 16px;
 	background-color: #36C24E;
 	padding-top: 16px;
 	padding-bottom: 16px;
@@ -789,7 +791,7 @@
 	display: block;
 	float: left;
 	margin-right: 10px;
-	margin-left: 15px;
+	margin-left:5px;
 	margin-top: -5px;
 	}
 
