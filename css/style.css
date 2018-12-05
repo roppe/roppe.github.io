@@ -10,10 +10,6 @@
 
 
 
-
-
-
-
 	/* MAIN HEADER NAVIGATION STYLE*/
 	.navbar-toggler .navbar-toggler-icon .fa{
     font-size: 30px;
@@ -43,10 +39,53 @@
 	letter-spacing: 1px;
 	font-size: 13px;
 	letter-spacing: 1px !important;
-	margin-right: 15px;
+	margin-right:5px;
 	margin-top: 10px;
 	text-align: center;
 	}
+
+	/* nav hover effect*/
+	
+	.nav-list .nav-link:hover{
+		color: #ce2027;
+	}
+
+	.nav-list .nav-link::before,
+    .nav-list .nav-link::after {
+    display: inline-block;
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+    transition: transform 0.3s, opacity 0.2s;
+    }
+
+   .nav-list .nav-link::before {
+    margin-right:2px;
+    content: '[';
+    -webkit-transform: translateX(20px);
+    -moz-transform: translateX(20px);
+    transform: translateX(20px);
+    }
+
+    .nav-list .nav-link::after {
+    margin-left:2px;
+    content: ']';
+    -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    transform: translateX(-20px);
+    }
+
+	.nav-list .nav-link:hover::before,
+	.nav-list .nav-link:hover::after,
+	.nav-list .nav-link:focus::before,
+	.nav-list .nav-link:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+	color: #ce2027;
+	}
+	
 
 
 	.nav-list .nav-item .sign-up-button{
@@ -68,6 +107,12 @@
 	text-align: center;
 	border-radius: 2px;
     }
+
+	.nav-list .nav-item .sign-up-button:hover{
+	color:#ce2027;
+	background: #36C24E !important;
+	cursor: pointer;
+	}
 
 
 	/* STYLE FOR HOME TOP SECTION */
@@ -185,7 +230,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:350px;
+    width:60%;
     font-family: "Roboto";
     font-weight: 500;
     color: #fafafa;
@@ -198,6 +243,8 @@
     margin-top: 30px;
     position: relative;
         transition: all .2s ease-in-out;
+        	white-space: normal !important;
+	word-wrap: break-word !important;
 	}
 
 	.box-content .btn-signup-5:hover{
@@ -821,7 +868,7 @@
 	padding-top: 50px;padding-bottom:0;
 	background-color: #ce2027;
 	background-image: url(../img/cover-efiling.jpg);
-	background-size: fit;
+	background-size:cover !important;
 	background-repeat: no-repeat;
 	width: 100%;
 	}
@@ -1223,9 +1270,507 @@
 	}
 
 	.btn-order .button-buy:hover{
-		cursor: pointer;
-		background-color: #feb100;
-		color: #fafafa;
+	cursor: pointer;
+	background-color: #feb100;
+	color: #fafafa;
 	}
 
+	/* FAQ  SECTION */
+
+	.faq-section{
+	background-color: #ffffff;
+	display: block;
+	padding-top: 50px;
+	padding-bottom:80px;
+	}
+
+	.faq-section .text-faq-box{
+	display: block;
+	width: 100%;
+	}
+
+	.faq-section .text-faq-box h3{
+	font-family: "Roboto";
+    font-weight: 400;
+    color: #6c6c6e;
+    font-size:18px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    background: url(../img/text-shape.png) 15% 0 no-repeat;
+    padding-top: 8px;
+    letter-spacing: 1px;
+     word-wrap: break-word !important;
+	}
+	
+	.faq-section .text-faq-box h2{
+	font-weight: 400;
+	color: #ce2027;
+	font-size: 35px;
+	text-align: center;
+	padding-bottom: 5px;
+	text-transform: none;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+
+	font-family: "Roboto";
+	}
+
+	.card-faq{
+    margin-bottom: 15px;
+    border-radius: 0;
+    border: 1px solid #f5f0f0;
+    }
+
+    .webpro-faq .card-body{
+    background-color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #afaca6;
+    font-size: 15px;
+    border-left: 2px solid #36C24E;
+     }
+
+    .webpro-faq .faq-header{
+    padding-top: 10px;padding-bottom: 10px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #fdb312; 
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fafafa;
+    border-bottom: 0;
+      white-space: normal !important;
+	    word-wrap: break-word !important;
+    }
+
+	.webpro-faq .faq-header .btn{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #8c8986;
+	font-size: 15px;
+	white-space: normal !important;
+	word-wrap: break-word !important;
+	}
+
+     .webpro-faq .faq-header .btn .fa{
+    float: right;
+    color: #d0cfcf;
+
+    }
+      .webpro-faq .faq-header .btn:hover{
+    cursor: pointer;
+     color: #ce2027;
+    }
+
+	.webpro-faq .btn:active,  .faq-header .btn:focus {
+	border-color: transparent;
+	box-shadow: none;
+	color: #36C24E;
+	text-decoration: none;
+	}
+
+	.faq-header .btn:active .fa,  .faq-header .btn:focus .fa {
+	border-color: transparent;
+	color: #36C24E;
+	}
+
+
+
+	/* customer  section review*/
+
+	.customer-section{
+    display: block;
+    width: 100%;
+    background-color: #fafafa;
+    padding-top: 70px;padding-bottom:0;
+    background-image: url(../img/background-clients.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
+    .customer-section .text-box-cust h2{
+       font-family: "Roboto";
+        font-weight: 400;
+    color:#ce2027;
+    font-size: 18px;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1px;
+    }
+
+    .customer-section .text-box-cust h4{
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #c2bfbf; 
+    font-size: 18px; 
+    text-align: center;
+    margin-bottom: 80px;
+    }
+
+    .customer-section .text-box-cust .border-line-4 {
+    border-bottom: 1px solid #dcdbdb;
+    width: 15%;
+    margin-bottom: 15px;
+    display: block;
+    margin-right: auto;margin-left: auto;
+    }
+
+	 .customer-section .impression-1{
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #efeeee;
+    width: 97%;
+    position: relative;
+    padding-left: 30px;padding-right: 30px;
+    padding-top: 20px;padding-bottom: 20px;
+    background:#fff url(../img/quote.png) no-repeat left;
+    margin-bottom:11%;
+    margin-top: 25px;
+    padding-top: 11%;
+
+    }
+
+	.customer-section .impression-1 h6{
+	font-family: 'Roboto';
+	font-weight: 400;
+	color: #9ba0a2;
+	font-size: 15px;
+	/* font-style: italic; */
+	text-align: center;
+	padding-top: 11%;
+	line-height: 20px;
+
+	}
+
+    .customer-section .impression-1 .name-cst{
+     font-family: 'Roboto';
+    font-weight: 400;
+    color: #ce2027;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    }
+
+	.customer-section .impression-1 .position {
+	font-family: 'Roboto';
+	font-weight: 400;
+	color: #687f96;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-style: italic;
+	margin-bottom: 0;
+	}
+
+    .customer-section .impression-1 .title-cst{
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #cccaca;
+    font-size: 13px;
+    text-align: right;
+    margin-bottom: 5px;
+
+    }
+
+    .customer-section .impression-1 img{
+    position: absolute;
+    left: 40%;
+    top: -17%;
+    }
+
+
+/* Customer box left */
+
+
+    .customer-section .impression-2{
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #efeeee;
+    width: 97%;
+    position: relative;
+    padding-left: 30px;padding-right: 30px;
+    padding-top: 20px;padding-bottom: 20px;
+    background:#fff url(../img/quote.png) no-repeat right;
+    margin-bottom:11%;
+    margin-top:35px;
+  
+    }
+
+	.customer-section .impression-2 h6{
+	font-family: 'Roboto';
+	font-weight: 400;
+	color: #9ba0a2;
+	font-size: 15px;
+	/* font-style: italic; */
+	text-align: center;
+	padding-top: 9%;
+	line-height: 20px;
+	}
+
+    .customer-section .impression-2 .name-cst{
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #ce2027;
+    font-size: 18px;
+    text-align:center;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    }
+   
+    .customer-section .impression-2 .position {
+       font-family: 'Roboto';
+    font-weight: 400;
+    color: #687f96;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin-bottom: 0;
+  	}
+
+    .customer-section .impression-2 .title-cst{
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #cccaca;
+    font-size: 13px;
+    text-align: right;
+    margin-bottom: 5px;
+
+    }
+
+    .customer-section .impression-2 img{
+    position: absolute;
+    left: 40%;
+    top: -23%;
+    }
+
+
+    /* CONTACT  SECTION  */
+
+    #contact{
+	padding-bottom:60px;
+	padding-top:60px;
+	background-color: #ce2027;
+    background-image: url(../img/background-contact-section.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+	
+	#contact .cnt-text{
+	display: block;
+	width: 100%;
+	}
+
+	.cnt-text .cnt-subtitle{
+	font-family: "Roboto";
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 34px;
+	text-align: center;
+	text-transform: none;
+	letter-spacing: 2px;
+	margin-bottom: 25px;	
+	}
+
+	.cnt-text .call-now-txt{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 37px;
+	text-align: center;
+	text-transform: none;
+	letter-spacing: 2px;
+	margin-bottom:5%;	
+	border: 2px solid #ffffff;
+	width: 55%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 17px;padding-bottom: 17px;
+	border-radius: 3px;
+	}
+
+	.cnt-text .call-now-txt span{
+	font-family: "Roboto";
+	font-weight: 700;
+	color: #ffffff;
+	font-size: 48px;
+	text-align: center;
+	text-transform: none;
+	letter-spacing: 2px;
+	margin-bottom: 15px;	
+	}
+
+
+	.box-contact{
+	display: block;
+	float: left;
+	}
+
+	.box-contact .icons-contact{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	}
+	.box-contact p{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-top: 20px;
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 16px;
+	}
+
+
+	.box-contact .skew-txt-bck {
+	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	background-color:#fafafa;
+	margin-left: auto;margin-right: auto;
+	width: 75%;
+	display: block;
+
+	}
+
+	.box-contact .skew-txt-bck h3 {
+	font-family: "Roboto";
+	font-weight: 500;
+	color:#ce2027;
+	text-align: center !important;
+	font-size:18px;
+	display:inline-block;
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	letter-spacing: 1px;
+	padding-top:6px;padding-bottom:6px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 0;
+	}
+
+
+	/*foooter*/
+	
+
+	.footer-bottom{
+	display: block;
+	width: 100%;
+	background: #1f262b;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+	}
+
+
+	.logo-left-info .copy {
+	font-family: "Roboto";
+    font-weight: 400;
+    color: #fafafa !important;
+    text-align:left;
+    display: block;
+   font-size: 12px;
+	}
+
+	.logo-left-info{
+	display: block;
+	float: left;
+	width: 100%;
+	}
+
+	.logo-left-info .logo-footer{
+	display: block;
+	float: left;
+	width: 120px !important;height: 70px;
+	background:url(../img/footer-logo-white.png) 0 0 no-repeat;
+	margin-right:20px;
+	}
+
+	.logo-left-info .sub-text{
+	font-family: "Roboto";
+    font-weight: 400;
+    color: #f6f2f2;
+    font-size: 13px;
+    width: 100%;
+    margin-top: 10px;
+	}
+
+
+	.logo-left-info .border-div-1{
+	border-bottom:1px solid #384752;
+    width:100%;
+    margin-bottom: 15px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+	}
+
+	.footer-bottom .right-contact{
+	display: block;
+	float: right;
+	width: 100%;
+	}
+
+	.footer-bottom .right-contact .info-cnt{
+	display: block;
+	float: right;
+	}
+
+	.right-contact .info-cnt p{
+	font-family: "Roboto";
+    font-weight: 400;
+    color: #f6f2f2;
+    font-size: 13px;
+    width: 100%;
+    margin-top:5px;
+    margin-left: 10px;
+	}
+
+	.right-contact .info-cnt p .fa{
+	color: #f6f2f2;
+    font-size: 20px;
+    margin-right: 6px;	
+	}
+
+	.right-contact .info-cnt .border-div{
+	border-bottom:1px solid #384752;
+    width:100%;
+    margin-bottom: 15px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+	}
+
+	.right-contact .info-cnt .go-privacy{
+	    text-align: left;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #f6f2f2;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    margin-left: 8px;
+	}
+
+	.right-contact .info-cnt .go-privacy .fa{
+	font-size: 16px;
+	margin-right: 10px;
+	}
+
+	.right-contact .info-cnt .go-privacy:hover{
+	color:#ce2027;
+	cursor: pointer;
+	}
 
