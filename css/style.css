@@ -15,6 +15,12 @@
 
 
 	/* MAIN HEADER NAVIGATION STYLE*/
+	.navbar-toggler .navbar-toggler-icon .fa{
+    font-size: 30px;
+   	display: block !important;
+    color: #ce2027!important;
+    border:0;
+    }
 
 	 .main-navigation .logo-header{
     display: block;
@@ -39,6 +45,7 @@
 	letter-spacing: 1px !important;
 	margin-right: 15px;
 	margin-top: 10px;
+	text-align: center;
 	}
 
 
@@ -910,3 +917,315 @@
 	margin-top: 25px;margin-right: 25px;
 	letter-spacing: 1px;
 	}
+
+
+	/* Refund Settlement Partners */
+	
+	.partners-section{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: block;
+	width: 100%;
+	background-color: #fafafa;
+	background: url(../img/line-pattern.png) 0 0 repeat;
+	}
+
+	.txt-area-6{
+	display: block;
+	width: 100%;
+	margin-bottom:35px;
+	margin-top: 20px;
+	}
+	
+	.txt-area-6 h3{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #6c6c6e;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-top: 8px;
+	letter-spacing: 1px;	
+	}
+
+	.txt-area-6 h2{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #ce2027;
+	font-size: 38px;
+	text-align: center;
+	padding-bottom: 5px;
+	text-transform: none;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+	}
+
+	.txt-area-6 h4{
+	font-family: "Roboto";
+	font-weight: 300;
+	color: #585859;
+	font-size: 20px;
+	text-transform: none;
+	text-align: center;
+	padding-bottom: 5px;
+	letter-spacing: 1px;	
+	}
+
+	.logo-partner img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.logo-partner a:hover img{
+	opacity: 0.8;
+	cursor: pointer;
+	}
+
+
+	/*  PRICING TABLE SECTION  */
+
+	#pricing-section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #ce2027;
+	background-image: url(../img/features-red-bckg.jpg);
+	background-size: fit;
+	background-repeat: no-repeat;
+	}
+
+	#pricing-section .text-box-price{
+	display: block;
+	width: 100%;
+	}
+
+	#pricing-section .text-box-price h2{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 38px;
+	text-align: center;
+	text-transform: none;
+	letter-spacing: 2px;
+	margin-bottom:15px;
+
+	}
+
+	#pricing-section .text-box-price h3{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 5px;
+	letter-spacing: 1px;
+	}
+	
+	#pricing-section .text-box-price h4{
+	
+	font-family: "Roboto";
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 18px;
+	text-transform:none;
+	text-align: center;
+	padding-bottom:2%;
+	letter-spacing: 1px;
+	margin-top: 15px;
+	}
+
+	#pricing-section .text-box-price .line-border-3{
+	width: 10%;
+	display: block;
+	border: 1px solid #ffffff;
+	margin-left: auto;margin-right: auto;
+	}
+
+	#pricing-section .sub-text-2{
+	display: block;
+	width: 100%;
+	border: 1px solid #bd8686;
+	padding-top: 20px;padding-bottom: 15px;
+	padding-left: 5px;
+	    margin-bottom: 4%;
+	}
+
+	#pricing-section .sub-text-2 h6{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #ffffff;
+	font-size:18px;
+	text-transform:uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	}
+
+	#pricing-section .sub-text-2 p{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #ffffff;
+	font-size:16px;
+	text-transform:none;
+	text-align: center;
+	float: left;
+	margin-right:10px;
+	margin-bottom: 5px;
+	}
+
+	#pricing-section .sub-text-2 .fa{
+	margin-right: 8px;
+	font-size:18px;
+	}
+
+
+	.table-price{
+	padding-right: 0;
+	padding-left: 0;
+	color: #fff;
+	background: #f8f9fb;
+	margin-right: 20px;
+	margin-bottom:25px;
+	margin-top: 25px;
+	max-width: 340px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;	
+	padding-bottom: 0;
+	border: none;
+	}
+
+	.table-price .price-header{
+	background-color: #7DC383;
+	display: block;
+	width:100%;
+	padding-top:15px;
+	padding-bottom:15px;
+	}
+
+	.table-price .price-header h3{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #ffffff;
+	font-size:18px;
+	text-transform: none;
+	}
+
+
+	.table-price .price-header h3{
+	font-family: "Roboto";
+	font-weight: 300;
+	color: #ffffff;
+	font-size:19px;
+	text-transform: none;
+	text-align: center;
+	}
+
+	.table-price .price-header h2{
+	font-family: "Roboto";
+	font-weight:400;
+	color: #ffffff;
+	font-size:35px;
+	text-transform:uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+	margin-bottom: 0;
+	}
+
+	.table-price .price-cost{
+	display: block;
+	margin-top: 40px;
+	width: 100%;
+	}
+
+	.table-price .price-cost h4{
+	color:#ce2027;
+	font-family: "Roboto";
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align:center;
+	font-size: 44px;
+	margin-bottom: 0;
+	}
+
+	.table-price .price-cost .per-user{
+	text-align: center;
+	font-size: 16px;
+	color: #3f3e3e;
+	font-family: "Roboto";
+	font-weight: 300;
+	}	
+
+	.table-price .price-list{
+	list-style-type: none;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	float: left;
+	padding-left: 0;
+	margin-bottom: 40px;
+	padding-bottom:60px;
+	}
+
+	.price-list li{
+	list-style-type: none;
+	display: block;
+	float: left;
+	width: 100%;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border-bottom: 1px solid #e7e6e6;
+	}
+
+	.price-list li p{
+	text-align: center;
+	font-size: 14px;
+	  color: #959393;
+	font-family: "Roboto";
+	font-weight:500;
+	margin-bottom: 0;
+	}
+
+	.price-list li .fa{
+	text-align: center;
+	font-size: 18px;
+	color: #c0bdbd;
+	display: block;
+	margin-left: auto;margin-right: auto;
+	}
+
+	.table-price .btn-order {
+	display: block;
+	width: 100%;
+	float: left;
+	position: absolute;
+	bottom: 0;
+	margin-top:30px;
+	}
+
+	.btn-order .button-buy{
+	font-weight: 400;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0;
+    padding: 15px 20px;
+    border-radius: 0;
+    background: #36C24E;
+    position: absolute;
+    bottom: 0;
+    border: 0;
+    color: #ffffff;
+	}
+
+	.btn-order .button-buy:hover{
+		cursor: pointer;
+		background-color: #feb100;
+		color: #fafafa;
+	}
+
+
