@@ -806,3 +806,107 @@
 	margin-right: auto;
 	margin-left: auto;
 	}
+
+
+	/* E FILLING  SECTION */
+
+	#efiling {
+	padding-top: 50px;padding-bottom:0;
+	background-color: #ce2027;
+	background-image: url(../img/cover-efiling.jpg);
+	background-size: fit;
+	background-repeat: no-repeat;
+	width: 100%;
+	}
+
+	.text-box-4{
+	display: block;
+	width: 100%;
+	}
+
+	.text-box-4 h3{
+	font-family: "Roboto";
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 22px;
+	text-transform:none;
+	text-align: center;
+	padding-bottom: 5px;
+	letter-spacing: 1px;
+	}
+
+	.text-box-4 h4{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 38px;
+	text-transform:none;
+	text-align: center;
+	padding-bottom:4%;
+	letter-spacing: 1px;
+	margin-top: 15px;
+	}
+
+	.text-box-4 .line-border{
+	width: 15%;
+	display: block;
+	border: 1px solid #ffffff;
+	margin-left: auto;margin-right: auto;
+	}
+
+	.left-side-efiling{
+	display: block;
+	}
+
+	.left-side-efiling .box-text{
+	width: 100%;
+	display: block;
+	margin-top: 11%;
+	padding-right: 30px;
+	}
+
+	.left-side-efiling .box-text p{
+	font-family: "Roboto";
+	font-weight: 300;
+	color: #fafafa;
+	font-size: 18px;
+	text-align:left;
+	margin-top: 8px;	
+	}
+
+	.left-side-efiling .box-text h5{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #fafafa;
+	font-size: 20px;
+	text-align:left;
+	margin-top: 8px;
+	margin-bottom: 30px;	
+	}
+
+	.right-benefits{
+	display: block;
+	width: 100%;
+	}
+
+	.right-benefits .list-benefits{
+	width: 100%;
+	display: block;
+	margin-right: auto;margin-left: auto;
+	margin-bottom:15px;
+	}
+
+	.list-benefits img{
+	display: block;
+	float: left;
+	margin-right: 25px;
+	}
+
+	.right-benefits .list-benefits h6{
+	font-family: "Roboto";
+	font-weight: 300;
+	color: #fafafa;
+	font-size: 22px;	
+	margin-top: 25px;margin-right: 25px;
+	letter-spacing: 1px;
+	}
