@@ -17,8 +17,11 @@
 
      <!-- Bootstrap font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--  CSS Data Aos - Custom online css libry for animations effects on scroll when appers --> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- CSS Custom Style -->
+    <!-- CSS Main WEBSITE Custom Style -->
     <link href="css/style.css" rel="stylesheet">
 
   </head>
@@ -67,7 +70,7 @@
 
     <header id="home-section">
       <div class="container">
-        <div class="row">
+        <div data-aos="fade-down" class="row">
           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 order-2 image-side">
               <img class="img-fluid right-mockup" src="img/web1040-devices.png" alt="accusoft lynux app">
           </div>
@@ -93,6 +96,8 @@
                <a href="#" class="btn btn-default btn-signup-5"><img src="img/logo-small-white.png" alt="white logo">Request a Free Demo</a>
           </div>
         </div>
+
+        
       </div>
     </div>
 
@@ -106,7 +111,7 @@
               <img class="img-fluid right-mockup" src="img/animated-web1040-tablet.gif" alt="animted img tablet device">
           </div>
 
-          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 order-2 about-side-1">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 order-2 about-side-1" data-aos="fade-down">
               <h3>Why Choose Web1040 Pro</h3>
               <h2>About Web1040</h2>
               <p>Web1040 Pro enables you to expand quickly and manage your remote tax offices easily.We guarantee you’ll get your biggest tax refund. </p>
@@ -125,7 +130,7 @@
                 <img class="img-fluid" src="img/1040-leader-badge.png" alt="img badge brand">
             </div>
 
-            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 text-badge">
+            <div data-aos="fade-left" class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 text-badge">
               <h3><span>Web1040 Pro </span>is one of the leaders of a 100% web-based professional tax preparation solution for single or multi-site deployments.</h3>
               <h3><span>Web1040 Pro</span> does not require any software downloads, hardware support, or other costly requirements.</h3>
               <h3>Rather, all you and your remote locations need is an Internet connection and a web browser.</h3>
@@ -135,6 +140,42 @@
         
         </div>
       </div><!-- /topbrand -->
+
+      <div class="mob-app-section">
+        <div class="container">
+          
+          <div class="row align-items-center">
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 order-2 second-side">
+              <div class="p-4">
+                <img class="img-fluid" src="img/mobile-app-animation.gif" alt="pic animation app">
+              </div>
+            </div>
+            
+             <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12 order-1 app-first-side">
+              <div class="p-3">
+                <h2 class="display-4 headline-app"><span>MOBILE APP</span> FOR <br>TAX PROFESSIONALS</h2>
+                <div class="border-line-app"></div>
+                <h5>A Seamless App for Tax Professionals!</h5>
+                <p class="text-description">Seamless Software for Taxpayers and Tax Preparers.
+                  Bring your tax office closer to your clients. With your own branded app, your clients can easily get directions to your office, contact staff, and schedule appointments.
+                  </p>
+                 <p class="text-description">Plus, they can send you their tax return information, along with pictures of tax documents, that can be seamlessly imported into your software. All from their mobile device!</p>
+                 
+                 <a href="javascript:void(0)"  id="video1"><i class="fa fa-play" style="margin-top:35px;"></i>Watch Video</a>
+                  
+                  <div id="vidBox">
+                      <div id="videCont">
+                        <video id="v1" loop controls>
+                           <source src="video/Taxpayer App Video.mp4" type="video/mp4">
+                        </video>
+                      </div>
+                  </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div class="device-feautures">
         <div class="container">
@@ -256,7 +297,7 @@
 
     <div class="plus-features">
       <div class="container">
-        <div class="row">
+        <div class="row" data-aos="fade-up">
           <div class="text-box-3">
             <h3>WHY PEOPLE LOVE WEB1040 PRO?</h3>
             <h2>File returns faster than ever before!</h2>
@@ -344,7 +385,7 @@
           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 img-badge">
               <img class="img-fluid" src="img/badge-60-features.png" alt="img badge">
           </div>
-          <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 text-in">
+          <div data-aos="fade-up" class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 text-in">
             <h3>WEB1040 PRO HAS OVER <br>60 PLUS FEATURES!</h3>
             <h4>Don’t need all of them? No problem. Only use what you need.</h4>
           </div>
@@ -392,7 +433,7 @@
           </div>
         </div>
         
-        <div class="row">
+        <div class="row" data-aos="fade-up-right">
           <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12 order-1 left-side-efiling">
             <div class="box-text">
               <h5>The benefits you get by utilizing Web1040 Pro is not to be compared to by another competitor’s software.</h5>
@@ -444,7 +485,7 @@
           </div>  
         </div>
 
-        <div class="row">
+        <div class="row" data-aos="flip-left">
           <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 logo-partner">
             <a href="http://www.refund-advantage.com/" target="_blank"><img class="img-fluid" src="img/partners-advantage.png" alt="partners advanatge"></a>  
           </div>
@@ -751,7 +792,7 @@
           <h4>Don’t take our word for it. Read what our clients have to say!</h4>
         </div><!--  / Text Box -->
         
-        <div class="row">
+        <div class="row" data-aos="flip-up">
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
               <div class="impression-1">
                 <img src="img/user-michael.png" alt="icon men">
@@ -786,7 +827,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row" data-aos="zoom-in">
           <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 box-contact">
             <img class="icons-contact" src="img/contact-text.png" alt="email">
             <p>Text A Tax Consultant</p>
@@ -816,6 +857,9 @@
       </div>
     
     </section><!--  / contact section -->
+  
+    <!--  / Button on right side back to top -->
+    <a href="#" id="back-to-top" title="Back to top">&uarr;</a> 
 
 
     <!-- Footer -->
@@ -844,16 +888,62 @@
     </footer>
 
 
-
+    
     <!-- Bootstrap core JavaScript -->
+    
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Custom JavaScript for this theme -->
+    <!-- Custom JavaScript for this SITE -->
     <script src="js/scrolling-nav.js"></script>
+
+    <!-- Video Player in popup JS -->
+    <script src="js/videopopup.js"></script>
+
+    <script type="text/javascript">
+      $(function() {
+          $('#vidBox').VideoPopUp({
+              backgroundColor: "#17212a",
+              opener: "video1",
+              idvideo: "v1",
+              pausevideo: false
+          });
+      });
+    </script>
+
+    <!--  data-aos michalsnik.github.io Animations EFFECTS when pages scrolls  --> 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+     <!-- JS Script Button back to top -->
+    <script>
+      if ($('#back-to-top').length) {
+          var scrollTrigger = 100, // px
+              backToTop = function () {
+                  var scrollTop = $(window).scrollTop();
+                  if (scrollTop > scrollTrigger) {
+                      $('#back-to-top').addClass('show');
+                  } else {
+                      $('#back-to-top').removeClass('show');
+                  }
+              };
+          backToTop();
+          $(window).on('scroll', function () {
+              backToTop();
+          });
+          $('#back-to-top').on('click', function (e) {
+              e.preventDefault();
+              $('html,body').animate({
+                  scrollTop: 0
+              }, 700);
+          });
+      }
+     </script>
 
   </body>
 
