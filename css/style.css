@@ -122,7 +122,7 @@
 	background-image: url(../img/home-background.png);
 	background-size:cover;
 	background-repeat: no-repeat;
-	 padding: 154px 0 100px;
+	 padding: 155px 0 0px;
 	}
 
 	#home-section .text-area{
@@ -175,90 +175,198 @@
     margin-top: 7%;
    	}
 
-	#home-section .image-side img{
-	display: block;
-	float: right;
-	margin-top: 5%;
-	}
-
-	/* Banner signup  */
-
-    .demo-banner{
-    background-color: #34495e;
-    display: block;
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    }
-
-    .demo-banner .box-content{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    }
-
-    .demo-banner .box-content h3{
-    font-family: "Roboto";
-    font-weight: 400;
-    color:#f7f5f5;
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 5px;
-    }
-
-    .demo-banner .box-content p{
-    font-family: "Roboto";
-    font-weight: 300;
-    color: #fafafa;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: 1px;
-    }
-
-
-    .demo-banner .box-content .border-line-5{
-      border-bottom: 1px solid #b7b7b9;
-    width: 20%;
-    margin-bottom: 10px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-	}
-
-
-    .demo-banner .box-content .btn-signup-5{
-    display: block;
+   	#home-section .cta-buttons-home{
+	margin-top: 4%;
+	width: 100%;
+	
+	} 
+	.cta-buttons-home .btn-demo-home{
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    width:60%;
+   	width:270px;
     font-family: "Roboto";
     font-weight: 500;
     color: #fafafa;
     text-transform: uppercase;
-    font-size: 16px;
-    background-color:#36C24E;;
-    padding-top: 20px;padding-bottom: 20px;
-    border:0;border-radius: 2px;
+    background-color: #feb100;
+    padding-top:10px;
+    padding-bottom:10px;
+    border: 0;
+    border-radius: 2px;
     letter-spacing: 1px;
     margin-top: 30px;
     position: relative;
-        transition: all .2s ease-in-out;
-        	white-space: normal !important;
-	word-wrap: break-word !important;
+    transition: all .2s ease-in-out;
+    white-space: normal !important;
+    word-wrap: break-word !important;
 	}
 
-	.box-content .btn-signup-5:hover{
-	background-color: #ce2027;
-	cursor: pointer;
-	 transform: scale(1.08);
-  	}
+	.cta-buttons-home .btn-demo-home span{
+	font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 15px;	
+    vertical-align: -3px;
+	}
 
-	.demo-banner .box-content .btn-signup-5 img{
+	.cta-buttons-home .btn-demo-home img{
 	display: block;
 	float: left;
-	margin-right: 10px;
-	margin-left: 15px;
-	margin-top: -5px;
+	margin-top:-2px;
+	margin-left:5px;
+	}
+
+	.cta-buttons-home .btn-demo-home:hover{
+	background-color: #03c3d8 !important;
+	cursor: pointer;
+	}
+
+	.cta-buttons-home .btn-signup-home {
+   	display: inline-block;
+    margin-right:15px;
+   	width:190px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color: #36C24E;
+    padding-top:10px;
+    padding-bottom:10px;
+    border: 0;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    position: relative;
+    transition: all .2s ease-in-out;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+	}
+
+	.cta-buttons-home .btn-signup-home span{
+	font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 15px;	
+    vertical-align: -5px;
+	}
+
+	.cta-buttons-home .btn-signup-home img{
+	display: block;
+	float: left;
+	margin-top:-2px;
+	margin-left:5px;
+	}
+
+	.cta-buttons-home .btn-signup-home:hover{
+	background-color: #03c3d8 !important;
+	cursor: pointer;
+	}
+	
+	
+	.slideshow{
+	position:relative;
+	}
+
+	.slideshow .first-image{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+
+
+
+	/*  weLCOME TO NEW ERA OF TAX Banner signup  */
+
+    .demo-banner{
+    background-color: #fafafa;
+    display: block;
+    width: 100%;
+    padding-top:80px;
+    padding-bottom:0;
+    }
+	
+	.demo-banner .image-picture{
+	position: relative;
+	}
+
+	.demo-banner .era-picture img{
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	}
+
+
+	.demo-banner .choose-tax{
+	display: block;
+	width: 100%;
+	}
+
+	.demo-banner .choose-tax .text{
+	display: block;
+	width: 100%;
+	margin-top:1%;
+	}
+
+	.demo-banner .choose-tax .text h2{
+	 font-family: "Roboto";
+    font-weight: 500;
+    color: #ce2027;
+    font-size: 36px;
+    text-align:left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom:20px;
+	}
+
+	.demo-banner .choose-tax .text h6{
+	    font-family: "Roboto";
+    font-weight: 400;
+    color: #34495e;
+    font-size:17px;
+    text-align:left;
+    text-transform: none;
+    letter-spacing: 2px;
+    margin-bottom:5px;
+	}
+
+	.demo-banner .choose-tax .text h6 .fa{
+	margin-right: 15px;
+	font-size: 10px;
+	vertical-align: 3px;
+	color: #5c738b;
+	}
+
+	.choose-tax .text .inside-text {
+		margin-top:8%;
+	}
+	
+	.choose-tax .text .inside-text h5{
+	 font-family: "Roboto";
+    font-weight: 300;
+    color: #34495e;
+    font-size:24px;
+    letter-spacing: 2px;
+    margin-bottom:10px;
+	}
+
+	.choose-tax .text .inside-text .call-now{
+	 font-family: "Roboto";
+    font-weight:400;
+    color:#ce2027; 
+    font-size: 38px;
+	}
+	
+
+	.choose-tax .text .inside-text .call-now span{
+	 font-family: "Roboto";
+    font-weight:500;
+    color:#ce2027; 
+    font-size: 38px; 
 	}
 
 
@@ -273,36 +381,42 @@
 	.about-side-1{
 	display: block;
 	}
+
+	.about-side-1 .ab-text{
+	display: block;
+	width: 100%;
+	margin-bottom: 8%;
+	}
 	
-	.about-side-1 h2{
+	.about-side-1 .ab-text h2{
 	    font-family: "Roboto";
     font-weight: 500;
     color: #ce2027;
     font-size: 43px;
-    text-align: right;
+    text-align:center;
     padding-bottom: 5px;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 30px;
 	}
 
-	.about-side-1 h3{
+	.about-side-1 .ab-text h3{
 	font-family: "Roboto";
 	font-weight: 300;
 	color: #6c6c6e;
 	font-size: 22px;
-	text-align: right;
+	text-align: center;
 	padding-bottom: 5px;
-	background: url(../img/text-shape.png) 100% 0 no-repeat;
+	background: url(../img/text-shape.png) 65% 0 no-repeat;
 	padding-right: 110px;
 	padding-top: 8px;
 	}
 
-	.about-side-1 p{
+	.about-side-1 .ab-text p{
 	font-family: "Roboto";
     font-weight: 400;
     color: #6c6c6e;
-    font-size: 17px;
+    font-size: 18px;
     text-align: center;
     padding-bottom: 5px;
 	}
@@ -371,14 +485,14 @@
 
 	.device-feautures .text-bxs .subtitle {
 	font-family: "Roboto";
-	font-weight: 400;
-	color: #6c6c6e;
-	font-size: 20px;
-	text-transform: uppercase;
+	  font-weight:300;
+    color: #6c6c6e;
+    font-size: 23px;
+	text-transform: none;
 	text-align:center;
 	padding-bottom: 5px;
 	padding-left: 20px;
-	background: url(../img/text-shape.png) 25% 0 no-repeat;
+	background: url(../img/text-shape.png) 70% 0 no-repeat;
 	padding-top: 8px;
 	letter-spacing: 1px;
 	
@@ -386,12 +500,12 @@
 
 	.device-feautures .text-bxs .maintitle{
 	font-family: "Roboto";
-	font-weight: 400;
+	font-weight: 500;
 	color: #ce2027;
-	font-size: 35px;
+	font-size: 38px;
 	text-align:center;
 	padding-bottom: 5px;
-	text-transform: none;
+	text-transform:uppercase;
 	letter-spacing: 2px;
 	margin-bottom: 30px;	
 	}
@@ -468,7 +582,7 @@
 	padding-top: 55px;
     padding-bottom: 50px;
 	background-color: #f5f5f5;
-	background:#f5f5f5 url(../img/features-pattern-background.png) 0 90% no-repeat;
+	background:#f5f5f5 url(../img/features-pattern-background.png) 0 0 repeat-x;
 
 	}
 
@@ -479,47 +593,50 @@
 
 	#features .text-area .subtitle-1 {
 	font-family: "Roboto";
-	font-weight: 400;
+	font-weight: 300;
 	color: #6c6c6e;
-	font-size: 20px;
-	text-transform: uppercase;
+	font-size: 24px;
+	text-transform: none;
 	text-align:center;
 	padding-bottom: 5px;
 	padding-left: 20px;
 	padding-top: 8px;
 	letter-spacing: 1px;
+	background: url(../img/text-shape.png) 70% 0 no-repeat;	
 	
 	}
 
 	#features .text-area .maintitle-2{
 	font-family: "Roboto";
-	font-weight: 400;
+	font-weight: 500;
 	color: #ce2027;
-	font-size: 35px;
+	font-size:43px;
 	text-align:center;
 	padding-bottom: 5px;
-	text-transform: none;
+	text-transform:uppercase;
 	letter-spacing: 2px;
 	margin-bottom: 45px;
-	background: url(../img/text-shape.png) 80% 0 no-repeat;	
 	}
 
 	.list-fea{
 	display: block;
-	border-radius:3px;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-bottom: 18px;
-	padding-top: 18px;
-	margin-bottom:30px;
-	margin-top:15px;
-	width: 100%;
-	margin-left:auto;margin-right: auto;
-	position: relative;
-	height: 88%;
-	background-color: #fafafa;
-	z-index: 1;
-	box-shadow: 0px 3px 3px 2px rgba(0,0,0,.1);
+    border-radius: 3px;
+    padding-bottom:0;
+    padding-top: 10px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height:150px;
+    background-color: #fafafa;
+    z-index: 1;
+    box-shadow: 0px 3px 3px 2px rgba(0,0,0,.1);
+	}
+
+	.list-fea:hover{
+		background: #faf9f9;
 	}
 
 	.list-fea .skew-txt{
@@ -559,6 +676,7 @@
 	color: #6c6c6e;
 	font-size: 14px;
 	margin-top: 30px;
+	text-align: center;
 	}
 
 	.list-fea img{
@@ -566,12 +684,13 @@
 	float: left;
 	margin-right: 15px;
 	margin-top:15px;
+	margin-top: 30px;
 	}
 
 
 	#features .device-img img{
 	display: block;
-	margin-top: 20%;
+	margin-top:5%;
 	}
 
 	/* 60 PLUS FEATURES list section*/
@@ -592,13 +711,13 @@
 
 	.plus-features .text-box-3 h2{
 	font-family: "Roboto";
-	font-weight: 400;
+	font-weight: 500;
 	color: #ffffff;
-	font-size: 40px;
+	font-size: 42px;
 	text-align: center;
-	text-transform: none;
+	text-transform: uppercase;
 	letter-spacing: 2px;
-	margin-bottom:15px;
+	margin-bottom:5%;
 
 	}
 
@@ -609,8 +728,10 @@
 	font-size: 20px;
 	text-transform: uppercase;
 	text-align: center;
-	padding-bottom: 5px;
+	padding-top: 6px;
 	letter-spacing: 1px;
+	 background: url(../img/text-shape-white.png) 25% 0 no-repeat;
+	 margin-bottom: 15px;
 	}
 
 
@@ -684,8 +805,8 @@
 	/* Banner section 60+ features  */
 
 	.badge-60{
-	padding-top:30px;
-	padding-bottom:30px;
+	padding-top:40px;
+	padding-bottom:40px;
 	display: block;
 	width: 100%;
 	background-color: #fafafa;
@@ -702,24 +823,29 @@
 	margin-left: auto;
 	margin-right: auto;
 	}
+	
+	.badge-60  .text-in{
+		display: block;
+		width: 100%;
+	}
 
 	.badge-60 .text-in h3{
 	font-family: "Roboto";
-	font-weight: 400;
-	color: #ce2027;
-	font-size: 32px;
+	 font-weight: 500;
+    color: #ce2027;
+    font-size: 41px;
 	text-align: center;
 	text-transform:uppercase;
 	letter-spacing: 2px;
 	margin-bottom:15px;
-	margin-top: 5%;
+	margin-top: 2%;
 	}
 
 	.badge-60 .text-in h4{
 	font-family: "Roboto";
 	  font-weight: 400;
 	color: #1d3043;
-	font-size: 20px;
+	font-size: 22px;
 	text-transform: none;
 	text-align: center;
 	letter-spacing: 1px;
@@ -732,41 +858,142 @@
 	background-color: #34495e;
 	display: block;
 	width: 100%;
-	padding-top: 35px;
+	padding-top:15px;
 	padding-bottom:0px;
 	}
 
 	.signup-banner .txt-title {
 	display: block;
 	width: 100%;
-	margin-bottom: 35px;
+	margin-bottom:25px;
 	 margin-top: 5%;
 	}
 
 	.signup-banner .txt-title h3 {
 	font-family: "Roboto";
-	font-weight: 300;
+	font-weight: 500;
 	color: #f7f5f5;
-	font-size: 28px;
+	font-size: 32px;
 	text-align:center;
 	letter-spacing: 2px;
-
+	text-transform: uppercase;
+	margin-bottom: 15px;
 	}
 
-	.signup-banner .txt-title h3 span{
+	.signup-banner .txt-title h4 {
 	font-family: "Roboto";
 	font-weight: 400;
 	color: #f7f5f5;
-	font-size: 28px;
+	font-size:20px;
+	text-align:center;
+	text-transform: none;
+	}
+
+	.signup-banner .txt-title h4 span{
+	font-family: "Roboto";
+	font-weight: 500;
+	color: #f7f5f5;
+	font-size: 22px;
 	text-align: center;
 	letter-spacing: 2px;
 	}
+	
+	/* call to actions buttons */
 
-
-	.signup-banner .btn-section{
+	.signup-banner .cta-buttons-free{
 	display: block;
 	width: 100%;
-	margin-top: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+
+	
+	.signup-banner .cta-buttons-free .btn-demo-free {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+   	width: 300px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: #ce2027;
+    padding-top:15px;
+    padding-bottom:15px;
+    border: 0;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    position: relative;
+    transition: all .2s ease-in-out;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+	}
+
+	.signup-banner .cta-buttons-free .btn-demo-free span{
+	font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 16px;	
+    vertical-align: -3px;
+	}
+
+	.signup-banner .cta-buttons-free .btn-demo-free img{
+	display: block;
+	float: left;
+	margin-top:-2px;
+	margin-left: 10px;
+	}
+
+	.cta-buttons-free .btn-demo-free:hover{
+	background-color: #03c3d8 !important;
+	cursor: pointer;
+	}
+
+	.cta-buttons-free .btn-signup-free {
+   	display: inline-block;
+    margin-left: auto;
+    margin-right:15px;
+   	width: 300px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: #36C24E;
+    padding-top:15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    position: relative;
+    transition: all .2s ease-in-out;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+	}
+
+	.cta-buttons-free .btn-signup-free span{
+	font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 16px;	
+    vertical-align: -3px;
+	}
+
+	.cta-buttons-free .btn-signup-free img{
+	display: block;
+	float: left;
+	margin-top:-2px;
+	margin-left: 10px;
+	}
+
+	.cta-buttons-free .btn-signup-free:hover{
+	background-color: #03c3d8 !important;
+	cursor: pointer;
 	}
 
 	
@@ -921,9 +1148,9 @@
 
 	.left-side-efiling .box-text p{
 	font-family: "Roboto";
-	font-weight: 300;
-	color: #fafafa;
-	font-size: 18px;
+	font-weight: 400;
+    color: #fafafa;
+    font-size: 20px;
 	text-align:left;
 	margin-top: 8px;	
 	}
@@ -958,7 +1185,7 @@
 
 	.right-benefits .list-benefits h6{
 	font-family: "Roboto";
-	font-weight: 300;
+	font-weight: 400;
 	color: #fafafa;
 	font-size: 22px;	
 	margin-top: 25px;margin-right: 25px;
@@ -1050,11 +1277,11 @@
 
 	#pricing-section .text-box-price h2{
 	font-family: "Roboto";
-	font-weight: 400;
+	font-weight: 500;
 	color: #ffffff;
-	font-size: 38px;
+	font-size: 42px;
 	text-align: center;
-	text-transform: none;
+	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-bottom:15px;
 
@@ -1146,12 +1373,39 @@
 	border: none;
 	}
 
+	.table-price:nth-child(2){
+		animation: shadow-pulse 1s infinite;
+	}
+
+	@keyframes shadow-pulse
+	{
+	  0% {
+	    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.2);
+	  }
+	  100% {
+	    box-shadow: 0 0 0 35px rgba(255, 255, 255, 0);
+	  }
+	}
+
+	.table-price:nth-child(2):hover{
+		 -webkit-animation: none;
+	}
+
+	
+
 	.table-price .price-header{
 	background-color: #7DC383;
 	display: block;
 	width:100%;
-	padding-top:15px;
-	padding-bottom:15px;
+	padding-top:10px;
+	padding-bottom:10px;
+	position: relative;
+	}
+
+	.table-price .price-header .ribbon{
+	position: absolute;
+	top: 0;
+	left:-2px;
 	}
 
 	.table-price .price-header h3{
@@ -1160,6 +1414,7 @@
 	color: #ffffff;
 	font-size:18px;
 	text-transform: none;
+	margin-bottom: 4px;
 	}
 
 
@@ -1185,7 +1440,7 @@
 
 	.table-price .price-cost{
 	display: block;
-	margin-top: 40px;
+	margin-top:30px;
 	width: 100%;
 	}
 
@@ -1197,14 +1452,23 @@
 	text-align:center;
 	font-size: 44px;
 	margin-bottom: 0;
+	letter-spacing: 1px;
 	}
 
 	.table-price .price-cost .per-user{
 	text-align: center;
-	font-size: 16px;
-	color: #3f3e3e;
+	font-size: 15px;
+	color:#34495e;
 	font-family: "Roboto";
-	font-weight: 300;
+	font-weight:400;
+	}	
+
+	.table-price .price-cost .setup-fee{
+	text-align: center;
+	font-size: 16px;
+	color:#5eba66;
+	font-family: "Roboto";
+	font-weight:500;
 	}	
 
 	.table-price .price-list{
@@ -1225,16 +1489,39 @@
 	width: 100%;
 	padding-top: 14px;
 	padding-bottom: 14px;
-	border-bottom: 1px solid #e7e6e6;
+	border-top: 1px solid #e7e6e6;
+	}
+
+	.price-list li:hover{
+		background-color: #f2f2ef;
 	}
 
 	.price-list li p{
 	text-align: center;
 	font-size: 14px;
-	  color: #959393;
+	 color: #787777;
 	font-family: "Roboto";
 	font-weight:500;
 	margin-bottom: 0;
+	}
+
+	.price-list .not-included p{
+	text-align: center;
+	font-size: 14px;
+	color: #d3cdcd;
+	font-family: "Roboto";
+	font-weight:500;
+	margin-bottom: 0;
+	text-decoration: line-through;
+	}
+
+	.price-list .not-included h6{
+	  text-align: center;
+    font-size: 15px;
+    color: #34495e;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-bottom: 0;
 	}
 
 	.price-list li .fa{
@@ -1275,21 +1562,113 @@
 	color: #fafafa;
 	}
 
+	/* multi discount section  */
+
+	.discount-section{
+	padding-top: 20px;
+	padding-bottom: 0;
+	width: 100%;
+	display: block;
+	background-color: #eeeeee;
+	}
+
+	.discount-section .image-picture{
+	position: relative;
+	}
+
+	.discount-section .image-picture img{
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	
+	}
+
+
+	.discount-section .discount-offer{
+	display: block;
+	width: 100%;
+	margin-bottom:2%;
+	}
+
+	.discount-section .discount-offer .offer-text{
+	display: block;
+	width: 100%;
+	margin-top: 3%;
+	}
+
+	.discount-section .discount-offer .offer-text h4{
+	    font-family: "Roboto";
+    font-weight: 500;
+    color: #ce2027;
+    font-size: 30px;
+    text-align:left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom:20px;
+	}
+
+	.discount-section .discount-offer .offer-text h6{
+	    font-family: "Roboto";
+    font-weight: 400;
+    color: #34495e;
+    font-size: 20px;
+    text-align:left;
+    text-transform: none;
+    letter-spacing: 2px;
+    margin-bottom:5px;
+	}
+
+	.discount-section .discount-offer .offer-text h6 .fa{
+	font-size: 20px;
+	margin-right:20px;
+	font-weight: 300;
+	}
+
+
+	.offer-text .btn-pricing-contact{
+	    display: block;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #34495e;
+    font-size: 12px;
+    text-transform: uppercase;
+    float: left;
+    border: 2px solid #34495e;
+    padding-left: 12px;
+    padding-right: 10px;
+    padding-top:8px;
+    padding-bottom: 8px;
+    margin-top:20px;
+	}
+
+	.offer-text .btn-pricing-contact .fa{
+	margin-right: 5px;
+	margin-left: 5px;
+	}
+
+	.offer-text .btn-pricing-contact:hover{
+	background-color: #34495e;
+	cursor: pointer;
+	color: #ffffff;
+	}
+
+
 	/* FAQ  SECTION */
 
-	.faq-section{
+	#faq-section{
 	background-color: #ffffff;
 	display: block;
 	padding-top: 50px;
 	padding-bottom:80px;
 	}
 
-	.faq-section .text-faq-box{
+	#faq-section .text-faq-box{
 	display: block;
 	width: 100%;
 	}
 
-	.faq-section .text-faq-box h3{
+	#faq-section .text-faq-box h3{
 	font-family: "Roboto";
     font-weight: 400;
     color: #6c6c6e;
@@ -1304,7 +1683,7 @@
      word-wrap: break-word !important;
 	}
 	
-	.faq-section .text-faq-box h2{
+	#faq-section .text-faq-box h2{
 	font-weight: 400;
 	color: #ce2027;
 	font-size: 35px;
@@ -1402,14 +1781,14 @@
     letter-spacing: 1px;
     }
 
-    .customer-section .text-box-cust h4{
-    font-family: "Roboto";
-    font-weight: 300;
-    color: #c2bfbf; 
-    font-size: 18px; 
-    text-align: center;
-    margin-bottom: 80px;
-    }
+	.customer-section .text-box-cust h4{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #9a9696;
+	font-size: 18px; 
+	text-align: center;
+	margin-bottom: 80px;
+	}
 
     .customer-section .text-box-cust .border-line-4 {
     border-bottom: 1px solid #dcdbdb;
@@ -1661,8 +2040,125 @@
     margin-bottom: 0;
 	}
 
+	.box-contact .skew-txt-bck a{
+	font-family: "Roboto";
+	font-weight: 500;
+	color:#ce2027;
+	text-align: center !important;
+	font-size:18px;
+	display:inline-block;
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	letter-spacing: 1px;
+	padding-top:6px;padding-bottom:6px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 0;
+	}
 
-	/*foooter*/
+	.box-contact .skew-txt-bck a:hover{
+	text-decoration: none;
+	color: #36C24E;
+	cursor: pointer;
+	}
+
+	#contact .cta-buttons{
+	margin-top: 4%;
+	width: 100%;
+	
+	} 
+	#contact .cta-buttons .btn-demo-4 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+   	width: 300px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: #feb100;
+    padding-top:15px;
+    padding-bottom:15px;
+    border: 0;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    position: relative;
+    transition: all .2s ease-in-out;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+	}
+
+	#contact .cta-buttons .btn-demo-4 span{
+	font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 16px;	
+    vertical-align: -3px;
+	}
+
+	#contact .cta-buttons .btn-demo-4 img{
+	display: block;
+	float: left;
+	margin-top:-2px;
+	margin-left: 10px;
+	}
+
+	.cta-buttons .btn-demo-4:hover{
+	background-color: #03c3d8 !important;
+	cursor: pointer;
+	}
+
+	#contact .cta-buttons .btn-signup-4 {
+   	display: inline-block;
+    margin-left: auto;
+    margin-right:15px;
+   	width: 300px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: #36C24E;
+    padding-top:15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    position: relative;
+    transition: all .2s ease-in-out;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+	}
+
+	#contact .cta-buttons .btn-signup-4 span{
+	font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 16px;	
+    vertical-align: -3px;
+	}
+
+	#contact .cta-buttons .btn-signup-4 img{
+	display: block;
+	float: left;
+	margin-top:-2px;
+	margin-left: 10px;
+	}
+
+	.cta-buttons .btn-signup-4:hover{
+	background-color: #03c3d8 !important;
+	cursor: pointer;
+	}
+
+
+	/* FOOTER SECTION*/
 	
 
 	.footer-bottom{
@@ -1670,18 +2166,57 @@
 	width: 100%;
 	background: #1f262b;
     padding-top: 45px;
-    padding-bottom: 45px;
+    padding-bottom:0;
 
 	}
 
+	.sub-footer{
+	display: block;
+	width: 100%;
+	padding-top:10px;padding-bottom:10px;
+	background-color: #171b1e;
+	}
 
-	.logo-left-info .copy {
+	.sub-footer .copy {
 	font-family: "Roboto";
-    font-weight: 400;
+    font-weight: 300;
     color: #fafafa !important;
-    text-align:left;
+    text-align:right;
     display: block;
-   font-size: 12px;
+   	font-size: 13px;
+   	float: right;
+   	margin-top: 15px;
+   	letter-spacing: 1px;
+	}
+
+	.sub-footer .rgt-privacy{
+	display: block;
+	float: right;
+	width: 80%;
+	}
+
+
+	.sub-footer .rgt-privacy .go-privacy{
+	text-align:right;
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #f6f2f2;
+	font-size: 13px;
+	text-decoration: none;
+	display: block;
+	margin-left: 8px;
+	float: right;
+	margin-top: 15px;
+	}
+
+	.rgt-privacy .go-privacy .fa{
+	font-size: 16px;
+	margin-right: 10px;
+	}
+
+	.rgt-privacy  .go-privacy:hover{
+	color:#ce2027;
+	cursor: pointer;
 	}
 
 	.logo-left-info{
@@ -1753,26 +2288,6 @@
     margin-left: auto;
 	}
 
-	.right-contact .info-cnt .go-privacy{
-	    text-align: left;
-    font-family: "Roboto";
-    font-weight: 400;
-    color: #f6f2f2;
-    font-size: 13px;
-    text-decoration: none;
-    display: block;
-    margin-left: 8px;
-	}
-
-	.right-contact .info-cnt .go-privacy .fa{
-	font-size: 16px;
-	margin-right: 10px;
-	}
-
-	.right-contact .info-cnt .go-privacy:hover{
-	color:#ce2027;
-	cursor: pointer;
-	}
 
 
 	/* Mobile App section */
@@ -1787,10 +2302,12 @@
 	}
 
 	.app-first-side{
-		position: relative;
+	position: relative;
+	display: block;	
+	width: 100%;
 	}
 
-	.app-first-side .second-side img{
+	.mob-app-section .second-side img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
