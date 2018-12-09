@@ -288,6 +288,9 @@
     width: 100%;
     padding-top:80px;
     padding-bottom:0;
+        background-image: url(../img/background-clients.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 	
 	.demo-banner .image-picture{
@@ -1881,16 +1884,16 @@
   
     }
 
-	.customer-section .impression-2 h6{
-	font-family: 'Roboto';
-	font-weight: 400;
-	color: #9ba0a2;
-	font-size: 15px;
-	/* font-style: italic; */
-	text-align: center;
-	padding-top: 9%;
-	line-height: 20px;
-	}
+		.customer-section .impression-2 h6{
+		font-family: 'Roboto';
+		font-weight: 400;
+		color: #9ba0a2;
+		font-size: 15px;
+		/* font-style: italic; */
+		text-align: center;
+		padding-top: 9%;
+		line-height: 20px;
+		}
 
     .customer-section .impression-2 .name-cst{
     font-family: 'Roboto';
@@ -1933,15 +1936,15 @@
 
     /* CONTACT  SECTION  */
 
-    #contact{
+	#contact{
 	padding-bottom:60px;
 	padding-top:60px;
 	background-color: #ce2027;
-    background-image: url(../img/background-contact-section.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    }
-	
+	background-image: url(../img/background-contact-section.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+
 	#contact .cnt-text{
 	display: block;
 	width: 100%;
@@ -2165,8 +2168,8 @@
 	display: block;
 	width: 100%;
 	background: #1f262b;
-    padding-top: 45px;
-    padding-bottom:0;
+	padding-top: 35px;
+	padding-bottom:0;
 
 	}
 
@@ -2179,14 +2182,14 @@
 
 	.sub-footer .copy {
 	font-family: "Roboto";
-    font-weight: 300;
-    color: #fafafa !important;
-    text-align:right;
-    display: block;
-   	font-size: 13px;
-   	float: right;
-   	margin-top: 15px;
-   	letter-spacing: 1px;
+	font-weight: 300;
+	color: #fafafa !important;
+	text-align:right;
+	display: block;
+	font-size: 13px;
+	float: right;
+	margin-top: 15px;
+	letter-spacing: 1px;
 	}
 
 	.sub-footer .rgt-privacy{
@@ -2223,11 +2226,10 @@
 	display: block;
 	float: left;
 	width: 100%;
+	 margin-bottom: 25px;
 	}
-
 	.logo-left-info .logo-footer{
 	display: block;
-	float: left;
 	width: 120px !important;height: 70px;
 	background:url(../img/footer-logo-white.png) 0 0 no-repeat;
 	margin-right:20px;
@@ -2235,57 +2237,80 @@
 
 	.logo-left-info .sub-text{
 	font-family: "Roboto";
-    font-weight: 400;
-    color: #f6f2f2;
-    font-size: 13px;
-    width: 100%;
-    margin-top: 10px;
+	font-weight: 400;
+	color: #f6f2f2;
+	font-size: 13px;
+	width: 100%;
+	margin-top: 10px;
 	}
 
 
 	.logo-left-info .border-div-1{
 	border-bottom:1px solid #384752;
-    width:100%;
-    margin-bottom: 15px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+	width:100%;
+	margin-bottom: 15px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 	}
 
-	.footer-bottom .right-contact{
+	.footer-bottom .center-contact{
 	display: block;
-	float: right;
 	width: 100%;
 	}
 
-	.footer-bottom .right-contact .info-cnt{
+	.footer-bottom .center-contact .info-cnt{
 	display: block;
+	}
+
+	.center-contact .info-cnt p{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #f6f2f2;
+	font-size: 13px;
+	width: 100%;
+	margin-top:5px;
+	margin-left: 10px;
+	}
+
+	.center-contact .info-cnt p .fa{
+	color: #f6f2f2;
+	font-size: 20px;
+	margin-right: 6px;	
+	}
+
+	.center-contact .info-cnt .border-div{
+	border-bottom:1px solid #384752;
+	width:100%;
+	margin-bottom: 15px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+	.footer-bottom .left-social{
+	display: block;
+	width: 100%;
+	}
+
+	.left-social .social-networks{
+	display: block;
+	list-style: none;
+	padding-left: 0;
 	float: right;
 	}
 
-	.right-contact .info-cnt p{
+	.social-networks li{
+	display: block;
+	float: left;
+	margin-right:20px;
+	}
+
+	.left-social .social-networks h6{
 	font-family: "Roboto";
-    font-weight: 400;
-    color: #f6f2f2;
-    font-size: 13px;
-    width: 100%;
-    margin-top:5px;
-    margin-left: 10px;
-	}
-
-	.right-contact .info-cnt p .fa{
+	font-weight: 400;
 	color: #f6f2f2;
-    font-size: 20px;
-    margin-right: 6px;	
-	}
-
-	.right-contact .info-cnt .border-div{
-	border-bottom:1px solid #384752;
-    width:100%;
-    margin-bottom: 15px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+	font-size: 13px;	
 	}
 
 
@@ -2404,54 +2429,54 @@
 	}
 
     /* Video Players css*/
-#closer_videopopup {
-    position: absolute;
-    display: table-cell;
-    right: 2%;
-    top: 2%;
-    font-size: 32px;
-    text-align: center;
-    vertical-align: middle;
-    padding: auto;
-    cursor: default;
-    background: none;
-    border: none;
-    color: #ffffff;
-    z-index: 100004;
-}
+	#closer_videopopup {
+	  position: absolute;
+	  display: table-cell;
+	  right: 2%;
+	  top: 2%;
+	  font-size: 32px;
+	  text-align: center;
+	  vertical-align: middle;
+	  padding: auto;
+	  cursor: default;
+	  background: none;
+	  border: none;
+	  color: #ffffff;
+	  z-index: 100004;
+	}
 
-#opct {
-    position: fixed;
-    z-index: 100000;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    filter: alpha(opacity=90);
-    -moz-opacity: 0.90;
-    opacity: 0.9;
-}
+	#opct {
+	  position: fixed;
+	  z-index: 100000;
+	  width: 100%;
+	  height: 100%;
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  filter: alpha(opacity=90);
+	  -moz-opacity: 0.90;
+	  opacity: 0.9;
+	}
 
-#videCont {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 25px;
-    height: 0;
-    margin: auto;
-    max-width: 720px;
-    height: 0;
-    height: auto !important;
-}
+	#videCont {
+	  position: relative;
+	  padding-bottom: 56.25%;
+	  padding-top: 25px;
+	  height: 0;
+	  margin: auto;
+	  max-width: 720px;
+	  height: 0;
+	  height: auto !important;
+	}
 
-video {
-    position: absolute;
-    top: 15%;
-    left: 0;
-    width: 100%;
-    opacity: 1 !important;
-}
+	video {
+	  position: absolute;
+	  top: 15%;
+	  left: 0;
+	  width: 100%;
+	  opacity: 1 !important;
+	}
 
 
 
@@ -2480,3 +2505,121 @@ video {
 	opacity: 1;
 	}
 
+	
+	/*  MODAL-REQUEST A DEMO */
+	
+	#signup-modal{
+	
+	}
+
+	#signup-modal .signup-header{
+	padding-top:20px;
+	display: block;
+	width: 100%;
+	border: 0;
+	}
+
+	.signup-modal-body .text-headline{
+	width: 100%;
+	display: block;
+	margin-bottom: 25px;
+	}
+
+	#signup-modal .signup-modal-body h3{
+	font-family: "Roboto";
+	font-weight: 600;
+	font-size: 28px;
+	color: #ce2027;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	}
+
+	#signup-modal .signup-modal-body h4{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size:24px;
+	color:#34495e;
+	text-align: center;
+	}
+	#signup-modal .signup-modal-body{
+	padding-top: 0;
+	}
+
+	#signup-modal .signup-form-demo{
+
+	}
+
+	.signup-form-demo .signup-form-box{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.signup-form-demo .signup-form-box input{
+	border-radius: 0;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size:15px;
+	color:#34495e !important;
+	padding-top: 11px;padding-bottom: 11px;
+	}
+
+	.signup-form-demo .signup-form-box textarea{
+	border-radius: 0;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size:15px;
+	color:#34495e !important;
+	}
+
+	.signup-form-demo .signup-form-box .button-send-form{
+	background-color: #ce2027 !important;
+    color: #ffffff;
+    font-family: "Roboto";
+	font-weight: 500;
+	font-size:15px;
+	text-transform: uppercase;
+	padding-bottom: 12px;padding-top: 12px;
+	padding-left:40px;padding-right: 40px;
+	display: block;
+	border: none;border-radius: 0;
+	letter-spacing: 2px;
+	}
+
+	.signup-form-box .button-send-form:hover{
+	cursor: pointer;
+	color:#ffffff;
+	background-color: #36C24E !important;
+	}
+
+	/*  PRIVACY POLICY */
+
+	#privacy-section{
+	display: block;
+	width: 100%;
+	padding-top:10%;
+	padding-bottom: 100px;
+	}
+
+	#privacy-section .privacy-headline{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 35px;
+	color: #ce2027;
+	margin-bottom:25px;
+	}
+
+	#privacy-section p{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 16px;
+	color: #3a3838;
+	}
+
+	#privacy-section .privacy-subtitle{
+	width: 100%;
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #5f5d5d;
+	}

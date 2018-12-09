@@ -58,7 +58,7 @@
               <a class="nav-link js-scroll-trigger" href="http://accutax.myweb1040pro.com/dashboard/companyLogin.html">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger sign-up-button" href="#pricing-section" target="_blank">Sign Up Now</a>
+              <a class="nav-link js-scroll-trigger sign-up-button" href="http://app.myweb1040pro.com/login.html" target="_blank">Sign Up Now</a>
             </li>
           </ul>
         </div>
@@ -80,8 +80,9 @@
             
             <div class="row cta-buttons-home">
               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="#" class="btn btn-md center-block btn-signup-home"><img src="img/button-signup.png" alt="icon signup"><span>Sign Up</span></a>
-                <a href="#" class="btn btn-md center-block btn-demo-home"><img src="img/button-demo.png" alt="icon demo"><span>Reqest a Free Demo</span></a>
+                <a href="http://app.myweb1040pro.com/login.html" target="_blank" class="btn btn-md center-block btn-signup-home"><img src="img/button-signup.png" alt="icon signup"><span>Sign Up</span></a>
+               
+                <a href="#" class="btn btn-md center-block btn-demo-home" data-toggle="modal" data-target="#signup-modal"><img src="img/button-demo.png" alt="icon demo"><span>Reqest a Free Demo</span></a>
             </div>
             </div>
           
@@ -415,8 +416,9 @@
             
             <div class="row cta-buttons-free">
               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
-                <a href="#" class="btn btn-md center-block btn-signup-free"><img src="img/button-signup.png" alt="icon signup"><span>Sign Up</span></a>
-                <a href="#" class="btn btn-md center-block btn-demo-free"><img src="img/button-demo.png" alt="icon demo"><span>Reqest a Free Demo</span></a>
+                <a href="http://app.myweb1040pro.com/login.html" target="_blank" class="btn btn-md center-block btn-signup-free"><img src="img/button-signup.png" alt="icon signup"><span>Sign Up</span></a>
+                
+                <a class="btn btn-md center-block btn-demo-free" data-toggle="modal" data-target="#signup-modal"><img src="img/button-demo.png" alt="icon demo"><span>Reqest a Free Demo</span></a>
               </div>
             </div>
            
@@ -918,8 +920,9 @@
         <div class="row cta-buttons">
           
           <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center" >
-              <a href="#" class="btn btn-md center-block btn-signup-4"><img src="img/button-signup.png" alt="icon signup"><span>Sign Up</span></a>
-              <a href="#" class="btn btn-md center-block btn-demo-4"><img src="img/button-demo.png" alt="icon demo"><span>Reqest a Free Demo</span></a>
+              <a href="http://app.myweb1040pro.com/login.html" target="_blank" class="btn btn-md center-block btn-signup-4"><img src="img/button-signup.png" alt="icon signup"><span>Sign Up</span></a>
+              
+              <a href="#" class="btn btn-md center-block btn-demo-4" data-toggle="modal" data-target="#signup-modal"><img src="img/button-demo.png" alt="icon demo"><span>Reqest a Free Demo</span></a>
           </div>
 
         </div><!--  / ctabuttons-->
@@ -927,31 +930,99 @@
       </div>
     
     </section><!--  / contact section -->
+
+    <!-- MODAL OPENS ON REQEST DEMO BUTTON - SIGNUP FORM  -->
+    
+    <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header signup-header">
+            
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body signup-modal-body">
+             <div class="text-headline">
+               <h3>Web1040 Pro</h3>
+               <h4>Free Demo Sign Up Form</h4>
+             </div>
+             <div class="signup-form-demo">
+                <form class="form-horizontal" action="" method="post">
+                  <fieldset>
+                    <!-- Name input-->
+                    <div class="form-group signup-form-box">
+                      <div class="col-md-12">
+                        <input id="name" name="name" type="text" placeholder="Your Name" class="form-control">
+                      </div>
+                    </div>
+            
+                    <!-- Email input-->
+                    <div class="form-group  signup-form-box">
+                      <div class="col-md-12">
+                        <input id="email" name="email" type="text" placeholder="Your Email" class="form-control">
+                      </div>
+                    </div>
+                     <!-- Email input-->
+                    <div class="form-group  signup-form-box">
+                      <div class="col-md-12">
+                        <input id="phone" name="phone" type="text" placeholder="Your Phone" class="form-control">
+                      </div>
+                    </div>
+            
+                    <!-- Message body -->
+                    <div class="form-group  signup-form-box">
+                      <div class="col-md-12">
+                        <textarea class="form-control" id="message" name="message" placeholder="Please enter your message..." rows="5"></textarea>
+                      </div>
+                    </div>
+            
+                    <!-- Form actions -->
+                    <div class="form-group signup-form-box">
+                      <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary button-send-form">Send</button>
+                      </div>
+                    </div>
+                  </fieldset>
+              </form>
+             </div><!-- signup  -->
+
+          </div><!-- modal body  -->
+          
+        </div><!-- modal content  -->
+      </div><!-- modal dialog  -->
+    </div><!-- signup modal  -->
+    
   
     <!--  / Button on right side back to top -->
     <a href="#" id="back-to-top" title="Back to top">&uarr;</a> 
 
 
-    <!-- Footer -->
+    <!-- footer -->
     <footer class="footer-bottom">
       <div class="container">
         <div class="row">
-           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 logo-left-info">
+           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 logo-left-info">
                <a class="js-scroll-trigger logo-footer" href="#home-section"></a>
                <h6 class="sub-text">Expand quickly<br> and manage your <br>remote tax offices easily.</h6>
-               
-           </div>
+            </div>
 
-           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 right-contact">
+           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 center-contact">
                <div class="info-cnt">
                  <p><i class="fa fa-map-marker"></i> 11500 Northwest Freeway Suite 305,<br>Houston, Texas 77092</p>
-                 
-               </div>
+                </div>
+           </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 left-social">
+               <ul class="social-networks">
+                 <h6>Connect with us on</h6>
+                 <li><a href="#"><img src="img/social-facebook.png" alt="facebook icon"></a></li>
+                 <li><a href="#"><img src="img/social-twiter.png" alt="twitter icon"></a></li>
+                 <li><a href="#"><img src="img/social-youtube.png" alt="yt icon"></a></li>
+               </ul>
            </div>
         </div>
-        <div class="row">
-         
-        </div>
+    
       </div>
       <div class="sub-footer">
         <div class="container">
@@ -959,7 +1030,7 @@
              <p class="copy">Copyright &copy;  2018 | Web 1040 Pro</p>
               
               <div class="rgt-privacy">
-                <a class="go-privacy" href="#"><i class="fa fa-text-width"></i>Read Privacy Policy</a>
+                <a class="go-privacy" href="privacy-policy.html"><i class="fa fa-text-width"></i>Read Privacy Policy</a>
               </div>
              
           </div>
