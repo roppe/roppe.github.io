@@ -64,15 +64,15 @@
 	.right-button .top-get-started{
 	font-family: "Roboto";
     font-weight: 500;
-    color: #7c7878;
+    color: #ffffff;
     font-size: 11px;
     text-transform: uppercase;
     border-radius: 10px;
-    background: #fdfdfd;
+    background: #36C24E;;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: 10px;
-    border: 1px solid #cac7c7;
+    border:none;
 	}
 	
 	.right-button .top-get-started:hover{
@@ -85,19 +85,20 @@
 	.right-button .top-demo-button{
 	    font-family: "Roboto";
     font-weight: 500;
-    color: #7c7878;
+    color: #ffffff;
     font-size: 11px;
     text-transform: uppercase;
     border-radius: 10px;
-    background: #f1efef;
+    background: #feb100;
     padding-left: 20px;
     padding-right: 20px;
     margin-right: 0;
+    border: 0;
 
 	}
 
 	.right-button .top-demo-button:hover{
-	background: #36C24E;
+	background: #03c3d8;
 	color: #ffffff;
 	cursor: pointer;
 	}
@@ -196,14 +197,20 @@
 	letter-spacing: 2px;
 	font-weight: 400;
 	font-family: "Roboto";
-	padding-left: 13px;
-	padding-right:13px;
+	padding-left: 18px;
+	padding-right:22px;
 	padding-top: 8px;padding-bottom: 8px;
 	margin-top: 8px;
 	text-align: center;
 	border-radius: 2px;
 	text-transform: uppercase;
     }
+
+	.nav-list .nav-item .sign-up-button .fa{
+	font-size: 18px;
+	margin-right: 10px;
+	vertical-align: -1px;
+	}
 
 	.nav-list .nav-item .sign-up-button:hover{
 	color:#ffffff;
@@ -217,10 +224,10 @@
 
 	#home-section{
 	background-color: #fafafa;
-	background-image: url(../img/top-header-background.png);
+	background-image: url(../img/1-cover-header.jpg);
 	background-size:cover;
 	background-repeat: no-repeat;
-	 padding:230px 0 0px;
+	 padding:230px 0 100px;
 	}
 
 	#home-section .text-area{
@@ -291,7 +298,7 @@
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-   	width:220px;
+   	width:200px;
     font-family: "Roboto";
     font-weight: 500;
     color: #fafafa;
@@ -300,7 +307,7 @@
     padding-top:10px;
     padding-bottom:10px;
     border: 0;
-    border-radius: 25px;
+    border-radius:5px;
     letter-spacing: 1px;
     margin-top: 30px;
     position: relative;
@@ -315,7 +322,7 @@
     color: #fafafa;
     text-transform: uppercase;
     font-size: 15px;	
-    vertical-align: -3px;
+    vertical-align:0;
 	}
 
 	.cta-buttons-home .btn-demo-home img{
@@ -333,7 +340,7 @@
 	.cta-buttons-home .btn-signup-home {
    	display: inline-block;
     margin-right:15px;
-   	width:220px;
+   	width:200px;
     font-family: "Roboto";
     font-weight: 500;
     color: #fafafa;
@@ -343,7 +350,7 @@
     padding-top:10px;
     padding-bottom:10px;
     border: 0;
-    border-radius: 25px;
+    border-radius:5px;
     letter-spacing: 1px;
     margin-top: 30px;
     position: relative;
@@ -358,7 +365,7 @@
     color: #fafafa;
     text-transform: uppercase;
     font-size: 15px;	
-    vertical-align: -5px;
+    vertical-align: -3px;
 	}
 
 	.cta-buttons-home .btn-signup-home img{
@@ -1449,6 +1456,464 @@
 	color: #fafafa;
 	}
 
+	/* Button Subrscrine now Free */
+
+	.btn-order .button-free{
+	font-weight: 400;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0;
+    padding: 15px 20px;
+    border-radius: 0;
+    background: #36C24E;
+    position: absolute;
+    bottom: 0;
+    border: 0;
+    color: #ffffff;
+	}
+
+	.btn-order .button-free:hover{
+	cursor: pointer;
+	background-color: #feb100;
+	color: #fafafa;
+	}
+
+	/* Button Subrscrine now Subscribe plus */
+	.btn-order .button-plus{
+	font-weight: 400;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0;
+    padding: 15px 20px;
+    border-radius: 0;
+    background: #36C24E;
+    position: absolute;
+    bottom: 0;
+    border: 0;
+    color: #ffffff;
+	}
+
+	.btn-order .button-plus:hover{
+	cursor: pointer;
+	background-color: #feb100;
+	color: #fafafa;
+	}
+
+
+	/* Button price Subrscrine now Subscribe pro */
+	.btn-order .button-pro{
+	font-weight: 400;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0;
+    padding: 15px 20px;
+    border-radius: 0;
+    background: #36C24E;
+    position: absolute;
+    bottom: 0;
+    border: 0;
+    color: #ffffff;
+	}
+
+	.btn-order .button-pro:hover{
+	cursor: pointer;
+	background-color: #feb100;
+	color: #fafafa;
+	}
+	
+	/*  MODAL-SUBSCRIBE FREE */
+	
+	#free-modal .free-modal-content{
+	background-color: #fafafa;
+	background-image: url(../img/background-clients.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+	#free-modal .free-header-modal{
+	padding-top:20px;
+	display: block;
+	width: 100%;
+	border: 0;
+	}
+
+	#free-modal .free-modal-body .text-headline{
+	width: 100%;
+	display: block;
+	margin-bottom: 25px;
+	}
+
+	#free-modal .free-modal-body h3{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 26px;
+	color: #ce2027;
+	text-align: center;
+	text-transform:none; 
+	letter-spacing: 1px;
+	}
+	
+	#free-modal .free-modal-body h3 span{
+	font-family: "Roboto";
+	font-weight: 600;
+	font-size: 26px;
+	color: #ce2027;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	}
+
+	#free-modal .free-modal-body .text-headline h4{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size:16px;
+	color:#ce2027;
+	text-align: center;
+	margin-bottom:50px;
+	}
+	#free-modal .free-modal-body .text-headline h4 span{
+	font-family: "Roboto";
+	font-weight: 600;
+	font-size:16px;
+	color:#ce2027;
+	text-align: center;
+	margin-bottom: 35px;
+	}
+
+	#free-modal .free-modal-body .text-headline h6{
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size:16px;
+	color:#34495e;
+	text-align: center;
+	margin-bottom:5px;
+
+	}
+	
+	#free-modal .free-modal-body .text-headline .code-txt{
+	font-family: "Roboto";
+	font-weight: 600;
+	font-size:16px;
+	color:#ffffff;
+	text-align: center;
+	padding-bottom:5px;padding-top: 5px;
+	background: #ce2027;	
+	letter-spacing: 1px;
+	width: 40%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 6px;
+	}
+
+	#free-modal .free-modal-body{
+	padding-top: 0;
+	}
+	
+	.free-modal-body .subscribe-free-button{
+	font-weight: 400;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    width: 60%;
+    margin: 0;
+    padding: 12px 5px;
+    border-radius: 0;
+    background:#36C24E;
+   	color: #ffffff;
+   	margin-top:16%;
+   	display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+   	margin-bottom: 40px;
+	}
+	.free-modal-body .subscribe-free-button:hover{
+	cursor: pointer;
+	background: #feb100;;
+	}
+
+	.free-modal-body .subscribe-free-button .fa{
+	margin-left:10px;
+	}
+
+
+	/*  MODAL POPUP -SUBSCRIBE PLUS 1040 */
+	
+	#pro-modal .pro-modal-content{
+	background-color: #fafafa;
+	background-image: url(../img/background-clients.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+	#plus-modal .pro-header-modal{
+	padding-top:20px;
+	display: block;
+	width: 100%;
+	border: 0;
+	}
+
+	#pro-modal .pro-modal-body{
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	}
+
+	#pro-modal .pro-modal-body .text-headline-3{
+	width: 100%;
+	display: block;
+	margin-bottom: 25px;
+	}
+
+	#pro-modal .pro-modal-body .text-headline-3 h3{
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 26px;
+	color: #ce2027;
+	text-align: center;
+	text-transform:uppercase; 
+	letter-spacing: 1px;
+	}
+
+	.pro-modal-body .user-list-pro{
+	display: block;
+	float: left;
+	width: 	100%;
+	padding-left: 5%;
+	list-style-type: none;
+	}
+
+	.pro-modal-body .user-list-pro h5{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 18px;
+	color: #34495e;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-bottom: 25px;
+	margin-left: -20px;
+	}
+
+	.pro-modal-body .user-list-pro li{
+	display: block;
+	float: left;
+	width: 47%;
+	margin-bottom:20px;
+	}
+
+
+	.pro-modal-body .user-list-pro li .user-subscribe-pro{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 19px;
+	color: #34495e;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: 1px solid #34495e;
+	border-radius: 3px;
+	width: 92%;
+	padding-top: 8px;padding-bottom:8px;
+	background: #f2f1f1;
+	}
+	
+	.pro-modal-body .user-list-pro li .user-subscribe-pro .fa{
+	margin-right: 15px;
+	font-size: 24px;
+	}
+
+	.pro-modal-body .user-list-pro li .user-subscribe-pro:hover{
+	cursor: pointer;
+	color: #ffffff;
+	background: #5eba66;
+	border: 1px solid #5eba66;
+	}
+	
+	.pro-modal-body .banner-call{
+	width: 100%;
+	display: block;
+	float: left;
+	background-color:#ce2027;
+	padding-top: 20px;padding-bottom: 20px;
+	margin-top:35px;
+	}
+	
+	.pro-modal-body .banner-call h5{
+	font-family: "Roboto";
+	font-weight: 300;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	text-transform:uppercase; 
+	}
+
+	.pro-modal-body .banner-call h5 span{
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	text-transform:uppercase; 
+	}
+
+	.pro-modal-body .banner-call h6{
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	text-transform:uppercase;
+	margin-bottom: 0; 
+	}
+
+	.pro-modal-body .banner-call .fa{
+	 margin-left: 12px;
+	 margin-right: 12px;
+	 font-size: 26px;
+	 vertical-align: -2px;
+	}
+
+	
+	/*  MODAL POPUP  PLUS 1040 PRO  */
+	
+	#plus-modal .plus-modal-content{
+	background-color: #fafafa;
+	background-image: url(../img/background-clients.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+	#plus-modal .plus-header-modal{
+	padding-top:20px;
+	display: block;
+	width: 100%;
+	border: 0;
+	}
+
+	#plus-modal .plus-modal-body{
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	}
+
+	#plus-modal .plus-modal-body .text-headline-2{
+	width: 100%;
+	display: block;
+	margin-bottom: 25px;
+	}
+
+	#plus-modal .plus-modal-body  .text-headline-2 h3{
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 26px;
+	color: #ce2027;
+	text-align: center;
+	text-transform:uppercase; 
+	letter-spacing: 1px;
+	}
+
+	.plus-modal-body .user-list{
+	display: block;
+	float: left;
+	width: 	100%;
+	padding-left: 5%;
+	list-style-type: none;
+	}
+
+	.plus-modal-body .user-list h5{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 18px;
+	color: #34495e;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-bottom: 25px;
+	margin-left: -20px;
+	}
+
+	.plus-modal-body .user-list li{
+	display: block;
+	float: left;
+	width: 47%;
+	margin-bottom:20px;
+	}
+
+
+	.plus-modal-body .user-list li .user-subscribe{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 19px;
+	color: #34495e;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: 1px solid #34495e;
+	border-radius: 3px;
+	width: 92%;
+	padding-top: 8px;padding-bottom:8px;
+	background: #f2f1f1;
+	}
+	
+	.plus-modal-body .user-list li .user-subscribe .fa{
+	margin-right: 15px;
+	font-size: 24px;
+	}
+
+	.plus-modal-body .user-list li .user-subscribe:hover{
+	cursor: pointer;
+	color: #ffffff;
+	background: #5eba66;
+	border: 1px solid #5eba66;
+	}
+	
+	.plus-modal-body .banner-call{
+	width: 100%;
+	display: block;
+	float: left;
+	background-color:#ce2027;
+	padding-top: 20px;padding-bottom: 20px;
+	margin-top:35px;
+	}
+	
+	.plus-modal-body .banner-call h5{
+	font-family: "Roboto";
+	font-weight: 300;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	text-transform:uppercase; 
+	}
+
+	.plus-modal-body .banner-call h5 span{
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	text-transform:uppercase; 
+	}
+
+	.plus-modal-body .banner-call h6{
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	text-transform:uppercase;
+	margin-bottom: 0; 
+	}
+
+	.plus-modal-body .banner-call .fa{
+	 margin-left: 12px;
+	 margin-right: 12px;
+	 font-size: 26px;
+	 vertical-align: -2px;
+	}
+
+
+
 	/* multi discount section  */
 
 	.discount-section{
@@ -2197,7 +2662,7 @@
     padding-top:15px;
     padding-bottom:15px;
     border: 0;
-    border-radius: 25px;
+    border-radius:5px;
     letter-spacing: 1px;
     margin-top: 30px;
     position: relative;
@@ -2212,7 +2677,7 @@
     color: #fafafa;
     text-transform: uppercase;
     font-size: 18px;	
-    vertical-align: -3px;
+    vertical-align:0px;
         text-align: center;
         letter-spacing: 1px;
 	}
@@ -2243,7 +2708,7 @@
     padding-top:15px;
     padding-bottom: 15px;
     border: 0;
-    border-radius: 25px;
+    border-radius:5px;
     letter-spacing: 1px;
     margin-top: 30px;
     position: relative;
@@ -2258,7 +2723,7 @@
     color: #fafafa;
     text-transform: uppercase;
     font-size: 18px;	
-    vertical-align: -3px;
+    vertical-align:0;
 	}
 
 	#contact .cta-buttons .btn-signup-4 img{
