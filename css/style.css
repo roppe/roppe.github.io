@@ -3207,3 +3207,98 @@
 
 
 
+	/* Responsive Design Changes adds CSS Mobile */
+
+	
+	@media (max-width: 575.98px) { 
+	
+		.top-header .right-button {
+			display: block;
+			width: 100%;
+			text-align: left !important;
+			
+			}
+		 
+		.about-side-1 .ab-text h2 {
+		   font-size: 37px;
+			}
+		
+		.about-side-1 .ab-text h3 {
+			font-size: 18px;
+			 background: url(../img/text-shape.png) 93% 0 no-repeat;
+	  	}
+
+	  	.app-first-side .headline-app {
+	  	 font-size: 33px;
+	   	}
+	   	
+	   	.app-first-side .headline-app span {
+	  	 font-size: 33px;
+	   	}
+	   	
+	   	.device-feautures .text-bxs .maintitle {
+	   	font-size: 27px;
+	   	}
+
+	   	#features .text-area .maintitle-2{
+	   		font-size: 34px;
+	   	}
+
+	   	#features .text-area .maintitle-2{
+	   		padding-left: 0;
+	   		font-size: 19px;
+	   		background: url(../img/text-shape.png) 92% 0 no-repeat;
+	   	}
+		
+		.plus-features .text-box-3 h2{
+			font-size: 28px;
+		}
+		
+		.badge-60 .text-in h3{
+			font-size: 24px;
+		}
+		
+		#efiling .text-box-4 h4{
+			font-size: 32px;
+		}
+
+		#efiling .text-box-4 h3{
+			background:none;
+		}
+
+		.partners-section .txt-area-6 h2{
+	     font-size:33px;
+		}
+
+		#pricing-section .text-box-price h2{
+			font-size: 32px;
+		}
+		#pricing-section .text-box-price h4{
+			font-size: 16px;
+		}
+
+		.discount-section .offer-text h4{
+			font-size: 25px;
+		}
+
+		.banner-call-to-action .box-content-bnr h5 span{
+			font-size: 19px;
+		}
+		.banner-call-to-action .box-content-bnr h5{
+			font-size: 19px;
+		}
+		
+		.cnt-text .call-now-txt span {
+			font-size: 31px;
+		}
+
+		.cnt-text .call-now-txt{
+			font-size: 28px;
+		}
+
+		.sub-footer .rgt-privacy .go-privacy{
+			text-align: center;
+		}
+
+	}
+
