@@ -3326,11 +3326,13 @@
 		.banner-call-to-action .box-content-bnr h3{
 			text-align: center;
 			font-size: 18px;
+			margin-top:5px;
 		}
 
 		.banner-call-to-action .box-content-bnr h3 span{
 			text-align: center;
 			font-size: 18px;
+			margin-top: 5px;
 		}
 
 		#faq-section .text-faq-box h3{
