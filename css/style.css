@@ -3207,15 +3207,226 @@
 
 
 
-	/* Responsive Design Changes adds CSS Mobile */
+	/* Responsive Design Changes fixes CSS Tablet  */
+	
+	@media (max-width: 767.98px) {
+
+
+		.top-header .right-button{
+			text-align: left !important;
+		}
+
+		.about-side-1 .ab-text h3{
+			background: none;
+		}
+
+		.device-feautures .text-bxs .maintitle{
+			font-size: 32px;
+		}
+
+		.device-feautures .text-bxs .subtitle{
+			background: none;
+		}
+
+		#features .text-area .maintitle-2{
+			font-size: 32px;
+		}
+
+		#features .text-area .subtitle-1{
+			background: none;
+		}
+
+		.plus-features .text-box-3 h2{
+			font-size: 32px;
+		}
+
+		.plus-features .text-box-3 h3{
+			background: none;
+		}
+
+		.badge-60 .text-in h3{
+			font-size: 30px;
+		}
+
+		.text-box-4 h3{
+			background: none;
+		}
+
+		.text-box-4 h4{
+			font-size: 34px;
+		}
+
+		#pricing-section .text-box-price h2|{
+			font-size: 34px;
+		}
+
+		#pricing-section .text-box-price h4{
+			font-size: 17px;
+		}
+
+		.discount-section .four-services{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.discount-section .offer-text h4{
+			font-size: 26px;
+		}
+		
+		.banner-call-to-action .box-content-bnr img {
+		float: left;
+		display: block;
+		margin-right: 10px;
+		width: 18%;
+		}
+		
+		.banner-call-to-action .box-content-bnr h5 span {
+		font-family: "Roboto";
+		font-weight: 400;
+		color: #f7f5f5;
+		font-size: 27px;
+		text-align:center;
+		padding-bottom: 10px;
+		letter-spacing: 1px;
+		}
+
+		.banner-call-to-action .box-content-bnr h5 {
+		font-family: "Roboto";
+		font-weight: 500;
+		color: #f7f5f5;
+		font-size: 27px;
+		text-align:center;
+		padding-bottom: 10px;
+		letter-spacing: 1px;
+		}
+
+		.banner-call-to-action .box-content-bnr .btn-started {
+		display: block;
+		width: 237px;
+		font-family: "Roboto";
+		font-weight: 500;
+		color: #fafafa;
+		text-transform: uppercase;
+		font-size: 14px;
+		background-color: #5fea4e;
+		padding-top: 13px;
+		padding-bottom: 13px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border: 0;
+		border-radius: 25px;
+		letter-spacing: 1px;
+		margin-top: 15px;
+		margin-right: auto !important;
+		margin-left: auto !important;
+		float: none;
+		}
+		
+		.banner-call-to-action .box-content-bnr h3{
+			text-align: center;
+		}
+
+		.banner-call-to-action .box-content-bnr h3 span{
+			text-align: center;
+		}
+
+		#faq-section .text-faq-box h3{
+			background: none;
+		}
+
+		#faq-section .text-faq-box h2{
+			font-size: 31px;
+		}
+
+		.webpro-faq .faq-header .btn{
+			font-size: 13px;
+		}
+		
+		.webpro-faq .faq-header{
+			padding-right: 5px;padding-right:5px;
+		}
+
+		.webpro-faq .card-body{
+			font-size: 13px;
+		}
+
+		.cnt-text .call-now-txt {
+		font-family: "Roboto";
+		font-weight: 500;
+		color: #ffffff;
+		font-size: 30px;
+		text-align: center;
+		text-transform: none;
+		letter-spacing: 2px;
+		margin-bottom: 5%;
+		border: 2px solid #ffffff;
+		width: 85%;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 17px;
+		padding-bottom: 17px;
+		border-radius: 3px;
+		}
+
+		.cnt-text .call-now-txt span{
+			font-size: 30px;
+		}
+
+		.box-contact .skew-txt-bck h3{
+			font-size: 16px;
+		}	
+
+		.box-contact{
+			margin-bottom: 25px;
+		}
+
+		#contact .cta-buttons .btn-signup-4 {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 280px;
+		}
+
+		#contact .cta-buttons .btn-demo-4 {
+		display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 280px;
+		}
+
+		.center-contact .info-cnt p{
+			font-size: 13px;
+		}
+
+		.logo-left-info .sub-text{
+			font-size: 13px;
+		}
+
+		.sub-footer .rgt-privacy .go-privacy{
+			float: none;
+			text-align: center;
+		}
+
+
+
+	}   /* /End Tablet size */
+
+
+
+
+	/* Responsive Design Changes adds CSS Mobile phones*/
 
 	
 	@media (max-width: 575.98px) { 
 	
+		
 		.top-header .right-button {
 			display: block;
 			width: 100%;
 			text-align: left !important;
+			
 			
 			}
 		 
@@ -3247,11 +3458,21 @@
 	   	#features .text-area .maintitle-2{
 	   		padding-left: 0;
 	   		font-size: 19px;
-	   		background: url(../img/text-shape.png) 92% 0 no-repeat;
+	   		background:none;
+	   	}
+
+	   	#features .text-area .subtitle-1{
+	   		font-size: 22px;
+	   		background: none;
 	   	}
 		
 		.plus-features .text-box-3 h2{
-			font-size: 28px;
+			font-size: 26px;
+		}
+
+		.plus-features .text-box-3 h3{
+			background: none;
+			font-size: 19px;
 		}
 		
 		.badge-60 .text-in h3{
@@ -3264,6 +3485,10 @@
 
 		#efiling .text-box-4 h3{
 			background:none;
+		}
+
+		.device-feautures .text-bxs .subtitle{
+			background: none;
 		}
 
 		.partners-section .txt-area-6 h2{
@@ -3283,21 +3508,164 @@
 
 		.banner-call-to-action .box-content-bnr h5 span{
 			font-size: 19px;
+			text-align: center;
 		}
 		.banner-call-to-action .box-content-bnr h5{
 			font-size: 19px;
+			text-align: center;
 		}
 		
 		.cnt-text .call-now-txt span {
-			font-size: 31px;
+			font-size: 28px;
+			
 		}
 
 		.cnt-text .call-now-txt{
 			font-size: 28px;
+			width: 85%;
+			
 		}
 
 		.sub-footer .rgt-privacy .go-privacy{
 			text-align: center;
+			float: none;
+		}
+
+		.sub-footer .rgt-privacy{
+			display: block;
+			width: 100%;
+		}
+
+		.center-contact .info-cnt p {
+			font-size: 12px;
+		}
+		.logo-left-info .sub-text {
+			font-size: 11px;
+		}
+
+		.cnt-text .cnt-subtitle{
+			font-size: 32px;
+		}
+
+		#contact .cta-buttons .btn-signup-4{
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			width: 264px;
+		}
+
+		#contact .cta-buttons .btn-signup-4 span{
+			font-size: 15px;
+		}
+
+		#contact .cta-buttons .btn-demo-4{
+		display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 264px
+		}
+
+		#contact .cta-buttons .btn-demo-4 span{
+			font-size: 15px;
+		}
+
+		.box-contact{
+			margin-bottom: 20px;
+		}
+
+		.customer-section .impression-2{
+			margin-top: 60px;
+		}
+
+		.webpro-faq .faq-header .btn {
+		font-family: "Roboto";
+		font-weight: 500;
+		color: #8c8986;
+		font-size: 11px;
+		white-space: normal !important;
+		word-wrap: break-word !important;
+		padding-right: 0;
+		padding-left: 5px;
+		}
+
+		.webpro-faq .card-body{
+			font-size: 12px;
+		}
+
+		.webpro-faq .faq-header{
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+
+		#faq-section .text-faq-box h2{
+			font-size: 31px;
+		}
+
+		#faq-section .text-faq-box h3{
+			background: none;
+			font-size: 15px;
+		}
+
+		.undecide-section .headline-text-1 h2{
+			font-size: 35px;
+		}
+
+		.undecide-section .headline-text-1 h4{
+			font-size: 19px;
+		}
+
+		.banner-call-to-action .box-content-bnr img {
+		float: left;
+		display: block;
+		margin-right: 14px;
+		width: 20%;
+		}
+
+		.banner-call-to-action .box-content-bnr .btn-started {
+		display: block;
+		width: 237px;
+		font-family: "Roboto";
+		font-weight: 500;
+		color: #fafafa;
+		text-transform: uppercase;
+		font-size: 14px;
+		background-color: #5fea4e;
+		padding-top: 13px;
+		padding-bottom: 13px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border: 0;
+		border-radius: 25px;
+		letter-spacing: 1px;
+		margin-top: 15px;
+		margin-right: auto !important;
+		margin-left: auto !important;
+		float: none;
+		}
+
+		#pricing-section .sub-text-2 p{
+			font-size: 14px;
+		}
+
+		.left-side-efiling .box-text p{
+			font-size: 16px;
+		}
+		.left-side-efiling .box-text h5{
+			font-size: 16px;
+		}
+
+		.discount-section .four-services {
+		display: block;
+		margin-left: 0;
+		margin-right:0;
+		}
+
+		.box-contact .skew-txt-bck h3{
+			font-size: 14px;
+		}
+
+		.box-contact .skew-txt-bck a{
+		 font-size: 14px;
 		}
 
 	}
