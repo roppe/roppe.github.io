@@ -3541,9 +3541,19 @@
 		}
 
 		.center-contact .info-cnt p {
-			font-size: 12px;
+			font-size: 11px;
+			margin-left: 0;
+		}
+
+		.center-contact .info-cnt p .fa{
+         font-size: 11px;
+         margin-right: 3px;
 		}
 		.logo-left-info .sub-text {
+			font-size: 10px;
+		}
+
+		.sub-footer .copy{
 			font-size: 11px;
 		}
 
