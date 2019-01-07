@@ -2249,7 +2249,7 @@
 	#privacy-section{
 	display: block;
 	width: 100%;
-	padding-top:10%;
+	padding-top:16%;
 	padding-bottom: 100px;
 	}
 
@@ -2281,7 +2281,7 @@
 	#terms-section{
 	display: block;
 	width: 100%;
-	padding-top:10%;
+	padding-top:15%;
 	padding-bottom: 100px;
 	}
 
@@ -2310,12 +2310,13 @@
 	}
 
 
+	
 
 	/* Responsive Design Changes fixes CSS Tablet  */
 	
 	@media (max-width: 767.98px) {
 
-	
+		
 
 		.navbar-toggler .navbar-toggler-icon .fa{
 			color: #ffffff !important;
@@ -2435,7 +2436,13 @@
 			float: none;
 			text-align: center;
 		}
-
+	
+		#privacy-section{
+			padding-top:25%;
+		}
+		#terms-section{
+			padding-top: 25%;
+		}
 
 
 	}   /* /End Tablet size */
@@ -2599,6 +2606,15 @@
 		
 		.status-banner .status-text h2{
 			font-size: 33px;
+		}
+
+
+		#privacy-section{
+			padding-top:40%;
+		}
+
+		#terms-section{
+			padding-top: 40%;
 		}
 
 
