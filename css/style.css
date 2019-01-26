@@ -15,7 +15,7 @@
 	.top-header{
 	width: 100%;
 	display: block;
-	padding-top:6px;padding-bottom:5px;
+	padding-top:2px;padding-bottom:5px;
 	background-color: #fafafa;
 	border-bottom: 1px solid  #c4c3c3;
 	}
@@ -25,6 +25,7 @@
 	width: 100%;
 	margin-top: 4px;
 	margin-bottom: 7px;
+	float: right;
 
 	}
 
@@ -49,38 +50,15 @@
 	font-weight: 500;
 	color: #5e5c5c;
 	font-size: 13px;
-	margin-bottom: 0;	
+	margin-bottom: 0;
+	float: left;
+	display: block;	
 	}
 
 	.top-header .left-contact .email-info .fa{
 	margin-right:7px;
 	font-size: 17px;
 	vertical-align: -1px;
-	}
-
-	.top-header .right-button{
-	display: block;
-	width: 100%;
-	}
-
-	.right-button .top-enroll-btn{
-	font-family: "Roboto";
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 11px;
-    text-transform: uppercase;
-    border-radius:0;
-    background: #36C24E;;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-right: 10px;
-    border:none;
-	}
-	
-	.right-button .top-enroll-btn:hover{
-	background: #ce2027;
-	color: #ffffff;
-	cursor: pointer;
 	}
 
 
@@ -91,2129 +69,247 @@
 	border:0;
 	}
 
-	.header-nav .logo-header{
+	.main-navigation .logo-header{
 	display: block;
 	float: left;
-	width: 200px !important;height: 60px;
-	background:url(../img/logo-ta-financial.png) 0 0 no-repeat;
+	width: 230px !important;height: 40px;
+	background:url(../img/logo-mr-biro.png) 0 0 no-repeat;
 	margin-right: 0 !important;
 	margin-top: 10px;
 
 	}
 
-	.header-nav{
-	background-color:#8b0202 !important;
+	.main-navigation{
+	background-color: #fafafa !important;
 	display: block;
 	padding-left: 0;padding-right: 0;
-	padding-top: 0;
 	}
 
-	.header-nav .navigation-list .nav-link{
+	.main-navigation .nav-list .nav-link{
 	font-family: "Roboto";
 	font-weight: 400;
-	color: #fafafa;
+	 color: #353434;
 	text-transform:uppercase;
 	letter-spacing: 1px;
 	font-size: 13px;
 	letter-spacing: 1px !important;
-	margin-right:10px;
+	margin-right:5px;
 	margin-top: 10px;
 	text-align: center;
-	position: relative;
-	}
-
-	.header-nav .navigation-list .nav-link .fa{
-	font-size: 17px;
-	margin-right: 6px;
-	vertical-align: -1px;
 	}
 
 	/* nav hover effect*/
-
-	.navigation-list .nav-link:before{
-	content: "";
-	position: absolute;
-	width: 95%;
-	height: 2px;
-	bottom: 0;
-	left: 0;
-	background-color: #ffffff;
-	visibility: hidden;
-	-webkit-transform: scaleX(0);
-	transform: scaleX(0);
-	-webkit-transition: all 0.3s ease-in-out 0s;
-	transition: all 0.3s ease-in-out 0s;
-	color: #ffffff;	
-	}
-
-	.navigation-list .nav-link:hover:before{
-	visibility: visible;
-	-webkit-transform: scaleX(1);
-	transform: scaleX(1);
-	}
-
-
 	
-	
-
-
-	/* STYLE FOR HOME TOP SECTION */
-
-	#top-home-section{
-	background-color: #fafafa;
-	background-image: url(../img/1-ta-header-picture.jpg);
-	background-size:cover;
-	background-repeat: no-repeat;
-	 padding:230px 0 100px;
+	.nav-list .nav-link:hover{
+		color: #ce2027;
 	}
 
-	#top-home-section .text-area-home{
-	display: block;
-	margin-bottom: 30px;
-	margin-top:0;
-
-	}
-
-	#top-home-section .text-area-home h3{
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #424243;
-	font-size: 23px;
-	text-align: left;
-	}
-
-	#top-home-section .text-area-home h3 span{
-	font-family: "Roboto";
-	font-weight: 500;
-	color: #f7f5f5;
-	font-size: 22px;
-	text-align: left;
-	}
-
-	#top-home-section .text-area-home h2{
-	font-family: "Roboto";
-	font-weight: 600;
-	color: #8b0202;
-	font-size: 37px;
-	text-align: left;
-	margin-top: 25px;
-	text-transform: uppercase;
-	}
-
-     #top-home-section .text-area-home h2 span{
-	font-family: "Roboto";
-    font-weight: 600;
-    color: #8b0202;
-    font-size: 37px;
-    text-align: left;
-    margin-top: 25px;
-   }
-
-   	#top-home-section .text-area-home .btn-signup-1{
-    font-family: 'Roboto';
-    font-weight: 500;
-    color: #fff;
-    font-size: 14px;
-    background-color: #36C24E;
-    display: block;
-    text-transform: uppercase;
-    float: left;
-    width: auto !important;
-    border-radius: 0;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 7%;
-   	}
-
-   	#top-home-section .cta-buttons-home{
-	margin-top: 6%;
-	width: 100%;
-	
-	} 
-	
-
-	.cta-buttons-home .btn-enroll-1 {
-   	display: inline-block;
-    margin-right:15px;
-   	width:180px;
-    font-family: "Roboto";
-    font-weight: 500;
-    color: #fafafa;
-    text-transform: uppercase;
-    font-size: 13px;
-    background-color:#8b0202;
-    padding-top:12px;
-    padding-bottom:12px;
-    border: 0;
-    border-radius:0;
-    letter-spacing: 1px;
-    margin-top: 30px;
-    position: relative;
-    transition: all .2s ease-in-out;
-    white-space: normal !important;
-    word-wrap: break-word !important;
-	}
-	
-	.cta-buttons-home .btn-enroll-1 .fa{
-	font-size: 18px;
-	margin-left: 10px;
-	vertical-align: -4px;
-	}
-	
-	.cta-buttons-home .btn-enroll-1 span{
-	font-family: "Roboto";
-    font-weight: 400;
-    color: #fafafa;
-    text-transform: uppercase;
-    font-size: 15px;	
-    vertical-align: -3px;
-	}
-
-	.cta-buttons-home .btn-enroll-1:hover{
-	background-color: #36C24E !important;
-	cursor: pointer;
-	}
-	
-
-
-	/* SECTION  ABOUT  TAX-PRO  */
-    
-    #tax-pro-section{
-	padding-bottom:65px;
-	padding-top:75px;
-	border-bottom: 1px solid #fafafa;
+	.nav-list .nav-link::before,
+    .nav-list .nav-link::after {
+    display: inline-block;
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+    transition: transform 0.3s, opacity 0.2s;
     }
- 
-	.tax-pro-about{
-	display: block;
-	}
 
-	.tax-pro-about .tp-text{
-	display: block;
-	width: 100%;
-	margin-bottom: 8%;
-	}
+   .nav-list .nav-link::before {
+    margin-right:2px;
+    content: '[';
+    -webkit-transform: translateX(20px);
+    -moz-transform: translateX(20px);
+    transform: translateX(20px);
+    }
 
-	.tax-pro-about .tp-text h2{
-	font-family: "Roboto";
-	font-weight: 600;
-	color: #8b0202;
-	font-size: 40px;
-	text-align:center;
-	padding-bottom: 5px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-bottom:15px;
-	}
+    .nav-list .nav-link::after {
+    margin-left:2px;
+    content: ']';
+    -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    transform: translateX(-20px);
+    }
 
-	.tax-pro-about .tp-text p{
-	font-family: "Roboto";
-    font-weight: 500;
-    color: #373738;
-    font-size: 18px;
-    text-align: center;
-    padding-bottom: 5px;
-    margin-bottom: 0;
-	}
-
-	.tax-pro-about .tp-text .border-div{
-	width: 20%;
-    display: block;
-    border: 1.5px solid #8b0202;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25px;
-	}
-
-	/* Easy Refund Disbursement Options four features in row */
-
-	.refund-features{
-	position: relative;
-	max-width: 100%;
-	display: block;
-	overflow: hidden;
-	 border-top-left-radius: 30px;
-	  border-bottom-right-radius: 30px;
-	box-shadow: 2px 3px 10px 3px rgba(0,0,0,.1);
-	background-color: #fafafa;
-	height:auto;
-	max-width: 260px;
-	margin-bottom: 20px;
-	margin-right: 18px;
-	}
-
-	.refund-features:last-child{
-	margin-right: 0;
-	}
-
-	.refund-features .image-services{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
-	}
-
-	.refund-features .main-title{
-	font-family: "Roboto";
-	font-weight: 500;
-	color: #343434;
-	font-size: 22px;
-	text-align: center;
-	margin-bottom: 30px;
-	padding-top:20px;
-	text-transform: uppercase;	
-	}
-
-	.refund-features .overlay-box{
-	opacity: 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(139, 2, 2, 1);
-	color: #fff;
-	padding: 10px;
-	-moz-transition: all 0.4s ease-in-out 0s;
-	-webkit-transition: all 0.4s ease-in-out 0s;
-	-ms-transition: all 0.4s ease-in-out 0s;
-	transition: all 0.4s ease-in-out 0s;
-	max-width:260px;
-	}
-
-	.refund-features:hover .overlay-box {
+	.nav-list .nav-link:hover::before,
+	.nav-list .nav-link:hover::after,
+	.nav-list .nav-link:focus::before,
+	.nav-list .nav-link:focus::after {
 	opacity: 1;
-	cursor: pointer;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+	color: #ce2027;
 	}
+	
 
-	.overlay-box .inner-text{
-	text-align: center;
-	font-size: 14px;
-	display: inline-block;
-	position: absolute;
-	top: 50%;
-	left:50%;
-	-moz-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	width: 100%;
-	padding-left: 10px;
-	padding-right: 10px;
-	}
 
-	.overlay-box .inner-text p{
-	text-align:center;
-	display: inline-block;
-	font-family: "Roboto";
-	font-weight: 500;
+	.nav-list .nav-item .sign-up-button{
+	padding-top: 13px;
+	padding-bottom: 12px;
+	background-color: #ce2027 !important;
 	color: #ffffff;
-	font-size: 16px;
-
-	}
-
-	/* Happy Cash Advance banner */
-	
-	.happy-cash-banner{
-	 background-color: #8b0202;
-    background: linear-gradient(#8b0202, #c71516);
-	display:block;
-	width: 100%;
-	padding-top:30px;padding-bottom:50px;
-	margin-top:6%;
-	}
-
-	.happy-cash-banner .cash-text{
-	margin-top:40px;
-	}
-	
-	.happy-cash-banner .cash-text h2{
-	font-family: "Roboto";
-	font-weight: 500;
-	color: #ffffff;
-	font-size: 40px;
-	text-align:center;
-	padding-bottom: 5px;
-	text-transform: none;
-	margin-bottom: 10px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	}
-
-
-	.happy-cash-banner .cash-text h3{
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #ffffff;
-	font-size: 20px;
-	text-align:center;
-	padding-bottom: 5px;
-	text-transform: none;
-	margin-bottom: 10px;
-	}
-
-	
-	/*  Tax Professional Cash Advance Section left-right  */
-
-	.right-picture-tax{
-	display: block;
-	width: 100%;
-	padding-left: 0;
-	padding-right: 0;
-	}
-
-	.right-picture-tax img{
-	display: block;
-	width: 100%;
-	height: 100%;
-	}
-
-	.left-cash-advance{
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background-color:#fafafa; 
-	}
-
-	.left-cash-advance .text-advance-left{
-	width: 100%;
-	display: block;
-	padding-left:14%;
-	padding-right: 3%;
-	}
-
-	.left-cash-advance .text-advance-left h3{
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #373738;
-	font-size: 39px;
-	text-align:left;
-	letter-spacing: 1px;
-	}
-
-	.left-cash-advance .text-advance-left h2{
-	font-family: "Roboto";
-	font-weight: 600;
-	color: #8b0202;
-	font-size: 48px;
-	text-align:left;
-	letter-spacing: 2px;
-	margin-top: 10px;
-	margin-bottom: 45px;
-	}
-
-	.left-cash-advance .text-advance-left p{
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #68686a;
-	font-size: 18px;
-	text-align:left;
-	}
-
-
-	.left-cash-advance .text-advance-left .btn-enroll-cash {
-   	display: inline-block;
-    margin-right:15px;
-   	width:170px;
-    font-family: "Roboto";
-    font-weight: 500;
-    color: #fafafa;
-    text-transform: uppercase;
-    font-size: 13px;
-    background-color:#8b0202;
-    padding-top:12px;
-    padding-bottom:12px;
-    border: 0;
-    border-radius:0;
-    letter-spacing: 1px;
-    margin-top: 40px;
-    position: relative;
-    transition: all .2s ease-in-out;
-    white-space: normal !important;
-    word-wrap: break-word !important;
-	}
-	
-	.text-advance-left .btn-enroll-cash .fa{
-	font-size: 18px;
-	margin-left: 10px;
-	vertical-align: -4px;
-	}
-	
-	.text-advance-left .btn-enroll-cash span{
-	font-family: "Roboto";
-    font-weight: 400;
-    color: #fafafa;
-    text-transform: uppercase;
-    font-size: 14px;	
-    vertical-align: -3px;
-	}
-
-	.btn-enroll-cash:hover{
-	background-color: #36C24E !important;
-	cursor: pointer;
-	}
-
-	/*  Taxpayers Cash Advance  Up to $5,000  */
-
-	.left-picture-taxpayers{
-	display: block;
-	width: 100%;
-	padding-left: 0;
-	padding-right: 0;
-	}
-
-	.left-picture-taxpayers img{
-	display: block;
-	width: 100%;
-	height: 100%;
-	}
-
-	.right-taxpayers-cash{
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background-color:#8C0202; 
-	}
-
-	.right-taxpayers-cash .text-cash-tax{
-	width: 100%;
-	display: block;
-	padding-left:5%;
-	padding-right:14%;
-	}
-
-	.right-taxpayers-cash .text-cash-tax h3{
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #ffffff;
-	font-size: 39px;
-	text-align:left;
-	letter-spacing: 1px;
-	}
-
-	.right-taxpayers-cash .text-cash-tax h2{
-	font-family: "Roboto";
-	font-weight: 600;
-	color: #ffffff;
-	font-size: 48px;
-	text-align:left;
-	letter-spacing: 2px;
-	margin-top: 10px;
-	margin-bottom: 45px;
-	}
-
-	.right-taxpayers-cash .text-cash-tax p{
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #e4e4e6;
-	font-size: 18px;
-	text-align:left;
-	}
-
-
-	.right-taxpayers-cash .text-cash-tax .btn-enroll-cash-2 {
-   	display: inline-block;
-    margin-right:15px;
-   	width:170px;
-    font-family: "Roboto";
-    font-weight: 500;
-    color: #fafafa;
-    text-transform: uppercase;
-    font-size: 13px;
-    background-color:#36C24E;
-    padding-top:12px;
-    padding-bottom:12px;
-    border: 0;
-    border-radius:0;
-    letter-spacing: 1px;
-    margin-top: 40px;
-    position: relative;
-    transition: all .2s ease-in-out;
-    white-space: normal !important;
-    word-wrap: break-word !important;
-	}
-	
-	.text-cash-tax .btn-enroll-cash-2 .fa{
-	font-size: 18px;
-	margin-left: 10px;
-	vertical-align: -4px;
-	}
-	
-	.text-cash-tax .btn-enroll-cash-2 span{
-	font-family: "Roboto";
-    font-weight: 400;
-    color: #fafafa;
-    text-transform: uppercase;
-    font-size: 14px;	
-    vertical-align: -3px;
-	}
-
-	.btn-enroll-cash-2:hover{
-	background-color: #36C24E !important;
-	cursor: pointer;
-	}
-
-
-	/* Prepare More Returns With Ease  section */
-
-	.returns-features{
-	padding-top: 70px;	padding-bottom: 80px;
-	background-color: #fafafa;
-	}
-
-	.returns-features .text-box-3{
-	display: block;
-	width: 100%;
-	}
-
-	.returns-features .text-box-3 h2{
-	font-family: "Roboto";
-	font-weight: 600;
-	color: #8b0202;
-	font-size: 42px;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-bottom:15px;
-
-	}
-
-	.returns-features .text-box-3 h3{
-	font-family: "Roboto";
-	font-weight: 500;
-	color:#373739;
-	font-size: 20px;
-	text-transform: uppercase;
-	text-align: center;
-	padding-top:2px;
-	margin-bottom: 6%;
-	}
-
-
-	.returns-features .text-box-3 h4{
-	font-family: "Roboto";
-	font-weight: 300;
-	color: #ffffff;
-	font-size: 20px;
-	text-transform:none;
-	text-align: center;
-	padding-bottom:4%;
-	letter-spacing: 1px;
-	margin-top: 15px;
-	}
-
-	.returns-features .text-box-3 .line-border{
-	width: 20%;
-	display: block;
-	border: 1px solid #ffffff;
-	margin-left: auto;margin-right: auto;
-	}
-
-	/* 60+ list feautures section*/
-	
-	.returns-features .pro-list{
-	  position: relative;
-    border: 1.5px solid #8b0202;
-    margin-top:15px;margin-bottom:15px;
- 	padding-left:20px;padding-right:20px;
- 	max-width: 350px;
- 	display: block;
- 	position: relative;
- 	z-index: 1;
- 	margin-right: auto;margin-left: auto;
- 	border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    background: #ffffff;
-     transition: all .2s ease-in-out;
-	}
-
-	.pro-list h5{
-	font-family: "Roboto";
-    font-weight: 500;
-    color: #8b0202;
-    font-size: 21px;
-    text-align: center;
-    margin-bottom: 25px;
-    margin-top: 15px;
-    letter-spacing: 1px;
-	}
-
-	.pro-list p{
-	font-family: "Roboto";
-	font-weight: 400;
-	color:#373739;
-	font-size: 15px;
-	text-align:center;
-	margin-top:15px;
-	margin-bottom: 40px;
-	}
-
-	.returns-features .pro-list .border-line-1{
-	width: 20%;
-	display: block;
-	border: 1px solid #aaa9a9;
-	margin-left: auto;margin-right: auto;
-	}
-
-	.pro-list img{
-     display: block;
-     margin-left: auto;margin-right: auto;
-     margin-top:25px;
-	}
-	
-	.returns-features .pro-list:hover{
-		cursor: pointer;
-		background: #fafafa;
-		 transform: scale(1.06);
-	}
-
-	
-
-	/* HOW IT WORKS DESCRIPTION SECTION */
-	
-
-	.how-it-work{
-	width: 100%;
-	display: block;
-	padding-top: 70px;
-	padding-bottom: 40px;
-	background-color: #8b0202;
-	background-image: url(../img/background-how-it-works.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-	}
-
-	.how-it-work .text-hiw{
-	width: 100%;
-	display: block;
-	}
-
-	.how-it-work .text-hiw .subtitle {
-	font-family: "Roboto";
-	  font-weight:400;
-    color: #fafafa;
-    font-size: 18px;
-	text-transform:uppercase;
-	text-align:center;
-	padding-bottom: 5px;
-	letter-spacing: 1px;
-	margin-top: 15px;
-	
-	}
-
-	.how-it-work .text-hiw .maintitle{
-	font-family: "Roboto";
-	font-weight: 600;
-	color: #ffffff;
-	font-size: 42px;
-	text-align:center;
-	padding-bottom: 5px;
-	text-transform:uppercase;
-	letter-spacing: 2px;
-	margin-bottom: 10px;	
-	}
-
-	.how-it-work .description-box{
-	border-radius:5px;
-	box-shadow: 1px 3px 10px 2px rgba(0,0,0,.1);
-    margin-top: 45px;
-    margin-bottom: 20px;
-    display: block;
-    max-width: 300px;
-    margin-right:auto;margin-left: auto;
-    padding-top: 25px;padding-bottom: 25px;
-    transition: all .2s ease-in-out;
-	}
-
-	.how-it-work .description-box:hover{
-	 transform: scale(1.06);
-	 cursor: pointer;
-	}
-
-	.how-it-work .text-hiw .border-line-title{
-	width: 15%;
-	display: block;
-	border: 1px solid #fafafa;
-	margin-left: auto;margin-right: auto;
-	}
-
-	.how-it-work .description-box img{
-	display: block;
-	margin-left: auto;
+	font-size: 13px;
 	margin-right: auto;
-	margin-top: 10px;
-	}
-
-	.how-it-work .description-box h3{
-	font-family: "Roboto";
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 22px;
-    text-align:center;
-    padding-bottom: 5px;
-    padding-top: 25px;
-	}
-
-
-	
-	/*Software Integration section  */
-
-	.software-section{
-	padding-top: 40px;
-	padding-bottom: 50px;
-	width: 100%;
-	display: block;
-	background-color: #ffffff;
-	}
-
-	.software-section .text-box-software{
-	display: block;
-	width: 100%;
-	}
-
-	.software-section .text-box-software h2{
-	font-family: "Roboto";
-	font-weight: 600;
-	color: #8b0202;
-	font-size: 42px;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-bottom:15px;
-
-	}
-
-	.software-section .text-box-software h4{
-	font-family: "Roboto";
-	font-weight: 400;
-	color:#373739;
-	font-size: 19px;
-	text-transform:none;
-	text-align: center;
-	padding-top:2px;
-	margin-bottom: 6%;
-	}
-
-	.logo-carousel{
-		display: block;
-		margin-right: auto;
-		margin-left: auto;
-	}
-
-
-	.software-section .info-msg{
-	display: block;
-	width: 100%;
-	margin-top: 50px;
 	margin-left: auto;
-	margin-right: auto;
-	}
-
-	.software-section .info-msg h6{
-	font-family: "Roboto";
+	display: block;
+	letter-spacing: 2px;
 	font-weight: 400;
-	color:#7a7a7a;
-	font-size: 19px;
-	text-align: center;
-	background:#f4f2f2;
+	font-family: "Roboto";
+	padding-left: 18px;
+	padding-right:22px;
 	padding-top: 8px;padding-bottom: 8px;
-	width: 70%;
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
+	margin-top: 8px;
+	text-align: center;
+	border-radius: 2px;
+	text-transform: uppercase;
+    }
+
+	.nav-list .nav-item .sign-up-button .fa{
+	font-size: 18px;
+	margin-right: 10px;
+	vertical-align: -1px;
 	}
 
-	.software-section .info-msg h6 .fa{
-		margin-right: 15px;
+	.nav-list .nav-item .sign-up-button:hover{
+	color:#ffffff;
+	background: #36C24E !important;
+	cursor: pointer;
+	text-decoration: none;
 	}
 
+/* Slider Carosuel On Index Main page */
 
-/*Signup button*/
-	
-	.two-button-side .two-button{
-	
-    list-style: none;
+    .carousel-item .img-fluid {
+    width:100%;
+    height:auto;
+    }
+
+    .carousel-item a {
     display: block;
     width:100%;
-   
-	}
-
-	.two-button-side .two-button li{
-	display:block;
-	 margin-left: auto;
-    margin-right: auto;
-	width: 60%;
-	margin-bottom: 15px;
-	}
-
-	.two-button-side .two-button li .btn-signup-2{
-	display: block;
-	margin-right: auto;margin-left: auto;
-	 white-space: normal !important;
-    font-family: "Roboto";
-	font-weight: 500;
-	color: #fafafa;
-	text-transform: uppercase;
-	font-size: 16px;
-	background-color: #ce2027;
-	padding-top: 16px;
-	padding-bottom: 16px;
-	border: 0;
-	border-radius: 2px;
-	letter-spacing: 2px;
-	position: relative;
-	transition: all .2s ease-in-out;
-	margin-bottom: 15px;
-	}
-	
-	.two-button-side .two-button li .btn-signup-2 img{
-	display: block;
-	float: left;
-	margin-right: 10px;
-	margin-left: 5px;
-	margin-top: -5px;
-	}
-
-	.two-button-side .two-button li .btn-demo-1{
-	display: block;
-	margin-right: auto;margin-left: auto;
-	  white-space: normal !important;
-	  
-	font-family: "Roboto";
-	font-weight: 500;
-	color: #fafafa;
-	text-transform: uppercase;
-	font-size: 16px;
-	background-color: #36C24E;
-	padding-top: 16px;
-	padding-bottom: 16px;
-	border: 0;
-	border-radius: 2px;
-	letter-spacing: 2px;
-	position: relative;
-	transition: all .2s ease-in-out;
-	margin-bottom: 15px;
-	}
-	
-	.two-button-side .two-button li .btn-demo-1 img{
-	display: block;
-	float: left;
-	margin-right: 10px;
-	margin-left:5px;
-	margin-top: -5px;
-	}
-
-
-	.signup-banner .left-side-picture{
-	display: block;
-	float: right;
-	}
-
-	.signup-banner .left-side-picture img{
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	}
-
-	/* TAX PAYER SECTION */
-
-	#tax-payer-section{
-	padding-top: 50px;
-	width: 100%;
-	display: block;
-	background-color: #fafafa;
-	}
-
-
-	.status-banner{
-	 background-color: #8b0202;
-    background: linear-gradient(#8b0202, #c71516);
-	display:block;
-	width: 100%;
-	padding-top:30px;padding-bottom:50px;
-	}
-
-	.status-banner .status-text{
-	margin-top:40px;
-	}
-	
-	.status-banner .status-text h2{
-	font-family: "Roboto";
-	font-weight: 500;
-	color: #ffffff;
-	font-size: 40px;
-	text-align:center;
-	padding-bottom: 5px;
-	text-transform: none;
-	margin-bottom: 10px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	}
-
-	.irs-step-1{
-	background-color: #eee;
-	display: block;
-	background-image: url(../img/background-step-1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	}
-	
-	.irs-step-1 .text-step{
-	display: block;
-	width: 100%;
-	margin-top: 22%;
-	margin-bottom: 8%;
-	}
-
-	.irs-step-1 .text-step h3{
-	font-weight: 600;
-	font-family: "Roboto";
-	color: #8b0202;
-	font-size: 35px;
-	text-align: center;	
-	text-transform: uppercase;
-	}
-
-	.irs-step-1 .text-step h4{
-	font-weight: 500;
-    color: #373739;
-    font-size: 20px;
-	font-size: 25px;
-	text-align: center;	
-	}
-
-
-
-	
-	.irs-step-1 .btn-irs-refund-1 {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-   	width: 240px;
-    font-family: "Roboto";
-    font-weight: 500;
-    color: #fafafa;
-    text-transform: uppercase;
-    font-size: 16px;
-    background-color:#8b0202 !important;
-    padding-top:15px;
-    padding-bottom:15px;
-    border: 0;
-    border-radius:0;
-    letter-spacing: 1px;
-    margin-top: 30px;
-    position: relative;
-    transition: all .2s ease-in-out;
-    white-space: normal !important;
-    word-wrap: break-word !important;
-    margin-right: 15px;
-	}
-
-	.irs-step-1 .btn-irs-refund-1 span{
-	font-family: "Roboto";
-	font-weight: 500;
-	color: #fafafa;
-	text-transform: uppercase;
-	font-size: 15px;	
-	vertical-align:0px;
-	text-align: center;
-	letter-spacing: 1px;
-	}
-
-	.btn-irs-refund-1:hover{
-	background-color: #03c3d8 !important;
-	cursor: pointer;
-	}
-	
-	.irs-step-1 .btn-state-refund-2{
-	display: inline-block;
-	margin-left: auto;
-	margin-right:15px;
-	width: 240px;
-	font-family: "Roboto";
-	font-weight: 500;
-	color: #fafafa;
-	text-transform: uppercase;
-	font-size: 16px;
-	background-color: #36C24E;
-	padding-top:15px;
-	padding-bottom: 15px;
-	border: 0;
-	border-radius:0;
-	letter-spacing: 1px;
-	margin-top: 30px;
-	position: relative;
-	transition: all .2s ease-in-out;
-	white-space: normal !important;
-	word-wrap: break-word !important;
-	}
-
-	.irs-step-1 .btn-state-refund-2 span{
-	font-family: "Roboto";
-	font-weight: 500;
-	color: #fafafa;
-	text-transform: uppercase;
-	font-size: 15px;	
-	vertical-align:0;
-	}
-
-
-	 .btn-state-refund-2:hover{
-	background-color: #03c3d8 !important;
-	cursor: pointer;
-	}
-
-
-	/* STATE REFUND MODAL POPUP   */
-
-	#state-refund-modal{
-	
-	}
-
-	#state-refund-modal .state-header{
-	padding-top:20px;
-	display: block;
-	width: 100%;
-	border: 0;
-	}
-
-	#state-refund-modal .signup-modal-body .text-headline{
-	width: 100%;
-	display: block;
-	margin-bottom: 25px;
-	}
-
-	.state-modal-body .text-headline h3{
-	font-family: "Roboto";
-	font-weight: 600;
-	font-size: 25px;
-	color: #ce2027;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	}
-
-	.state-modal-body .text-headline h4{
-	font-family: "Roboto";
-	font-weight: 500;
-	font-size: 17px;
-	color: #706f6f;
-	text-align: center;
-	letter-spacing: 1px;
-	}
-	
-	#state-refund-modal .state-modal-body{
-	padding-top: 0;
-	}
-
-	.state-modal-body .list-of-states{
-	display: block;
-	width: 100%;
-	list-style: none;
-	padding-left: 0;
-	margin-top: 30px;
-	height: 400px;
-	overflow-y: scroll;
-	}
-
-	.list-of-states li{
-	display: block;
-	float: left;
-	width: 100%;
-	padding-top:5px;
-	padding-bottom:5px;
-	border-bottom: 1px solid #eee;
-	 position: relative;
-	}
-
-	.list-of-states li a{
-	font-family: "Roboto";
-	font-weight: 400;
-	font-size: 14px;
-	color: #333333;
-	text-decoration: none;
-	padding-left: 15px;
-	 position: relative;
-	}
-
-	.list-of-states li a:hover{
-	cursor: pointer;
-	color: #0f9526;
-	}
-
-	.list-of-states li:hover{
-	background: #efeff0 !important;
-	}
-
-
-	/* RIGHT SIDE Step 2  Check With TA Financial*/
-
-	.ta-step-2{
-	background-color: #eee;
-	display: block;
-	background-image: url(../img/background-step-tax-2.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	}
-	
-	.ta-step-2 .text-ta{
-	display: block;
-	width: 100%;
-	margin-top: 22%;
-	margin-bottom: 8%;
-	}
-
-	.ta-step-2 .text-ta h3{
-	font-weight: 600;
-	font-family: "Roboto";
-	color: #8b0202;
-	font-size: 35px;
-	text-align: center;	
-	text-transform: uppercase;
-	}
-
-	.ta-step-2 .text-ta h4{
-	font-weight: 500;
-    color: #373739;
-    font-size: 20px;
-	font-size: 25px;
-	text-align: center;	
-	}
-
-	.ta-step-2 .btn-refund-status-3{
-	display: inline-block;
-	margin-left: auto;
-	margin-right:15px;
-	width: 240px;
-	font-family: "Roboto";
-	font-weight: 500;
-	color: #fafafa;
-	text-transform: uppercase;
-	font-size: 16px;
-	background-color: #f79b16;
-	padding-top:15px;
-	padding-bottom: 15px;
-	border: 0;
-	border-radius:0;
-	letter-spacing: 1px;
-	margin-top: 30px;
-	position: relative;
-	transition: all .2s ease-in-out;
-	white-space: normal !important;
-	word-wrap: break-word !important;
-	}
-
-	.irs-step-1 .btn-refund-status-3 span{
-	font-family: "Roboto";
-	font-weight: 500;
-	color: #fafafa;
-	text-transform: uppercase;
-	font-size: 15px;	
-	vertical-align:0;
-	}
-
-	.ta-step-2 .btn-refund-status-3:hover{
-		cursor: pointer;
-		background-color: #8b0202 !important;
-	}
-
-
-	/*  refund status pop up modal */
-	#refund-status-modal{
-	
-	}
-
-	#refund-status-modal .refund-header{
-	padding-top:20px;
-	display: block;
-	width: 100%;
-	border: 0;
-	}
-
-	#refund-status-modal  .refund-modal-body .text-headline-bx{
-	width: 100%;
-	display: block;
-	margin-bottom: 25px;
-	}
-
-	#refund-status-modal  .refund-modal-body .text-headline-bx h3{
-	font-family: "Roboto";
-	font-weight: 400;
-	font-size: 20px;
-	color: #ce2027;
-	text-align: center;
-	text-transform: none;
-	letter-spacing: 1px;
-	}
-
-	#refund-status-modal  .refund-modal-body .text-headline-bx h4{
-	font-family: "Roboto";
-	font-weight: 500;
-	font-size: 17px;
-	color: #706f6f;
-	text-align: center;
-	letter-spacing: 1px;
-	}
-	
-	#refund-status-modal  .refund-modal-body {
-	padding-top: 0;
-	}
-
-
-	/*  PRICING TABLE SECTION  */
-
-	#pricing-section{
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background-color: #8b0202 !important;
-
-	}
-
-	#pricing-section .text-box-price{
-	display: block;
-	width: 100%;
-	}
-
-	#pricing-section .text-box-price h2{
-	font-family: "Roboto";
-	font-weight: 600;
-	color: #ffffff;
-	font-size: 41px;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-bottom:15px;
-
-	}
-	
-	#pricing-section .text-box-price h4{
-	
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #ffffff;
-	font-size: 23px;
-	text-transform:none;
-	text-align: center;
-	padding-bottom:2%;
-	letter-spacing: 1px;
-	margin-top: 15px;
-	}
-
-
-	#pricing-section .sub-element-2{
-	display: block;
-	width: 50%;
-	background-color: #810909;
-	border: 1px solid #810909;
-	padding-top: 20px;padding-bottom: 15px;
-	padding-left: 5px;
-	    margin-bottom: 4%;
-	 margin-left: auto;
-	 margin-right: auto;
-	 display: block;
-	}
-
-	#pricing-section .sub-element-2 h6{
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #ffffff;
-	font-size:20px;
-	text-transform:uppercase;
-	text-align: center;
-	letter-spacing: 1px;
-	margin-bottom: 15px;
-	}
-
-	#pricing-section .sub-element-2 p{
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #ffffff;
-	font-size:16px;
-	text-transform:none;
-	text-align: center;
-	margin-right:10px;
-	margin-bottom: 5px;
-	text-transform: uppercase;
-	}
-
-	#pricing-section .sub-element-2 .fa{
-	margin-right: 8px;
-	font-size:18px;
-	}
-
-
-	.box-price{
-	padding-right: 0;
-	padding-left: 0;
-	color: #fff;
-	background: #f8f9fb;
-	margin-right: 20px;
-	margin-bottom:25px;
-	margin-top: 25px;
-	max-width: 340px;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;	
-	padding-bottom: 0;
-	}
-
-	.box-price:nth-child(2){
-		animation: shadow-pulse 1s infinite;
-	}
-
-	@keyframes shadow-pulse
-	{
-	  0% {
-	    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.2);
-	  }
-	  100% {
-	    box-shadow: 0 0 0 35px rgba(255, 255, 255, 0);
-	  }
-	}
-
-	.box-price:nth-child(2):hover{
-		 -webkit-animation: none;
-	}
-
-	
-
-	.box-price .price-header{
-	background-color: #0c3d7f;
-	display: block;
-	width:100%;
-	padding-top:10px;
-	padding-bottom:0;
-	position: relative;
-
-	}
-
-	.box-price .price-header .ribbon{
-	    position: absolute;
-    top: -4px;
-    left: -1px;
-	}
-
-
-	.box-price .price-header h3{
-	font-family: "Roboto";
-	font-weight: 300;
-	color: #ffffff;
-	font-size:19px;
-	text-transform: none;
-	text-align: center;
-	}
-
-	.box-price .price-header .subtitle-price{
-	font-family: "Roboto";
-	font-weight: 300;
-	color: #ffffff;
-	font-size:18px;
-	text-transform: none;
-	text-align: center;
-	width: 100%;
-	background: #418e84;
-	padding-top: 8px;padding-bottom: 8px;
-	margin-top: 20px;
-	}
-
-	.box-price .price-header h2{
-	font-family: "Roboto";
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 35px;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 3px;
-    margin-bottom: 0;
-    padding-top: 10px;
-	}
-
-	.box-price .price-cost{
-	display: block;
-	margin-top:30px;
-	width: 100%;
-	}
-
-	.box-price .price-cost h4{
-	  color: #8b0202 !important;
-    font-family: "Roboto";
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 47px;
-    margin-bottom: 0;
-    letter-spacing: 1px;
-	}
-
-	.box-price .price-cost .per-fee{
-	 text-align: center;
-    font-size: 16px;
-    color: #34495e;
-    font-family: "Roboto";
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-top: 5px;
-	}	
-
-
-	.box-price .price-list{
-	list-style-type: none;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-	float: left;
-	padding-left: 0;
-	margin-bottom: 40px;
-	padding-bottom:60px;
-	}
-
-	.price-list li{
-	list-style-type: none;
-	display: block;
-	float: left;
-	width: 100%;
-	padding-top: 14px;
-	padding-bottom: 14px;
-	border-top: 1px solid #e7e6e6;
-	}
-
-	.price-list li:hover{
-		background-color: #f2f2ef;
-	}
-
-	.price-list li p{
-	text-align: center;
-    font-size: 16px;
-    color: #15972c;
-    font-family: "Roboto";
-    font-weight: 500;
-    margin-bottom: 0;
-	}
-
-	.price-list .not-included p{
-	    text-align: center;
-    font-size: 16px;
-    color: #b6b4b4;
-    font-family: "Roboto";
-    font-weight: 500;
-    margin-bottom: 0;
-    text-decoration: line-through;
-	}
-
-	.price-list .not-included h6{
-	  text-align: center;
-    font-size: 15px;
-    color: #34495e;
-    font-family: "Roboto";
-    font-weight: 500;
-    margin-bottom: 0;
-	}
-
-	.price-list li .fa{
-	text-align: center;
-	font-size: 18px;
-	color: #c0bdbd;
-	display: block;
-	margin-left: auto;margin-right: auto;
-	}
-
-	.box-price .btn-order {
-	display: block;
-	width: 100%;
-	float: left;
-	position: absolute;
-	bottom: 0;
-	margin-top:30px;
-	}
-
-	.btn-order .button-buy{
-	font-weight: 400;
-    font-family: "Roboto";
-    text-transform: uppercase;
-    width: 100%;
-    margin: 0;
-    padding: 15px 20px;
-    border-radius: 0;
-    background: #36C24E;
-    position: absolute;
-    bottom: 0;
-    border: 0;
-    color: #ffffff;
-	}
-
-	.btn-order .button-buy:hover{
-	cursor: pointer;
-	background-color: #feb100;
-	color: #fafafa;
-	}
-
-	/* Button Subrscrine now Free */
-
-	.btn-order .btn-enroll-sprout{
-	font-weight: 500;
-    font-family: "Roboto";
-    text-transform: uppercase;
-    width: 100%;
-    margin: 0;
-    padding: 15px 20px;
-    border-radius: 0;
-    background: #36C24E;
-    position: absolute;
-    bottom: 0;
-    border: 0;
-    color: #ffffff;
-     font-size: 20px;
-	}
-
-	.btn-order .btn-enroll-sprout:hover{
-	cursor: pointer;
-	background-color:#0c3d7f;
-	color: #fafafa;
-	}
-
-	/* Button Subrscrine now Subscribe plus */
-	.btn-order .btn-enroll-blossom{
-	font-weight: 500;
-    font-family: "Roboto";
-    text-transform: uppercase;
-    width: 100%;
-    margin: 0;
-    padding: 15px 20px;
-    border-radius: 0;
-    background: #36C24E;
-    position: absolute;
-    bottom: 0;
-    border: 0;
-    color: #ffffff;
-     font-size: 20px;
-	}
-
-	.btn-order .btn-enroll-blossom:hover{
-	cursor: pointer;
-	background-color:#5fb709;
-	color: #fafafa;
-	}
-
-
-	/* Button price Subrscrine now Subscribe pro */
-	.btn-order .btn-enroll-garden{
-	font-weight: 500;
-    font-family: "Roboto";
-    text-transform: uppercase;
-    width: 100%;
-    margin: 0;
-    padding: 15px 20px;
-    border-radius: 0;
-    background: #36C24E;
-    position: absolute;
-    bottom: 0;
-    border: 0;
-    color: #ffffff;
-    font-size: 20px;
-	}
-
-	.btn-order .btn-enroll-garden:hover{
-	cursor: pointer;
-	background-color:#f79b16;
-	color: #fafafa;
-	}
-
-
-	/* FAQ  SECTION */
-
-	#faq-section-ta{
-	background-color: #ffffff;
-	display: block;
-	padding-top: 50px;
-	padding-bottom:80px;
-	}
-
-	#faq-section-ta .text-faq-box{
-	display: block;
-	width: 100%;
-	margin-bottom: 15px;
-	}
-
-	#faq-section-ta .text-faq-box h3{
-	font-family: "Roboto";
-    font-weight: 500;
-    color: #373739;
-    font-size:20px;
-    text-transform: uppercase;
-    text-align: center;
-    padding-bottom: 7px;
-    letter-spacing: 1px;
-     word-wrap: break-word !important;
-	}
-	
-	#faq-section-ta .text-faq-box h2{
-	 font-weight: 600;
-    color: #8b0202;
-    font-size: 42px;
-	text-align: center;
-	padding-bottom: 5px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-bottom:15px;
-   
-	font-family: "Roboto";
-	}
-
-	.card-faq{
-    margin-bottom: 15px;
-    border-radius: 0;
-    border: 1px solid #f5f0f0;
     }
 
-    .webpro-faq .card-body{
-    background-color: #ffffff;
+    .carousel-item .img-fluid {
+    width:100%;
+    height:auto;
+    }
+
+    .carousel {
+    background:#fafafa;
+    padding-top: 100px;
+    }
+
+    .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+    left: 12%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    top: 32%;
+    }
+
+
+    .carousel-caption h2{
+
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
     font-family: "Roboto";
+    font-weight: 700;
+    font-size:3.2vw;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
+    }
+
+
+    .carousel-caption p{
+    font-family: 'Roboto';
     font-weight: 400;
-    color:#373739;
-    font-size: 15px;
-    border-left: 2px solid #36C24E;
-     }
-
-    .webpro-faq .faq-header{
-    padding-top: 10px;padding-bottom: 10px;
-    font-family: "Roboto";
-    font-weight: 500;
-    color: #fdb312; 
-    font-size: 20px;
-    text-align: center;
-    text-decoration: none;
-    background-color: #fafafa;
-    border-bottom: 0;
-      white-space: normal !important;
-	    word-wrap: break-word !important;
+    color: #fff;
+    /*font-size: 1.3vw;*/
+    font-size: 1.4vmax;
+    margin-top: 20px;
     }
 
-	.webpro-faq .faq-header .btn{
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #5f5f5f;
-	font-size: 15px;
-	white-space: normal !important;
-	word-wrap: break-word !important;
-	}
+    
+	/* Mobile App section */
 
-     .webpro-faq .faq-header .btn .fa{
-    float: right;
-    color: #d0cfcf;
-
-    }
-      .webpro-faq .faq-header .btn:hover{
-    cursor: pointer;
-     color: #8b0202;
-    }
-
-	.webpro-faq .btn:active,  .faq-header .btn:focus {
-	border-color: transparent;
-	box-shadow: none;
-	color: #36C24E;
-	text-decoration: none;
-	}
-
-	.faq-header .btn:active .fa,  .faq-header .btn:focus .fa {
-	border-color: transparent;
-	color: #36C24E;
-	}
-
-
-
-	/* customer  section review*/
-
-	.customer-section{
-    display: block;
-    width: 100%;
-    background-color: #fafafa;
-    padding-top: 70px;padding-bottom:70px;
-    background-image: url(../img/background-testimonial-clients.png);
+	.mob-app-section {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	background-color: #fafafa;
+	background-image: url(../img/background-clients.png);
     background-repeat: no-repeat;
     background-size: cover;
+	}
+
+	.app-first-side{
+	position: relative;
+	display: block;	
+	width: 100%;
+	margin-bottom: 25px;
+	}
+
+	.mob-app-section .second-side img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+    .app-first-side .headline-app{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #084e81!important;
+    font-size: 38px;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    }
+
+    .app-first-side .headline-app span{
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #084e81!important;
+    font-size: 38px;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     
     }
 
-    .customer-section .text-box-cust h2{
-      font-weight: 600;
-         font-family: "Roboto";
-    color: #8b0202;
-    font-size: 42px;
-    text-align: center;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    }
-
-	.customer-section .text-box-cust h4{
-	    font-family: "Roboto";
-    font-weight: 500;
-    color: #373739;
-    font-size: 20px;
-	text-align: center;
-	margin-bottom: 80px;
-	}
-
-    .customer-section .text-box-cust .border-line-4 {
-    border-bottom: 1px solid #dcdbdb;
-    width: 15%;
+    .app-first-side .border-line-app{
+    border-bottom: 1px solid #e0e0e4;
+    width: 30%;
     margin-bottom: 15px;
     display: block;
-    margin-right: auto;margin-left: auto;
     }
 
-	/* USER FEEDBACK IMPRESIONS */
+    .app-first-side h5{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #767876;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 35px;
 
+    }
 
-	.card-impressions{
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	}
-
-	.card-impressions .carousel-item {
-	height:270px;
-	
-	}
-	.card-impressions .user-caption {
-	padding-top:50px;padding-bottom: 20px;
-	padding-left: 40px;padding-right: 40px;
-	right: 0;
-	left: 0;
-	color: #3d3d3d;
-	background: #ffffff;
-	height: 100%;
-	width: 100%;
-	border-radius: 10px;
-	}
-
-	.card-impressions .user-caption .text-review{
-	text-align: center;
-	font-family: "Roboto";
-	font-weight: 400;
-	color:#3b3a3a;
-	font-size: 16px;
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-	margin-top: 20px;
-
-	}
-
-	.card-impressions .user-caption .user-name{
-	text-align: center;
-	font-family: "Roboto";
-	font-weight: 500;
-	color:#8b0202 !important;
-	font-size: 22px;
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-	margin-bottom: 3px;
-	margin-top: 20px;
-	}
-
-	.card-impressions .user-caption .user-title{
-	text-align: center;
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #333232 !important;
-	font-size: 18px;
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-	font-style: italic;
-	}
-
-	.card-impressions .user-caption .user-picture{
-	display: block;
-	float: left;
-	margin-right: 15px;
-	margin-top: 20px;
-
-	}
-	
-
-	.card-impressions  .carousel-caption .col-sm-3 {
-	display: flex;
-	align-items: center;
-	}
-	.card-impressions .carousel-caption .col-sm-9 {
-	text-align: left;
-	}
-
-
-    /* CONTACT  SECTION  */
-
-	#contact-section{
-	padding-bottom:60px;
-	padding-top:60px;
-	background-color: #ce2027;
-	background-image: url(../img/background-how-it-works.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	}
-
-	#contact-section .cnt-text{
-	display: block;
-	width: 100%;
-	}
-
-	.cnt-text .cnt-subtitle{
-	font-family: "Roboto";
-	font-weight: 600;
-	color: #ffffff;
-	font-size: 42px;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-bottom: 50px;	
-	text-decoration: 
-	}
-
-	
-
-	.cnt-text .call-now-txt:hover{
-		cursor:pointer;
-		background-color: #ce1921;
-	}
-
-
-	.box-contact{
-	display: block;
-	float: left;
-	
-	}
-
-	.box-contact .icons-contact{
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	}
-	.box-contact p{
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-	margin-top: 20px;
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #ffffff;
-	font-size: 18px;
-	}
-
-
-	.box-contact .skew-txt-bck {
-	margin-left: auto;margin-right: auto;
-	width: 90%;
-	display: block;
-
-	}
-
-	.box-contact .skew-txt-bck h3 {
-	font-family: "Roboto";
-	font-weight: 500;
-	color:#ffffff;
-	text-align: center !important;
-	font-size:23px;
-	display:inline-block;
-	letter-spacing: 1px;
-	padding-top:6px;padding-bottom:6px;
-	margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-bottom: 0;
-	}
-
-	.box-contact .skew-txt-bck a{
-	font-family: "Roboto";
-	font-weight: 500;
-	color:#ffffff;
-	text-align: center !important;
-	font-size:23px;
-	letter-spacing: 1px;
-	padding-top:6px;padding-bottom:6px;
-	margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-bottom: 0;
-	}
-
-	.box-contact .skew-txt-bck a:hover{
-	text-decoration: none;
-	color: #fafafa;
-	cursor: pointer;
-	}
-
-	
-
-	/* FOOTER SECTION*/
-	
-
-	.footer-bottom{
-	display: block;
-	width: 100%;
-	background: #12181c;
-	padding-top: 35px;
-	padding-bottom:0;
-
-	}
-
-	.sub-footer{
-	display: block;
-	width: 100%;
-	padding-top:10px;padding-bottom:10px;
-	background-color: #171b1e;
-	}
-
-	.sub-footer .copy {
-	font-family: "Roboto";
-	font-weight: 300;
-	color: #fafafa !important;
-	text-align:right;
-	display: block;
-	font-size: 14px;
-	float: right;
-	margin-top: 15px;
-	letter-spacing: 1px;
-	}
-
-	
-
-	.logo-left-info{
-	display: block;
-	float: left;
-	width: 100%;
-	 margin-bottom: 25px;
-	}
-	.logo-left-info .logo-footer{
-	display: block;
-	width: 160px !important;height:50px;
-	background:url(../img/footer-logo-ta.png) 0 0 no-repeat;
-	margin-right:20px;
-	}
-
-	.logo-left-info .sub-text{
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #f6f2f2;
-	font-size: 14px;
-	width: 100%;
-	margin-top: 6px;
-	}
-
-
-	.logo-left-info .border-div-1{
-	border-bottom:1px solid #384752;
-	width:100%;
-	margin-bottom: 15px;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	}
-
-	.footer-bottom .right-links{
-	display: block;
-	width: 100%;
-	}
-
-	.right-links .add-links{
-	display: block;
-	list-style: none;
-	padding-left: 0;
-	float: right;
-	}
-
-	.add-links li{
-	display: block;
-	float: left;
-	margin-right:2px;
-	width: 100%;
-	}
-
-	.right-links .add-links h6{
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #f6f2f2;
-	font-size: 15px;
-	border-bottom: 1px solid #272f34;	
-	padding-bottom:8px;
-	width: 90%;
-	}
-
-	.add-links li a{
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #fafafa;
-	font-size: 16px;	
-	text-decoration: none;
-	text-align: right;
-	}
-
-	.add-links li a:hover{
-		cursor: pointer;
-		text-decoration: underline;
-	}
-
-
-
-	/* banner start refunding */
-
-	.banner-start{
-	display: block;
-	width: 100%;
-	padding-top: 50px;
-	padding-bottom: 52px;
-	background-color: #34495e;
-	}
-
-	.banner-start .text-banner-2{
-	display: block;
-	width: 100%;
-	}
-
-	.banner-start .text-banner-2 h2{
-	font-family: "Roboto";
-	font-weight: 600;
-	color: #fafafa;
-	font-size: 42px;
-	text-transform: uppercase;
-	text-align: center;	
-	letter-spacing: 2px;
-	}
-
-
-	.banner-start .text-banner-2 h4{
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #fafafa;
-	font-size: 25px;
-	text-transform:none;
-	text-align: center;	
-	}
-
-
-	.banner-start .text-banner-2 .ph-number{
-	font-family: "Roboto";
-	font-weight: 500;
-	color: #fafafa;
-	font-size: 45px;
-	text-transform:uppercase;
-	text-align: center;	
-	margin-top:30px;
-	}
-
-
-	.banner-start .text-banner-2 .ph-number .fa{
-		margin-right: 15px;
-	}
+    .app-first-side .text-description{
+       font-family: "Roboto";
+    font-weight: 400;
+    color: #3f3e3e;
+    font-size: 16px;
+    text-align: left;
+    }
 
 
 
@@ -2242,96 +338,147 @@
 	opacity: 1;
 	}
 
-	
 
-	/*  PRIVACY POLICY */
+	/*  USLUGE  OUR SERVICES*/
 
-	#privacy-section{
+	#services{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #084e81;
+	}
+
+	#services .text-box-1 h2 {
+	font-family: "Roboto";
+	font-weight: 500;
+	color: #f99419;
+	font-size: 38px;
+	margin-bottom: 10px;
+	text-align:center;
+	text-transform: uppercase;
+	}
+
+	#services .text-box-1 .border-line-3 {
+	border-bottom: 1px solid #DFDFE7;
+	width: 15%;
+	margin-bottom: 15px;
 	display: block;
-	width: 100%;
-	padding-top:16%;
-	padding-bottom: 100px;
+	margin-right: auto;
+	margin-left: auto;
 	}
 
-	#privacy-section .privacy-headline{
+	#services .text-box-1 h4 {
 	font-family: "Roboto";
 	font-weight: 400;
-	font-size: 32px;
-	color: #8b0202 !important;
-	margin-bottom:25px;
-	width: 100%;
+	color: #ffffff;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 50px;
 	}
 
-	#privacy-section p{
-	font-family: "Roboto";
-	font-weight: 400;
-	font-size: 16px;
-	color: #3a3838;
-	}
-
-	#privacy-section .privacy-subtitle{
-	width: 100%;
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #5f5d5d;
-	}
-
-	/* TERMS AND CONDITIONS */
-
-	#terms-section{
+	.our-services-1{
 	display: block;
-	width: 100%;
-	padding-top:15%;
-	padding-bottom: 100px;
+	float: left;
+	width: 95%;
+	list-style-type: circle;
+	padding-left:0;
 	}
 
-	#terms-section .terms-headline{
+	.our-services-1 .name{
 	font-family: "Roboto";
-	font-weight: 400;
-	font-size: 32px;
-	color: #8b0202 !important;
-	margin-bottom:25px;
-	width: 100%;
+	font-weight: 500;
+	color: #f99419;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom:20px; 
 	}
 
-	#terms-section p{
+	.our-services-1 .name img{
+	margin-right: 15px;
+	}
+
+	.our-services-1 li{
+	display: list-item;
+	float: left;   
+	width: 100%;
+	list-style-type: circle;
+	margin-left:8%;
+	color: #ffffff;
+	}
+
+	.our-services-1 li p{
 	font-family: "Roboto";
 	font-weight: 400;
+	color: #ffffff;
+	font-size: 17px;
+	text-align:left;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	}
+
+	/* Nase  usluge red ispod*/
+
+	.our-services-2{
+	display: block;
+	float: left;
+	width: 95%;
+	list-style-type: circle;
+	padding-left:0;
+	}
+
+	.our-services-2 .name{
+	font-family: "Roboto";
+	font-weight: 500;
+	color: #f99419;
 	font-size: 16px;
-	color: #3a3838;
-	width: 100%;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom:20px; 
 	}
 
-	#terms-section .privacy-subtitle{
+	.our-services-2 .name img{
+	margin-right: 36px;
+	}
+	.our-services-2 li{
+	display: list-item;
+	float: left;   
 	width: 100%;
+	list-style-type: circle;
+	margin-left:8%;
+	color: #ffffff;
+	}
+
+	.our-services-2 li p{
 	font-family: "Roboto";
 	font-weight: 400;
-	color: #5f5d5d;
+	color: #ffffff;
+	font-size: 17px;
+	text-align:left;
+	margin-bottom: 10px;
+	margin-left: 5px;
 	}
 
 
-	
+
 
 	/* Responsive Design Changes fixes CSS Tablet  */
 	
 	@media (max-width: 767.98px) {
 
-		
 
-		.navbar-toggler .navbar-toggler-icon .fa{
-			color: #ffffff !important;
+		.top-header .right-button{
+			text-align: left !important;
 		}
 
-
-		.tax-pro-about .ab-text h3{
+		.about-side-1 .ab-text h3{
 			background: none;
 		}
 
-		.how-it-work .text-hiw .maintitle{
+		.device-feautures .text-bxs .maintitle{
 			font-size: 32px;
 		}
 
-		.how-it-work .text-hiw .subtitle{
+		.device-feautures .text-bxs .subtitle{
 			background: none;
 		}
 
@@ -2343,11 +490,11 @@
 			background: none;
 		}
 
-		.returns-features .text-box-3 h2{
+		.plus-features .text-box-3 h2{
 			font-size: 32px;
 		}
 
-		.returns-features .text-box-3 h3{
+		.plus-features .text-box-3 h3{
 			background: none;
 		}
 
@@ -2371,17 +518,82 @@
 			font-size: 17px;
 		}
 
-		.discount-section .refund-features{
+		.discount-section .four-services{
 			display: block;
 			margin-left: auto;
 			margin-right: auto;
 		}
 
-		#faq-section-ta .text-faq-box h3{
+		.discount-section .offer-text h4{
+			font-size: 26px;
+		}
+		
+		.banner-call-to-action .box-content-bnr img {
+		float: left;
+		display: block;
+		margin-right: 10px;
+		width: 18%;
+		}
+		
+		.banner-call-to-action .box-content-bnr h5 span {
+		font-family: "Roboto";
+		font-weight: 400;
+		color: #f7f5f5;
+		font-size: 27px;
+		text-align:center;
+		padding-bottom: 10px;
+		letter-spacing: 1px;
+		}
+
+		.banner-call-to-action .box-content-bnr h5 {
+		font-family: "Roboto";
+		font-weight: 500;
+		color: #f7f5f5;
+		font-size: 27px;
+		text-align:center;
+		padding-bottom: 10px;
+		letter-spacing: 1px;
+		}
+
+		.banner-call-to-action .box-content-bnr .btn-started {
+		display: block;
+		width: 237px;
+		font-family: "Roboto";
+		font-weight: 500;
+		color: #fafafa;
+		text-transform: uppercase;
+		font-size: 14px;
+		background-color: #5fea4e;
+		padding-top: 13px;
+		padding-bottom: 13px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border: 0;
+		border-radius: 25px;
+		letter-spacing: 1px;
+		margin-top: 15px;
+		margin-right: auto !important;
+		margin-left: auto !important;
+		float: none;
+		}
+		
+		.banner-call-to-action .box-content-bnr h3{
+			text-align: center;
+			font-size: 18px;
+			margin-top:5px;
+		}
+
+		.banner-call-to-action .box-content-bnr h3 span{
+			text-align: center;
+			font-size: 18px;
+			margin-top: 5px;
+		}
+
+		#faq-section .text-faq-box h3{
 			background: none;
 		}
 
-		#faq-section-ta .text-faq-box h2{
+		#faq-section .text-faq-box h2{
 			font-size: 31px;
 		}
 
@@ -2397,7 +609,25 @@
 			font-size: 13px;
 		}
 
-	
+		.cnt-text .call-now-txt {
+		font-family: "Roboto";
+		font-weight: 500;
+		color: #ffffff;
+		font-size: 30px;
+		text-align: center;
+		text-transform: none;
+		letter-spacing: 2px;
+		margin-bottom: 5%;
+		border: 2px solid #ffffff;
+		width: 85%;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 17px;
+		padding-bottom: 17px;
+		border-radius: 3px;
+		}
+
 		.cnt-text .call-now-txt span{
 			font-size: 30px;
 		}
@@ -2410,14 +640,14 @@
 			margin-bottom: 25px;
 		}
 
-		#contact-section .cta-buttons .btn-signup-4 {
+		#contact .cta-buttons .btn-signup-4 {
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
 		width: 280px;
 		}
 
-		#contact-section .cta-buttons .btn-demo-4 {
+		#contact .cta-buttons .btn-demo-4 {
 		display: inline-block;
 		margin-left: auto;
 		margin-right: auto;
@@ -2436,13 +666,7 @@
 			float: none;
 			text-align: center;
 		}
-	
-		#privacy-section{
-			padding-top:25%;
-		}
-		#terms-section{
-			padding-top: 25%;
-		}
+
 
 
 	}   /* /End Tablet size */
@@ -2455,170 +679,262 @@
 	
 	@media (max-width: 575.98px) { 
 	
-	
-
-		.top-header .right-button{
+		
+		.top-header .right-button {
+			display: block;
+			width: 100%;
 			text-align: left !important;
+			
+			
+			}
+		 
+		.about-side-1 .ab-text h2 {
+		   font-size: 37px;
+			}
+		
+		.about-side-1 .ab-text h3 {
+			font-size: 18px;
+			 background: url(../img/text-shape.png) 93% 0 no-repeat;
+	  	}
+
+	  	.app-first-side .headline-app {
+	  	 font-size: 33px;
+	   	}
+	   	
+	   	.app-first-side .headline-app span {
+	  	 font-size: 33px;
+	   	}
+	   	
+	   	.device-feautures .text-bxs .maintitle {
+	   	font-size: 27px;
+	   	}
+
+	   	#features .text-area .maintitle-2{
+	   		font-size: 34px;
+	   	}
+
+	   	#features .text-area .maintitle-2{
+	   		padding-left: 0;
+	   		font-size: 19px;
+	   		background:none;
+	   	}
+
+	   	#features .text-area .subtitle-1{
+	   		font-size: 22px;
+	   		background: none;
+	   	}
+		
+		.plus-features .text-box-3 h2{
+			font-size: 26px;
 		}
 
-		#top-home-section .text-area-home h2{
-			font-size: 32px;
-		}
-
-		#top-home-section .text-area-home h2 span{
-			font-size: 32px;
-		}
-
-		#top-home-section .text-area-home h3{
-			font-size: 20px;
+		.plus-features .text-box-3 h3{
+			background: none;
+			font-size: 19px;
 		}
 		
-		.tax-pro-about .tp-text h2{
+		.badge-60 .text-in h3{
+			font-size: 24px;
+		}
+		
+		#efiling .text-box-4 h4{
 			font-size: 32px;
 		}
 
-		.tax-pro-about .tp-text p {
-			font-size: 16px;
+		#efiling .text-box-4 h3{
+			background:none;
 		}
 
-		.happy-cash-banner .cash-text h2{
-			font-size: 32px;
+		.device-feautures .text-bxs .subtitle{
+			background: none;
 		}
 
-		.happy-cash-banner .cash-text h3{
-			font-size: 16px;
-		}
-
-		.returns-features .text-box-3 h2{
-		font-size: 25px;
-		}
-
-		.returns-features .text-box-3 h3{
-		font-size: 16px;
-		}
-
-		.software-section .text-box-software h2{
-		font-size: 32px;
-		}
-
-		.software-section .text-box-software h4{
-		font-size: 16px;
-		}
-
-		.software-section .info-msg h6{
-		width: 100%;
-		font-size: 14px;
+		.partners-section .txt-area-6 h2{
+	     font-size:33px;
 		}
 
 		#pricing-section .text-box-price h2{
-		font-size: 38px;
+			font-size: 32px;
+		}
+		#pricing-section .text-box-price h4{
+			font-size: 16px;
 		}
 
-		#pricing-section .sub-element-2{
-		width: 66%;
+		.discount-section .offer-text h4{
+			font-size: 25px;
 		}
 
-		.customer-section .text-box-cust h2{
-		font-size: 27px;
+		.banner-call-to-action .box-content-bnr h5 span{
+			font-size: 19px;
+			text-align: center;
+		}
+		.banner-call-to-action .box-content-bnr h5{
+			font-size: 19px;
+			text-align: center;
+		}
+		
+		.cnt-text .call-now-txt span {
+			font-size: 28px;
+			
 		}
 
-		.customer-section .text-box-cust h4 {
-		font-family: "Roboto";
-		font-weight: 500;
-		color: #373739;
-		font-size: 17px;
-		text-align: center;
-		margin-bottom: 51px;
+		.cnt-text .call-now-txt{
+			font-size: 28px;
+			width: 85%;
+			
 		}
 
-		.card-impressions .carousel-item{
-		height: 380px;
+		.sub-footer .rgt-privacy .go-privacy{
+			text-align: center;
+			float: none;
 		}
 
-		.card-impressions .user-caption .user-picture{
-		display: block;
+		.sub-footer .rgt-privacy{
+			display: block;
+			width: 100%;
+		}
+
+		.center-contact .info-cnt p {
+			font-size: 11px;
+			margin-left: 0;
+		}
+
+		.center-contact .info-cnt p .fa{
+         font-size: 11px;
+         margin-right: 3px;
+		}
+		.logo-left-info .sub-text {
+			font-size: 10px;
+		}
+
+		.sub-footer .copy{
+			font-size: 11px;
+		}
+
+		.cnt-text .cnt-subtitle{
+			font-size: 32px;
+		}
+
+		#contact .cta-buttons .btn-signup-4{
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			width: 264px;
+		}
+
+		#contact .cta-buttons .btn-signup-4 span{
+			font-size: 15px;
+		}
+
+		#contact .cta-buttons .btn-demo-4{
+		display: inline-block;
 		margin-left: auto;
 		margin-right: auto;
-		float:none;
-		width: 30%;
+		width: 264px
 		}
 
-		.card-impressions .user-caption{
-		padding-top: 25px;
+		#contact .cta-buttons .btn-demo-4 span{
+			font-size: 15px;
 		}
 
-		.card-impressions .user-caption .text-review{
-		font-size: 15px;
+		.box-contact{
+			margin-bottom: 20px;
 		}
 
-		.card-impressions .user-caption .user-name{
+		.customer-section .impression-2{
+			margin-top: 60px;
+		}
+
+		.webpro-faq .faq-header .btn {
+		font-family: "Roboto";
+		font-weight: 500;
+		color: #8c8986;
+		font-size: 11px;
+		white-space: normal !important;
+		word-wrap: break-word !important;
+		padding-right: 0;
+		padding-left: 5px;
+		}
+
+		.webpro-faq .card-body{
+			font-size: 12px;
+		}
+
+		.webpro-faq .faq-header{
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+
+		#faq-section .text-faq-box h2{
+			font-size: 31px;
+		}
+
+		#faq-section .text-faq-box h3{
+			background: none;
+			font-size: 15px;
+		}
+
+		.undecide-section .headline-text-1 h2{
+			font-size: 35px;
+		}
+
+		.undecide-section .headline-text-1 h4{
 			font-size: 19px;
 		}
 
-		.card-impressions .user-caption .user-title{
+		.banner-call-to-action .box-content-bnr img {
+		float: left;
+		display: block;
+		margin-right:3px;
+		width:16%;
+		}
+
+		.banner-call-to-action .box-content-bnr .btn-started {
+		display: block;
+		width: 237px;
+		font-family: "Roboto";
+		font-weight: 500;
+		color: #fafafa;
+		text-transform: uppercase;
+		font-size: 14px;
+		background-color: #5fea4e;
+		padding-top: 13px;
+		padding-bottom: 13px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border: 0;
+		border-radius: 25px;
+		letter-spacing: 1px;
+		margin-top: 15px;
+		margin-right: auto !important;
+		margin-left: auto !important;
+		float: none;
+		}
+
+		#pricing-section .sub-text-2 p{
+			font-size: 14px;
+		}
+
+		.left-side-efiling .box-text p{
+			font-size: 16px;
+		}
+		.left-side-efiling .box-text h5{
+			font-size: 16px;
+		}
+
+		.discount-section .four-services {
+		display: block;
+		margin-left: 0;
+		margin-right:0;
+		}
+
+		.box-contact .skew-txt-bck h3{
 			font-size: 14px;
 		}
 
 		.box-contact .skew-txt-bck a{
-			font-size: 18px;
+		 font-size: 14px;
 		}
 
-		.webpro-faq .faq-header{
-			padding-left:5px;
-			padding-right: 5px;
-		}
-
-		#faq-section-ta .text-faq-box h2{
-			font-size: 26px;
-		}
-
-		#faq-section-ta .text-faq-box h3{
-			font-size: 15px;
-		}
-
-		.banner-start .text-banner-2 .ph-number{
-		font-size: 38px;
-		}
-
-		.banner-start .text-banner-2 h4{
-		font-size: 21px;
-		}
-
-		.banner-start .text-banner-2 h2{
-			font-size: 31px;
-		}
-
-		.left-cash-advance .text-advance-left{
-			padding-left: 3%;
-		}
-
-		.left-cash-advance .text-advance-left p{
-			font-size: 16px;
-		}
-
-		.right-taxpayers-cash .text-cash-tax{
-			padding-right: 5%;
-		}
-
-		.right-taxpayers-cash .text-cash-tax p{
-			font-size: 16px;
-		}
-		
-		.status-banner .status-text h2{
-			font-size: 33px;
-		}
-
-
-		#privacy-section{
-			padding-top:40%;
-		}
-
-		#terms-section{
-			padding-top: 40%;
-		}
-
-
-
-
-	} /* Mobile  */
+	}
 
