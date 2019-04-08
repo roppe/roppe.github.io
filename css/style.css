@@ -1,0 +1,2131 @@
+/*!
+ * 
+ * CUSTOM CSS STYLE FOR ACCUTAX WEB 1040 PRO
+ * 
+ */
+
+
+/* Google Fonts - ROBOTO*/
+ @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+
+
+	/* MAIN HEADER NAVIGATION STYLE*/
+	
+	.top-header{
+	width: 100%;
+	display: block;
+	padding-top:8px;padding-bottom:8px;
+	background-color: #fafafa;
+	border-bottom: 1px solid  #c4c3c3;
+	}
+
+	
+
+	.top-header .right-button .phone-info{
+	font-family: "Roboto";
+	font-weight: 500;
+	color: #5e5c5c;
+	font-size: 13px;	
+	margin-right:50px;
+	margin-bottom: 0;
+	float:right;
+	margin-left: 35px;
+
+	}
+
+	.top-header .right-button .phone-info .fa{
+	margin-right: 7px;
+	font-size: 18px;
+	vertical-align: -2px;
+	}
+	
+	.top-header .right-button .email-info{
+	font-family: "Roboto";
+	font-weight: 500;
+	color: #5e5c5c;
+	font-size: 13px;
+	margin-bottom: 0; 	
+	display: block;
+	}
+
+	.top-header .right-button .email-info .fa{
+	margin-right:7px;
+	font-size: 17px;
+	vertical-align: -1px;
+	}
+
+	.top-header .right-button{
+	display: block;
+	width: 100%;
+	float: right!important;
+	}
+
+
+
+	.navbar-toggler .navbar-toggler-icon .fa{
+    font-size: 30px;
+   	display: block !important;
+    color: #ce2027!important;
+    border:0;
+    }
+
+	 .main-navigation .logo-header{
+    display: block;
+    float: left;
+    width: 220px !important;height:77px;
+    background:url(../img/logo-ny-ipad-repair.jpg) 0 0 no-repeat;
+    margin-right: 0 !important;
+    margin-top: 10px;
+
+    }
+
+	.main-navigation{
+	background-color: #fafafa !important;
+	display: block;
+	padding-left: 0;padding-right: 0;
+	background: linear-gradient(#dce3ed, #ffffff);
+	padding-top: 0;
+	}
+
+	.main-navigation .nav-list .nav-link{
+	font-family: "Roboto";
+	font-weight: 500;
+	 color: #073664 ;
+	text-transform:uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	letter-spacing: 1px !important;
+	margin-right:5px;
+	margin-top: 10px;
+	text-align: center;
+	}
+
+
+
+    .nav-list .dropdown{
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #073664 ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-right:10px;
+    text-align: center;
+    position: relative;
+    margin-top: 18px;
+    }
+
+    .nav-list .dropdown a{
+    color: #073664;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-align: center;
+    }
+    .nav-list .dropdown a:hover{
+    text-decoration: none;
+    }
+
+    .nav-list .dropdown a .caret{
+    padding-top: 10px;
+    }
+
+
+   .nav-list .dropdown .nav-dropdown{
+    border-radius: 0;
+    width:400px;
+    padding-bottom:0;
+      padding-top: 0;
+    }
+
+    .nav-list .dropdown .nav-dropdown li{
+    padding-top: 15px;
+    display: inline !important;
+    float: left;
+    border-right: 1px solid #eee;
+    border-top:1px solid #eee; 
+    width: 33%;
+    }
+
+    .nav-list .dropdown .nav-dropdown li:nth-child(3n){
+    border-right: 0;
+    }
+
+	.nav-list .dropdown .nav-dropdown .open-repair{
+	width: 100%;
+	border: none;
+	background-color: #ce2027 ;
+	padding-top: 7px;padding-bottom: 7px;
+	}
+
+	.nav-list .dropdown .nav-dropdown .open-repair:hover{
+	background:#ce2027;
+	}
+
+    .nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair{
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #ffffff;
+	 font-family: "Roboto";
+    font-weight: 500;
+    border: 0;
+	 }
+
+    .nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair .fa{
+    	margin-left: 10px;
+    }
+
+	.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:hover{
+	text-decoration: underline;
+	color: #ffca36;
+	cursor: pointer;
+	}
+	
+	.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:focus,.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:active{
+		 outline: none !important;
+  box-shadow: none !important;
+	}
+   
+    .nav-list .dropdown .nav-dropdown li a img{
+   	display: block;
+   	margin-right: auto;
+   	margin-left: auto;
+    }
+
+    .nav-list .dropdown .nav-dropdown a p{
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #ce2027;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+     padding-left: 15px;padding-right: 15px;
+     margin-top: 10px;
+     text-align: center!important;
+     width: 100%;
+    }
+
+    .dropdown .nav-dropdown li a:hover{
+    color:  #ff7201;
+    }
+
+     .dropdown .nav-dropdown li a>p:hover{
+    color:#073664;
+    }
+	
+	.nav-list .dropdown .nav-dropdown li:hover{
+	background: #f5f6f8;
+	}
+    
+
+	/* nav hover effect*/
+	
+	.nav-list .nav-link:hover{
+		color: #ce2027;
+	}
+
+	.nav-list .nav-link::before,
+    .nav-list .nav-link::after {
+    display: inline-block;
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+    transition: transform 0.3s, opacity 0.2s;
+    }
+
+   .nav-list .nav-link::before {
+    margin-right:2px;
+    content: '[';
+    -webkit-transform: translateX(20px);
+    -moz-transform: translateX(20px);
+    transform: translateX(20px);
+    }
+
+    .nav-list .nav-link::after {
+    margin-left:2px;
+    content: ']';
+    -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    transform: translateX(-20px);
+    }
+
+	.nav-list .nav-link:hover::before,
+	.nav-list .nav-link:hover::after,
+	.nav-list .nav-link:focus::before,
+	.nav-list .nav-link:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+	color: #ce2027;
+	}
+	
+
+
+
+
+	/* STYLE FOR HOME TOP SECTION */
+
+	#home-section{
+	background-color: #fafafa;
+	background-image: url(../img/cover-home-top.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	 padding:230px 0 100px;
+	}
+
+	#home-section .text-area{
+     display: block;
+     margin-bottom: 30px;
+     margin-top:0;
+
+	}
+
+	#home-section .text-area h3{
+	font-family: "Roboto";
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 23px;
+    text-align: left;
+   }
+
+   #home-section .text-area h3 span{
+	font-family: "Roboto";
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: left;
+   }
+
+   	#home-section .text-area h2{
+	font-family: "Roboto";
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 37px;
+    text-align: left;
+    margin-top: 25px;
+   }
+
+     #home-section .text-area h2 span{
+	font-family: "Roboto";
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 37px;
+    text-align: left;
+    margin-top: 25px;
+   }
+
+   	#home-section .text-area .btn-signup-1{
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+    background-color: #36C24E;
+    display: block;
+    text-transform: uppercase;
+    float: left;
+    width: auto !important;
+    border-radius: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 7%;
+   	}
+
+   	#home-section .cta-buttons-home{
+	margin-top: 6%;
+	width: 100%;
+	
+	} 
+	.cta-buttons-home .btn-demo-home{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+   	width:200px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    background-color: #feb100;
+    padding-top:10px;
+    padding-bottom:10px;
+    border: 0;
+    border-radius:5px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    position: relative;
+    transition: all .2s ease-in-out;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+	}
+
+	.cta-buttons-home .btn-demo-home span{
+	font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 15px;	
+    vertical-align:0;
+	}
+
+	.cta-buttons-home .btn-demo-home img{
+	display: block;
+	float: left;
+	margin-top:-2px;
+	margin-left:10px;
+	}
+
+	.cta-buttons-home .btn-demo-home:hover{
+	background-color: #03c3d8 !important;
+	cursor: pointer;
+	}
+
+
+
+
+
+	/* INDEX PAGE - SECTION HOW IT WORKS */
+    
+    #section-how-it-work{
+	padding-bottom:65px;
+	padding-top:5%;
+	border-bottom: 1px solid #fafafa;
+	background-color: #fafafa;
+    }
+ 
+ 	#section-how-it-work .main-title{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #073664 !important;
+    font-size: 3vw;
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+	}
+
+	#section-how-it-work .main-subtitle-2{
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #313131;
+    font-size:23px;
+    text-align:center;
+    margin-top: 0;
+    margin-bottom:6%;
+
+	}
+	
+
+	/* HOW IT WORKS DECRIPTION - TEXT ON LEFT SIDE - IMAGES ON RIGHT SIDE */
+
+	.inner-how-it-work-1 {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #fafafa;
+	
+	}
+
+	.inner-how-it-work-1 .second-side-work img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+    .inner-how-it-work-1 .first-side-work .headline-app{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #ce2027 !important;
+     font-size: 3vw;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
+
+ 	.inner-how-it-work-1 .first-side-work .text-description{
+      font-family: "Roboto";
+    font-weight: 400;
+    color: #696868;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 0;
+    }
+
+    .inner-how-it-work-1 .arrow-down{
+	width: 0; 
+	height: 0; 
+	border-left: 30px solid transparent;
+	border-right:30px solid transparent;
+	border-top:30px solid #ffffff;	 
+	margin-left: auto;margin-right: auto;
+	margin-top: -30px;  
+	}
+
+
+    /* HOW IT WORKS DECRIPTION - TEXT ON RIGHT SIDE - IMAGES ON LEFT SIDE */
+
+	.inner-how-it-work-2 {
+	padding-top: 30px;
+	padding-bottom:20px;
+	background-color: #ffffff;
+	background-image: url(../img/background-clients.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+	.inner-how-it-work-2 .arrow-down{
+	width: 0; 
+	height: 0; 
+	border-left: 30px solid transparent;
+	border-right:30px solid transparent;
+	border-top:30px solid #fafafa;	 
+	margin-left: auto;margin-right: auto;
+	margin-top: -30px;  
+	}
+
+
+	.inner-how-it-work-2 .second-side-work img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+    .inner-how-it-work-2 .first-side-work .headline-app{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #073664 !important;
+   	font-size: 3vw;
+
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    }
+
+ 	.inner-how-it-work-2 .first-side-work .text-description{
+      font-family: "Roboto";
+    font-weight: 400;
+    color: #696868;
+    font-size: 18px;
+    text-align:center;
+    margin-bottom: 0;
+    }
+
+
+    /* HOME PAGE - SECTION SHOWING REPAIR SERVICES */
+
+   #repair-panel{
+   	 padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: #073664;
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+   }
+
+	#repair-panel .icon-repair-box{
+	margin-bottom: 25px;
+	}
+
+	#repair-panel .icon-repair-box img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	#repair-panel .icon-repair-box  h5{
+	font-weight: 400;
+	color: #ffffff;
+	font-family: "Roboto";
+	text-align: center;
+	margin-top: 15px;
+	font-size: 16px;
+	}
+
+	.repair-txt-1{
+	display: block;
+	width: 100%;
+	padding-right:50px;
+	margin-top: 8%;
+	}
+
+	.repair-txt-1 .title-1{
+	font-size: 45px;
+	font-family: "Roboto";
+	text-align: left;
+	color: #ffffff;
+	font-weight:300;
+	text-transform: none;
+	margin-bottom:15px;
+	}
+
+	.repair-txt-1 .title-1 span{
+	font-size: 45px;
+	font-family: "Roboto";
+	text-align: left;
+	color: #ffffff;
+	font-weight:400;
+	text-transform: none;
+	}
+
+	#repair-panel .repair-txt-1 p{
+	font-size: 16px;
+	font-family: "Roboto";
+	text-align: left;
+	color: #ffffff;
+	font-weight:400;
+	margin-bottom: 4px;
+	}
+
+	.repair-txt-1 .border{
+	width: 30%;
+	display: block;
+	border: 1px solid #ffffff;
+	margin-bottom:40px;
+	}
+
+
+	#repair-panel .repair-txt-1 .btn-request-1{
+	font-family: "Roboto";
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: #36C24E;
+    padding-left: 25px;
+    padding-right: 24px;
+    padding-top:10px;padding-bottom:10px;
+    margin-right: 10px;
+    margin-top:20%;
+	}
+	
+	/* Index Home Page - SECTION ABOUT US   */
+	
+	#about-us{
+		padding-top:5%;
+		padding-bottom: 5%;
+		background-color: #F7F7F7;
+	}
+
+
+	#about-us .about-main-1{
+	position: relative;
+	display: block;	
+	width: 100%;
+	margin-bottom: 25px;
+	}
+
+
+    #about-us .about-main-1 .title{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #ce2027 !important;
+    font-size: 38px;
+    text-align: left;
+    margin-top:15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    }
+
+    #about-us .about-main-1 .title span{
+    font-family: "Roboto";
+    font-weight:400;
+    color: #ce2027 !important;
+    font-size: 38px;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+    }
+
+    #about-us .about-main-1 .border-line{
+    border-bottom: 1px solid #e0e0e4;
+    width: 30%;
+    margin-bottom: 15px;
+    display: block;
+    }
+
+   #about-us .about-main-1 h5{
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #073664 !important;
+    font-size:30px;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+
+    }
+
+    #about-us .about-main-1 .ab-txt{
+       font-family: "Roboto";
+    font-weight: 400;
+    color: #696868;
+    font-size: 15px;
+    text-align: left;
+    }
+
+	.about-main-pic-2 img{
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	.about-txt-content {
+	width: 100%;
+	display: block;
+	margin-top: 20px;
+	}
+
+	.about-txt-content p{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #696868;
+	font-size: 15px;
+	}
+
+	.about-txt-content h6{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #000000;
+	font-size: 20px;
+	margin-bottom: 20px;
+	}
+
+	#about-us .img-side img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	}
+
+	#about-us .divder-border{
+	width: 100%;
+	border: 1px solid #e3e2e2;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;margin-bottom: 40px;
+	}
+
+
+	/* --------------- FOOTER STYLE -------------------  */ 
+
+
+	  footer{
+    background: #12171a;
+    padding-top: 45px;
+    padding-bottom:0;
+    }
+
+    footer .partners-left {
+    display: block;
+    float: left;
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+    }
+
+     footer .text-rights{
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #7b8084;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-left: 10px;
+    margin-top:20px;
+    border-top: 1px solid #1d2428;
+    padding-top: 10px;
+    letter-spacing: 1px;
+     }
+
+     /* Footer contact inforamtion on left side */
+
+	.partners-left li {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	width:90%;
+	}
+
+	.partners-left li a{
+	font-family: "Roboto";
+    font-weight: 400;
+    color: #dee1e3;
+    font-size: 12px;
+    text-align: left;
+    letter-spacing: 1px;
+    text-decoration: none;
+	}
+	.partners-left li a .fa{
+	margin-right: 8px;
+	 color: #dee1e3;
+	 font-size: 7px;
+	 vertical-align: 2px;
+	}
+
+	.partners-left li a:hover{
+	cursor:pointer;
+	text-decoration: underline;
+	color: #f2bd25;
+	}
+
+	.partners-left h3 {
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #f2bd25;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #344149;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    width: 95%;
+	}
+
+
+
+    .partners-left li img{
+    display: block;
+    float: left;
+    margin-right:15px;
+    }
+
+
+      /* Footer contact information */
+
+    .adress-nav{
+    list-style-type:none;
+    }
+
+
+    .adress-nav h3{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #f2bd25;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center; 
+    letter-spacing: 1px; 
+    border-bottom: 1px solid #344149;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width: 95%;
+    }
+
+
+    .adress-nav li p a{
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #dee1e3;
+    font-size: 12px;
+    text-align: center; 
+    letter-spacing: 1px; 
+
+    }
+    .adress-nav li p {
+    font-family: "Roboto";
+   	font-size: 13px;
+     font-weight: 500;
+    color: #dee1e3;
+    text-align: left; 
+    letter-spacing: 1px; 
+    margin-bottom: 3px;
+
+    }
+
+    .adress-nav li p .fa{
+     margin-right:11px;
+     font-size: 15px;
+    }
+
+    .adress-nav li p span{
+    font-family: "Roboto";
+   	font-size: 13px;
+     font-weight: 300;
+    color: #dee1e3;
+    text-align: left; 
+    letter-spacing: 1px; 
+    margin-bottom: 3px;
+
+    }
+
+     .adress-nav li a {
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #dee1e3;
+    font-size: 13px;
+    text-align: center; 
+
+    }
+
+    .adress-nav li a:hover{
+    cursor: pointer;
+    color: #f2bd25;
+    text-decoration: none;
+    }
+
+	/* Footer Social networks icons   */
+
+    .social-footer{
+    display: block;
+    float: left;
+    list-style-type: none;
+    width: 100%;
+
+    }
+
+    .social-footer  h3{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #f2bd25;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center; 
+    letter-spacing: 1px; 
+    border-bottom: 1px solid #344149;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    width:100%;
+    }
+
+	.social-footer  h3 .fa{
+	margin-right: 15px;
+	font-size: 14px
+	}
+
+	.social-footer li{
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	}
+
+	.social-footer li p{
+	font-family: "Roboto";
+	font-weight: 300;
+	color: #dee1e3;
+	font-size: 13px;
+
+	letter-spacing: 1px; 
+	margin-bottom: 3px; 
+	}
+
+	.social-footer li p span{
+	font-family: "Roboto";
+	font-weight: 500;
+	color: #dee1e3;
+	font-size: 13px;
+	text-align: center; 
+	letter-spacing: 1px; 
+	margin-bottom: 3px; 
+	text-align: center;
+	}
+	
+	.social-footer .btn-our-blog{
+	 font-family: "Roboto";
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 13px;	
+	text-decoration: none;
+	border-radius: 5px;
+	/*background-color: #f2bd25;*/
+	text-transform: uppercase;
+	padding-left:20px;padding-right:20px;
+	margin-left: 15px;
+	border: 1px solid #ffffff;
+	}
+
+	.social-footer .btn-our-blog .fa{
+		margin-left: 6px;
+	}
+
+	.social-footer .btn-our-blog:hover{
+	background: #f2bd25;
+	color: #ffffff;
+	cursor: pointer; 
+	}
+
+
+	.sub-footer{
+	display: block;
+	width: 100%;
+	padding-top:10px;padding-bottom:10px;
+	background-color: #0d1113;
+	margin-top: 20px;
+	}
+
+	.sub-footer .copy {
+	    font-family: "Roboto";
+    font-weight: 400;
+    color: #d5d2d2 !important;
+    text-align: center;
+    display: block;
+    font-size: 11px;
+    float: right;
+    margin-top: 3px;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+	}
+
+
+
+
+
+
+
+
+
+
+	/* --------------- MAIN REPAIR PAGE WITH ALL SERVICES  -----------------------  */
+
+	.cover-repair{
+	padding-bottom: 5%;
+    padding-top: 16%;
+    background-color: #073664;
+    background: url(../img/3.png);
+	 background-repeat: no-repeat;
+  	background-size: 100% 100%;
+	}
+
+	.cover-repair .text-area h3{
+	font-size: 37px;
+	font-family: "Roboto";
+	text-align: left;
+	color: #ffffff;
+	font-weight:300;
+	letter-spacing: 1px;	
+	}
+
+	.cover-repair .text-area h3 span{
+	font-size: 37px;
+	font-family: "Roboto";
+	text-align: left;
+	color: #ffffff;
+	font-weight:500;	
+	text-transform: uppercase;
+	}
+
+	.cover-repair .text-area {
+	display: block;
+	width: 100%;
+	padding-top:3%;
+	}
+
+	.cover-repair .img-side img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+
+	/* ALL REPAIR LIST LINKS */
+
+	#repair-list{
+	display: block;
+	background-color: #eee;
+	width: 100%;
+	padding-top:6%;padding-bottom: 6%;
+    background-image: url(../img/line-pattern.jpg);
+    background-size: cover;
+
+	}
+
+	#repair-list .text-title{
+	display: block;
+	width: 100%;
+	margin-bottom: 45px;
+	}
+	
+	#repair-list .text-title h2{
+	font-family: "Roboto";
+	font-weight: 500;
+	color: #073664 ;
+	font-size: 42px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom:15px;
+
+	}
+	
+	#repair-list  .text-title h4{
+	
+	font-family: "Roboto";
+	font-weight:400;
+	color: #073664 ;
+	font-size: 20px;
+	text-transform:none;
+	text-align: center;
+	padding-bottom:2%;
+	letter-spacing: 1px;
+	margin-top: 15px;
+	}
+
+
+	
+	#repair-list .text-title .line-border-3{
+	width: 15%;
+	display: block;
+	border: 1px solid #073664;
+	margin-left: auto;margin-right: auto;
+	}
+
+	
+	#repair-list .list-repairs-link{
+	margin-bottom: 35px;
+	background-color:#073664;
+	max-width:280px;
+	margin-right: 35px;
+	padding-left: 0;padding-right: 0;
+	padding-top:40px;
+	background: url(../img/blue-lines.png);
+	 background-repeat: no-repeat;
+	 transition: all .2s ease-in-out;
+
+	}
+
+	#repair-list .list-repairs-link img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 120px;
+	height: 120px;
+	}
+
+	#repair-list .list-repairs-link  h5{
+	font-weight: 500;
+	color: #ffffff;
+	font-family: "Roboto";
+	text-align: center;
+	margin-top:40px;
+	font-size: 19px;
+	width: 100%;
+	background:#00C853;
+	text-transform: uppercase;
+	padding-top: 10px;padding-bottom: 10px;
+	letter-spacing: 1px;
+	}
+
+	#repair-list .list-repairs-link a{
+	text-decoration: none;
+	}
+
+	.list-repairs-link a:hover h5{
+	color: #ffffff;
+	background: #ee5a09 !important;
+	}
+
+	.list-repairs-link a:hover img{
+	transform: scale(1.1) !important;
+	}
+	
+
+/* Index Page - banner call npow */
+
+
+    .banner-sell{
+    background-color:#073664 ;
+    display: block;
+    width: 100%;
+    margin-top:0;
+    padding-top: 35px;
+    padding-bottom:0;
+    
+    }
+
+    .banner-sell .box-content-bnr{
+    display: block;
+    float: left;
+    }
+
+    .banner-sell .box-content-bnr h3{
+    font-family: "Roboto";
+    font-weight: 300;
+    color:#f7f5f5;
+    font-size: 30px;
+    text-align:center;
+    padding-bottom: 7px;
+    margin-top: 15px;
+
+    }
+
+    .banner-sell .box-content-bnr h3 span{
+    font-family: "Roboto";
+    font-weight: 500;
+    color:#f7f5f5;
+    font-size: 30px;
+    text-align:center;
+    padding-bottom: 7px;
+    margin-top: 15px;
+
+    }
+
+    .banner-sell .box-content-bnr h5{
+    font-family: "Roboto";
+    font-weight: 300;
+    color:#f7f5f5;
+    font-size:23px;
+    text-align: center;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    
+    }
+
+
+    .banner-sell .box-content-bnr img{
+    display: block;
+    margin-right:auto;margin-left: auto;
+    }
+
+
+    .banner-sell .box-content-bnr .btn-started{
+    display: block;
+    width: 210px;
+    margin-left: auto;margin-right: auto;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #eda80b;
+    padding-top:12px;padding-bottom:12px;
+    padding-left: 15px;padding-right: 12px;
+   
+    border:0;border-radius:0;
+    letter-spacing: 1px;
+    margin-top:25px;
+     animation: pulse 1.8s cubic-bezier(0.66, 0.67, 0.83, 0.99) infinite;
+
+    }
+
+	@keyframes pulse {
+	0% {
+	    outline: 1px solid #eff2f4;
+	    outline-offset: 0px;
+	}
+	30% {
+	    outline: 1px solid rgba(239, 242, 243, 0.7);
+	    outline-offset: 10px;
+	}
+	60% {
+	    outline: 1px solid rgba(239, 242, 243, 0);
+	    outline-offset: 20px;
+	}
+	100% {
+	    outline: 1px solid rgba(239, 242, 243, 0);
+	    outline-offset: 60px;
+	}
+	}
+
+     .banner-sell .box-content-bnr .btn-started .fa{
+        padding-left: 10px;
+     }
+    .banner-sell .box-content-bnr .btn-started:hover{
+    cursor: pointer;
+    background-color: #cc9d19;
+    color: #ffffff;
+    }
+
+
+
+	/*list  */
+
+	.ipad-devices-list{
+	padding-top:6%;
+	padding-bottom:6%;
+	width: 100%;
+	display: block;
+	background-color: #ffffff;
+	}
+
+	.ipad-devices-list .text-box-top{
+	display: block;
+	width: 100%;
+	}
+
+	.ipad-devices-list .text-box-top h2{
+	font-family: "Roboto";
+	font-weight: 600;
+	color: #8b0202;
+	font-size:2.3vw;
+	text-align: center;
+	text-transform:none;
+	letter-spacing: 2px;
+	margin-bottom:15px;
+
+	}
+
+	.ipad-devices-list .text-box-top h4{
+	font-family: "Roboto";
+	font-weight: 400;
+	color:#373739;
+	font-size: 19px;
+	text-transform:none;
+	text-align: center;
+	padding-top:2px;
+	margin-bottom: 6%;
+	}
+
+	.ipad-devices-list .text-box-top h4 .fa{
+		margin-right: 8px;
+		font-size: 8px;
+		vertical-align: 4px;
+		margin-left: 8px;
+		color: #504d4d;
+	}
+
+	.logo-carousel{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+	.logo-carousel .carousel-item p{
+	margin-top: 20px;
+	font-family: "Roboto";
+	font-weight: 400;
+	color:#000000;
+	font-size: 15px;
+	text-align: center;
+	}
+
+	.logo-carousel .carousel-item img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.logo-carousel .carousel-control-prev {
+    bottom: 70px;
+    left:-40px;
+	}
+
+	.logo-carousel .carousel-control-next {
+    right:-40px;
+    bottom: 70px;
+	}
+
+	.logo-carousel .carousel-control-prev-icon{
+	background-image:url(../img/arrow-left.png) !important; 
+	}
+
+	.logo-carousel  .carousel-control-next-icon{
+	background-image:url(../img/arrow-right.png) !important; 	
+	}
+
+
+
+	/* REPAIR PAGE  - BANNER DONT KNOW WHAT IS THE PROBLEM .... */
+
+
+    .banner-contact-us{
+    background-color:#8b0202;
+    display: block;
+    width: 100%;
+    margin-top:0;
+    padding-top: 30px;
+    padding-bottom:0;
+    background-image: url(../img/red-banner-background.png);
+    background-size:cover;
+    
+    }
+
+    .banner-contact-us .box-cnt-txt{
+    display: block;
+    float: left;
+    margin-top: 2%;
+    }
+
+    .banner-contact-us .box-cnt-txt h3{
+    font-family: "Roboto";
+    font-weight: 300;
+    color:#ffffff;
+    font-size:28px;
+    text-align:center;
+    padding-bottom: 7px;
+    margin-top: 15px;
+
+    }
+
+    .banner-contact-us .box-cnt-txt h3 span{
+    font-family: "Roboto";
+    font-weight: 500;
+    color:#ffffff;
+    font-size:28px;
+    text-align:center;
+    padding-bottom: 7px;
+    margin-top: 15px;
+
+    }
+
+    .banner-contact-us .box-cnt-txt h5{
+    font-family: "Roboto";
+    font-weight: 300;
+    color:#fafafa;
+    font-size:22px;
+    text-align: center;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    
+    }
+
+	 .banner-contact-us .box-img img{
+    margin-right: auto;margin-left: auto;
+    display: block;
+   
+    }
+
+
+    .banner-contact-us .box-cnt-txt .btn-go-contact{
+    display: block;
+    width: 200px;
+    margin-left: auto;margin-right: auto;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #5fea4e;
+    padding-top:12px;padding-bottom:12px;
+    padding-left:5px;padding-right: 5px;
+   
+    border:0;border-radius:0;
+    letter-spacing: 1px;
+    margin-top:25px;
+
+    }
+
+
+     .banner-contact-us .box-cnt-txt .btn-go-contact .fa{
+      padding-left:10px;
+     }
+    .banner-contact-us .box-cnt-txt .btn-go-contact:hover{
+    cursor: pointer;
+    background-color: #cc9d19;
+    color: #ffffff;
+    }
+
+    
+	#back-to-top {
+	position: fixed;
+	bottom: 40px;
+	right: 15px;
+	z-index: 9999;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	line-height: 30px;
+	background: rgba(0,0,0,0.3);
+	color: #fafafa;
+	cursor: pointer;
+	border: 0;
+	border-radius: 2px;
+	text-decoration: none;
+	transition: opacity 0.2s ease-out;
+	opacity: 0;
+	}
+	#back-to-top:hover {
+	background: rgba(0,0,0,0.5);
+	}
+	#back-to-top.show {
+	opacity: 1;
+	}
+
+	
+	/*  --------------  REPAIR SERVICES  PAGES  ---------------------    */
+
+	/* Cover picture banner on each services repair page   */
+
+	.banner-cover-repair{
+	padding-bottom: 5%;
+    margin-top:125px;
+    background-color: #073664;
+    /*background-image: url(../img/screen-page-banner-top.jpg);*/
+	width: 100%;
+	height:340px;
+	background-size: cover;
+	background-position: center top;
+	}
+
+	.banner-cover-repair .text-headline h2{
+	font-size:3vw;
+	font-family: "Roboto";
+	text-align: left;
+	color: #073664;
+	font-weight:300;
+	letter-spacing: 1px;	
+	}
+
+	.banner-cover-repair .text-headline h2 span{
+	font-size:3vw;
+	font-family: "Roboto";
+	text-align: left;
+	color: #073664;
+	font-weight:500;	
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	}
+
+	.banner-cover-repair .text-headline  {
+	display: block;
+	width: 100%;
+	padding-top:10%;
+	}
+
+	.banner-cover-repair  .picture-bckg img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+
+	/*  Section with repair description  */
+
+
+	#repair-description{
+	padding-top:5%;
+	padding-bottom: 5%;
+	background-color: #F7F7F7;
+	}
+
+
+	#repair-description .left-content{
+	position: relative;
+	display: block;	
+	width: 100%;
+	margin-bottom: 25px;
+	}
+
+
+    #repair-description .left-content .screen-title{
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #2d2b2b !important;
+    font-size: 32px;
+    text-align: left;
+    margin-top:15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    }
+
+    #repair-description .left-content .screen-title span{
+    font-family: "Roboto";
+    font-weight:400;
+    color: #2d2b2b !important;
+    font-size: 32px;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+    }
+
+    #repair-description .left-content .border-line{
+    border-bottom: 1px solid #ceced1;
+    width: 30%;
+    margin-bottom: 25px;
+    display: block;
+    }
+
+	#repair-description .left-content h5{
+	font-family: "Roboto";
+	font-weight:400;
+	color: #414040 !important;
+	font-size:18px;
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 35px;
+	letter-spacing: 2px;
+
+	}
+
+	#repair-description .left-content h5 .fa{
+	font-size: 10px;
+	margin-right: 12px;
+	vertical-align:3px;
+	}
+
+	#repair-description .left-content p{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #696868;
+	font-size: 15px;
+	text-align: left;
+	}
+
+	#repair-description .right-pic img{
+	margin-top:15%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	}
+
+	/* Gallery images  */
+
+	.tz-gallery {
+	padding-top: 7%;padding-bottom:6%;
+	padding-left: 0;padding-right: 0;
+	margin-bottom:20px;
+	}
+
+	.tz-gallery .gallery-main-title{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #2d2b2b !important;
+	font-size: 32px;
+	text-align:center;
+	margin-bottom: 40px;	
+	}
+
+	.tz-gallery .lightbox img {
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 25px;
+	transition: 0.2s ease-in-out;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	height: 90%;
+	}
+
+
+	.tz-gallery .lightbox img:hover {
+	transform: scale(1.05);
+	box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+	}
+
+	.tz-gallery img {
+	border-radius: 4px;
+	}
+
+	.baguetteBox-button {
+	background-color: transparent !important;
+	}
+
+
+	.border-divder-line{
+	width: 100%;
+	display: block;
+	border: 1px solid #eee;
+	}
+	
+	/*  How it works section on repairs  page   */
+
+	.steps-layout{
+	margin-bottom: 50px;
+	margin-top: 
+	}
+
+	.txt-title-steps {
+	width: 100%;
+	display: block;
+	margin-top: 7%;
+	margin-bottom: 60px;
+	}
+
+	.txt-title-steps h4{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #2d2b2b !important;
+	font-size: 32px;
+	text-align:center;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	}
+
+	.txt-title-steps h6{
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #454545;
+	font-size: 20px;
+	text-align:center;
+	
+	}
+
+	.columns-steps{
+	margin-bottom:30px;
+	}
+
+	.columns-steps h5{
+	font-family: "Roboto";
+	font-weight: 500;
+	color: #2a2a2a;
+	font-size: 18px;
+	text-align: center;
+	margin-top:30px;
+	margin-bottom: 20px;
+	}
+
+	.columns-steps p{
+	font-family: "Roboto";
+	font-weight:400;
+	color: #595959;
+	font-size: 13px;
+	text-align: center;
+	padding-left: 20px;padding-right: 20px;
+	}
+
+	.columns-steps img{
+	display: block;
+	margin-left: auto;margin-right: auto;
+	position: relative;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/* Responsive Design Changes fixes CSS Tablet  */
+	
+	@media (max-width: 767.98px) {
+
+		.nav-list .dropdown .nav-dropdown li a img{
+			width: 35%;
+		}
+
+		.nav-list .dropdown .nav-dropdown{
+			margin-left: auto;
+			margin-right: auto;
+		}	
+	
+		.nav-list .dropdown .nav-dropdown a p{
+			font-size: 12px;
+		}
+
+		.inner-how-it-work-1 {
+		   
+		}
+		
+		.inner-how-it-work-1 .first-side-work .headline-app {
+	    font-size: 32px;
+	    text-align:center;
+	   	}
+
+	   	.inner-how-it-work-1 .first-side-work .text-description {
+	    font-family: "Roboto";
+	    font-weight: 400;
+	    color: #696868;
+	    font-size: 16px;
+	    text-align: center;
+		}
+
+		.inner-how-it-work-1 .second-side-work img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px !important;
+		}	
+
+		.inner-how-it-work-2 {
+		padding-top: 70px;
+		padding-bottom: 64px;
+		}
+		.inner-how-it-work-2 .first-side-work .headline-app {
+		font-size: 32px;
+		text-align: center;
+		margin-top: 35px;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		}
+
+		.inner-how-it-work-2 .first-side-work .text-description {
+		font-size: 16px;
+		text-align: center;
+		
+		}
+
+		.repair-txt-1 {
+		margin-top: 3%;
+		padding-right: 0;
+		}
+
+		.repair-txt-1 .title-1 {
+		font-size: 38px;
+		text-align:center;
+		margin-bottom: 15px;
+		}
+		.repair-txt-1 .title-1 span {
+		font-size: 38px;
+		text-align:center;
+		margin-bottom: 15px;
+		}
+		.repair-txt-1 .border {
+		width: 25%;
+		display: block;
+		border: 1px solid #ffffff;
+		margin-bottom: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+
+		#repair-panel .repair-txt-1 p{
+			text-align: center;
+		}
+		
+		#repair-panel .repair-txt-1 .btn-request-1{
+			margin-top: 10%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 20%;
+		}
+		
+		/* responsive repair page */
+
+		.ipad-devices-list{
+		
+		}
+
+		#repair-list .text-title h2{
+			font-size: 4vw;
+		}
+		
+		#repair-list .text-title h4{
+			font-size: 16px;
+			font-weight: 400;
+		}
+		
+		.ipad-devices-list .text-box-top h2{
+			font-size: 3vw;
+		}
+
+		.ipad-devices-list .text-box-top h4{
+			font-size: 12px;
+			text-align: center;
+		}
+
+		.logo-carousel .carousel-control-prev {
+		bottom: 70px;
+		left:15px;
+		}
+
+		.logo-carousel .carousel-control-next {
+		right:15px;
+		bottom: 70px;
+		}
+
+		.banner-contact-us{
+			padding-bottom: 35px;
+		}
+
+		.banner-contact-us .box-img img {
+		margin-right: auto;margin-left: auto;
+		display: block;
+		margin-bottom: 5px;
+		float: none;
+		}
+
+		.banner-contact-us .box-cnt-txt h3 span{
+			font-size: 21px;
+		}
+
+		.banner-contact-us .box-cnt-txt h5{
+		font-size: 15px;
+		font-weight: 400;
+		}
+
+		.banner-contact-us .box-cnt-txt .btn-go-contact{
+		font-size: 12px;
+		width: 170px;
+		}
+		.banner-sell .box-content-bnr h3 span{
+			font-size: 3vw;
+		}
+
+		.banner-sell .box-content-bnr h5{
+			font-size: 17px;
+			font-weight: 400;
+		}
+
+		.banner-sell .box-content-bnr .btn-started{
+			font-size: 12px;
+			width: 180px;
+		}
+
+		.banner-sell .box-content-bnr img{
+			display: block;
+			float: none;
+			margin-left: auto;margin-right: auto;
+			width: 45%;
+			margin-top: 40px;
+		}
+
+		.cover-repair{
+			padding-top: 23%;
+		}
+		
+		.cover-repair .text-area h3,.cover-repair .text-area h3 span{
+			text-align: center;
+			font-size: 4vw;
+			margin-bottom: 30px;
+		}
+
+		.cover-repair .img-side img{
+			width:70%;
+		}
+		
+		
+		.banner-cover-repair {
+		padding-bottom: 5%;
+		margin-top: 125px;
+		background-color: #073664;
+		/* background-image: url(../img/screen-page-banner-top.jpg); */
+		width: 100%;
+		height: auto;
+		background-size: cover;
+		background-position: center top;
+		}
+
+		#repair-description .left-content .screen-title span,#repair-description .left-content .screen-title{
+			font-size: 28px;
+		}
+
+		#repair-description .left-content h5{
+			font-size: 16px;
+		}
+
+		#repair-description .left-content p {
+		font-family: "Roboto";
+		font-weight: 500;
+		color: #696868;
+		font-size: 13px;
+		text-align: left;
+		}
+
+		#repair-description .right-pic img {
+		margin-top: 4%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 65%;
+		}
+
+		.txt-title-steps h4{
+			font-size: 25px;
+		}
+
+		.txt-title-steps h6{
+			font-size: 17px;
+		}
+
+		.tz-gallery .lightbox img{
+		width: 70%;
+		display: block;
+		margin-right: auto;margin-left: auto;
+		}
+
+		.tz-gallery{
+			width: 95%;
+		}
+
+		.adress-nav{
+			padding-left: 0;
+		}
+
+		.adress-nav li{
+			margin-left: 20px;
+		}
+
+		.social-footer{
+			padding-left: 0;
+		}
+
+		footer .text-rights{
+			font-size: 10px;
+			padding-left: 10px;padding-right: 10px;
+		}
+
+
+	}   /* /End Tablet size */
+
+
+
+
+	/* Responsive Design Changes adds CSS Mobile phones*/
+
+	
+	@media (max-width: 575.98px) { 
+	
+		
+
+		.inner-how-it-work-1 {
+		 
+		}
+
+		.inner-how-it-work-1 .first-side-work .headline-app {
+		font-size: 26px;
+		text-align: center;
+		}
+
+		.inner-how-it-work-1 .first-side-work .text-description {
+	     color: #696868;
+	    font-size: 14px;
+	    text-align:center;
+		}
+
+		.inner-how-it-work-1 .second-side-work img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px !important;
+		width: 60%;
+		}
+
+		.inner-how-it-work-2 .first-side-work .headline-app {
+		font-size: 26px;
+		text-align: center;
+		margin-top: 35px;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		}
+
+		.inner-how-it-work-2 .first-side-work .text-description {
+		font-size: 14px;
+		text-align: center;
+		
+		}
+
+		.inner-how-it-work-2 .second-side-work img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+		}
+
+		.repair-txt-1 .title-1 {
+		font-size: 26px;
+		text-align:center;
+		margin-bottom: 15px;
+		}
+		.repair-txt-1 .title-1 span {
+		font-size: 26px;
+		text-align:center;
+		margin-bottom: 15px;
+		}
+		.repair-txt-1 .border {
+		width: 15%;
+		display: block;
+		border: 1px solid #ffffff;
+		margin-bottom: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+
+		#repair-panel .repair-txt-1 p{
+			text-align: center;
+			font-size: 14px;
+		}
+		#repair-panel .repair-txt-1{
+			padding-left: 0 !important;
+			  padding-right:0;
+		}
+
+		/* repair page mobile*/
+		.ipad-devices-list{
+			background-color: #eee;
+		}
+
+		.banner-contact-us .box-img img {
+		margin-right: auto;margin-left: auto;
+		display: block;
+		margin-bottom: 5px;
+		float: none;
+		width:45%;
+		}
+
+		.banner-contact-us .box-cnt-txt h3 span{
+		font-size:3.4vw;
+		margin-top: 0;
+		}
+
+		.banner-contact-us .box-cnt-txt h5{
+		font-size: 12px;
+		font-weight: 400;
+		}
+		
+		.banner-contact-us .box-cnt-txt .btn-go-contact {
+		font-size: 11px;
+		width: 155px;
+		}
+
+		.banner-sell .box-content-bnr h5{
+			font-size: 12px;
+		}
+
+		.banner-sell .box-content-bnr h3 span{
+			font-size: 4vw;
+		}
+
+		.ipad-devices-list .text-box-top h2{
+			font-size: 4vw;
+		}
+
+		#repair-list .text-title h2{
+			font-size: 5vw;
+		}
+		
+		#repair-list .text-title h4{
+			font-size: 14px;
+			font-weight: 400;
+			text-align: center;
+		}
+
+			.cover-repair{
+			padding-top:45%;
+		}
+		
+		.cover-repair .text-area h3,.cover-repair .text-area h3 span{
+			text-align: center;
+			font-size: 4vw;
+			margin-bottom: 30px;
+		}
+
+		.cover-repair .img-side img{
+			width:50%;
+		}
+		
+		#repair-list .list-repairs-link{
+			max-width: 230px;
+		}
+
+		#repair-list .list-repairs-link h5{
+			font-size: 15px;
+		}
+
+		#repair-description .left-content .screen-title span,#repair-description .left-content .screen-title{
+			font-size: 24px;
+		}
+
+		#repair-description .left-content h5{
+			font-size: 15px;
+		}
+
+		.banner-cover-repair .text-headline h2 span, .banner-cover-repair .text-headline h2{
+			font-size: 4vw;
+		}
+		
+		.tz-gallery .gallery-main-title{
+			font-size: 28px;
+		}
+
+
+
+	} /* end mobile */
+
