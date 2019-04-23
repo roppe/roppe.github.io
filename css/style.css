@@ -1681,13 +1681,246 @@
 	}
 
 
+	/* ------------  PICK UP DROP OFF LOCATION  SERVICES  PAGE  -------------------   */
+
+	.cover-locations-top{
+	padding-bottom:10%;
+    padding-top:200px;
+    background-color: #073664;
+    background: url(../img/pick.png);
+	 background-repeat: no-repeat;
+  	background-size: 100% 100%;
+	}
+
+	.cover-locations-top .text-area h3{
+	font-size: 37px;
+	font-family: "Roboto";
+	text-align: left;
+	color: #333131;
+	font-weight:400;
+	letter-spacing: 1px;	
+	margin-bottom: 40px;
+	}
+
+	.cover-locations-top .text-area p{
+	font-size: 15px;
+	font-family: "Roboto";
+	text-align: left;
+	color: #494848;
+	font-weight:500;
+		
+	}
+
+	.cover-locations-top .text-area .btn-go-book{
+	font-weight: 400;
+    font-family: "Roboto";
+    color: #ffffff;
+    border-radius: 0;
+    width: 200px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: 15px;
+    background: #478d06;
+    margin-top: 35px;
+    text-transform: uppercase;
+	}	
+	
 
 
+	.cover-locations-top .text-area {
+	display: block;
+	width: 100%;
+	padding-top:3%;
+	padding-bottom: 15%;
+	padding-right:30px;
+	}
+	
+	.cover-locations-top .locations-side{
+	display:block;
+	padding-left:60px;
+	padding-top: 2%;
+	}
+	
+	.ny-area-list{
+	display: block;
+	}
+
+	.ny-area-list li{
+	list-style: none;
+	}
+
+	.ny-area-list li::before {
+	content: "• ";
+	color:#726e6e;
+	}
+
+	.ny-area-list li a{
+	font-size: 13px;
+	font-family: "Roboto";	
+	color: #333131;
+	font-weight:500;
+	text-decoration: none;
+	padding-left:3px;
+	}
+
+	.locations-side .headline-location{
+	font-family: "Roboto";
+	font-weight: 400;
+	margin-bottom: 30px;
+	font-size: 21px;
+	border-left: 5px solid #478d06;
+	padding-left: 15px;
+	text-align:center;
+	}
+
+	
+	#appointment-section{
+	padding-top: 6%;
+	padding-bottom: 6%;
+	}
+	
+	.appointment-text-box{
+		margin-bottom:50px;
+	}
+
+	.appointment-text-box h2{
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 3px;
+	color: #478d06;
+	}
+
+	.appointment-text-box h6{
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+	color: #323131;
+	}
+
+	.appointment-text-box .border-line-div {
+    border-bottom: 1.5px solid #969698;
+    width: 30%;
+    margin-bottom: 15px;margin-top: 10px;
+    display: block;
+    margin-left: auto;margin-right: auto;
+	}
 
 
+	
+
+	.pickup-dropoff-form .book-form{
+	font-size: 16px;
+	color: #393e46;
+	background: transparent;
+	border: 2px solid #b7b8b9;
+	border-radius: 0;
+	font-family: "Roboto";
+	padding-top: 15px;padding-bottom: 15px;
+	padding-left: 20px;
+	}
 
 
+	.pickup-dropoff-form .title-form{
+	font-family: "Roboto";
+	font-weight: 400;
+	margin-bottom: 25px;
+	font-size: 22px;
+	border-left: 4px solid #478d06;
+	padding-left: 15px;
+	}
 
+	.pickup-dropoff-form .title-form-2{
+	font-family: "Roboto";
+	font-weight: 400;
+	margin-bottom: 25px;
+	margin-top: 35px;
+	font-size: 22px;
+	border-left: 4px solid #478d06;
+	padding-left: 15px;
+	}
+
+	.pickup-dropoff-form .title-form-3{
+	font-family: "Roboto";
+	font-weight: 400;
+	margin-bottom: 25px;
+	margin-top: 35px;
+	font-size: 22px;
+	border-left: 4px solid #478d06;
+	padding-left: 15px;
+	}
+
+	.pickup-dropoff-form .location-area{
+	margin-bottom: 15px;
+	margin-top: 0;
+	height: 60px;
+	border-radius: 0;
+	border: 2px solid #b7b8b9;
+	font-family: "Roboto";
+	font-weight: 400;
+	padding-left: 15px;
+	text-transform:capitalize;
+	}
+
+	.date-title{
+	font-family: "Roboto";
+	font-weight: 400;
+	margin-bottom: 5px;
+	color: #323232;
+	font-size: 15px;	
+	}
+
+	.datetimepicker{
+		border-radius: 0;
+		height:50px;
+	}
+
+	#datetimepicker1 .input-group-addon {
+    padding: .5rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #464a4c;
+    text-align: center;
+    background-color: #d6d8d9;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius:0;
+	}
+
+	#datetimepicker1 .input-group-addon .fa{
+	font-size: 20px;
+	padding-top: 5px;
+	}
+
+	#datetimepicker1 .datetimepicker{
+	font-weight: 500;
+	font-family: "Roboto";
+	color: #2f2e2e;
+	}
+
+	.pickup-dropoff-form .button-submit{
+	font-weight: 500;
+	font-family: "Roboto";
+	color: #ffffff;
+	border-radius: 0;
+	width: 220px;
+	padding-top: 12px;padding-bottom: 12px;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 3px;
+	background: #478d06;
+	margin-top: 25px;
+	}
+
+	/* Location pick up drop off page  */
+
+	.cover-locations-top .locations-side {
+	padding-left: 0;
+	}
 
 
 
@@ -2123,6 +2356,14 @@
 		
 		.tz-gallery .gallery-main-title{
 			font-size: 28px;
+		}
+
+
+		/* Location pickup drop off page */
+
+		.ny-area-list {
+		display: block;
+		padding-left:15px;
 		}
 
 
