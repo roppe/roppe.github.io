@@ -2115,6 +2115,104 @@
 
 
 
+    /* ---------- FAQ PAGE --------------- */
+    
+    .banner-faq-cover {
+    padding-bottom: 5%;
+    margin-top: 125px;
+    background-color: #073664;
+    /* background-image: url(../img/screen-page-banner-top.jpg); */
+    width: 100%;
+    height: 340px;
+    background-size: cover;
+    background-position: center top;
+    }
+
+    .banner-faq-cover .text-headline {
+    display: block;
+    width: 100%;
+    padding-top: 8%;
+    }
+
+     .banner-faq-cover .text-headline h2 {
+    font-size: 2.7vw;
+    font-family: "Roboto";
+    text-align: left;
+    color: #073664;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    }
+
+
+     .banner-faq-cover .text-headline h6 {
+    font-size: 18px;
+    font-family: "Roboto";
+    text-align: left;
+    color: #073664;
+    font-weight: 400;
+    letter-spacing: 1px;
+    }
+
+
+    .section-faq{
+    padding-top: 4%;padding-bottom: 4%;
+    }
+
+    .faq-tabs{
+    margin-bottom: 40px;
+    padding-right: 25px;padding-left: 25px;
+    }
+
+    .faq-tabs .faq-question{
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #313030;  
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: #eee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    }
+
+    .faq-tabs p{
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #636262;  
+    font-size: 15px;
+    padding-left: 15px;
+    margin-top: 20px;
+    border-left: 2px solid #eee;
+    
+    }
+
+    .faq-tabs:hover >.faq-question{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #073664;
+    }
+
+    .faq-tabs:hover > p{
+    border-left:2px solid #36C24E; 
+    }
+
+    .faq-tabs:hover{
+    cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	/* Responsive Design Changes fixes CSS Tablet  */
 	
