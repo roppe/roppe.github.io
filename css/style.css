@@ -2202,7 +2202,122 @@
     }
 
 
+    /* ---------------- PRICING PAGE ------------------------*/
+    
+    .pricing-inner-1 {
+    padding-top: 30px;padding-bottom:30px;
+    border-bottom: 2px solid #eee;
+    }
 
+    .pricing-inner-1 .left-inner .device-title{
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #3a3939;  
+    font-size: 32px;
+    margin-bottom: 15px;
+    text-align: center;
+    }
+
+    .pricing-inner-1 .left-inner .btn-go-request{
+     font-family: "Roboto";
+    font-weight: 500;
+    color: #073664;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    background: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom:7px;
+    margin-top: 20px;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    width: 170px;
+    border: 1px solid #073664;
+    }
+
+    .pricing-inner-1 .left-inner .btn-go-request .fa{
+    margin-left:5px;
+    }
+
+    .left-inner .btn-go-request:hover{
+        cursor: pointer;
+        color: #ffffff;
+        background: #073664;
+    }
+
+    .pricing-inner-1 .left-inner .device-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .pricing-list{
+    display: block;
+    margin-top:15px;
+    width: 80%;
+    list-style: none;
+    padding-left: 0;
+    margin-left: auto;margin-right: auto;
+    }
+    .pricing-list li{
+    width: 100%;
+    display: block;
+    float: left;
+    list-style: none;
+    border-bottom: 1px solid #eee;
+    padding-top: 7px;
+    padding-bottom:7px;
+    padding-left: 15px;padding-right: 15px;
+    }
+    .pricing-list li:hover{
+        background-color: #fcf9f9;
+    }
+
+    .pricing-list .head-top{
+    border-bottom:none;
+    margin-bottom:5px;
+    }
+
+    .pricing-list .head-top .pr-service{
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #2a2b2b;  
+    font-size: 14px;
+    float: left;
+    margin-bottom: 0;
+    text-transform: uppercase;   
+    }
+
+     .pricing-list .head-top .pr-dollar{
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #2a2b2b;  
+    font-size: 14px;
+    float: right;
+    margin-bottom: 0;
+    text-transform: uppercase;   
+    }
+
+    .pricing-list li .pr-item {
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #757474;  
+    font-size: 13px;
+    float: left;
+    margin-bottom: 0;
+    }
+
+    .pricing-list li .cost {
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #636262;  
+    font-size: 13px;
+    float:right;
+    margin-bottom: 0;
+    }
 
 
 
