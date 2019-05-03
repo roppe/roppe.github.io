@@ -73,8 +73,8 @@
 	 .main-navigation .logo-header{
     display: block;
     float: left;
-    width: 220px !important;height:77px;
-    background:url(../img/logo-ny-ipad-repair.jpg) 0 0 no-repeat;
+    width: 280px !important;height:77px;
+    background:url(../img/new-logo-ipad-3.png) 0 0 no-repeat;
     margin-right: 0 !important;
     margin-top: 10px;
 
@@ -394,7 +394,7 @@
 	/* INDEX PAGE - SECTION HOW IT WORKS */
     
     #section-how-it-work{
-	padding-bottom:45px;
+	padding-bottom:30px;
 	padding-top:3%;
 	border-bottom: 1px solid #fafafa;
 	background-color: #fafafa;
@@ -620,12 +620,12 @@
     #repair-panel .btn-request-1{
 	font-family: "Roboto";
     font-weight: 500;
-    color: #ffffff;
+    color: #073664;
     font-size: 13px;
     letter-spacing: 1px;
     text-transform: uppercase;
     border-radius: 3px;
-    background:transparent;
+    background:#fafafa;
     padding-left: 20px;
     padding-right: 20px;
     padding-top:10px;padding-bottom:10px;
@@ -721,26 +721,6 @@
 		display: block;
 	}
 
-	.about-txt-content {
-	width: 100%;
-	display: block;
-	margin-top: 20px;
-	}
-
-	.about-txt-content p{
-	font-family: "Roboto";
-	font-weight: 500;
-	color: #696868;
-	font-size: 14px;
-	}
-
-	.about-txt-content h6{
-	font-family: "Roboto";
-	font-weight: 400;
-	color: #000000;
-	font-size: 20px;
-	margin-bottom: 12px;
-	}
 
 	#about-us .img-side img{
 	display: block;
@@ -749,14 +729,7 @@
 	margin-top: 20px;
 	}
 
-	#about-us .divder-border{
-	width: 100%;
-	border: 1px solid #e3e2e2;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 30px;margin-bottom: 40px;
-	}
+
 
 
 	/* --------------- FOOTER STYLE -------------------  */ 
@@ -1101,7 +1074,7 @@
 	display: block;
 	background-color: #eee;
 	width: 100%;
-	padding-top:4%;padding-bottom: 4%;
+	padding-top:3%;padding-bottom:3%;
     background-image: url(../img/line-pattern.jpg);
     background-size: cover;
 
@@ -1116,8 +1089,8 @@
 	#repair-list .text-title h2{
 	font-family: "Roboto";
 	font-weight: 500;
-	color: #073664 ;
-	font-size: 35px;
+	color: #2d2b2b;
+	font-size: 33px;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -1129,11 +1102,11 @@
 	
 	font-family: "Roboto";
 	font-weight:400;
-	color: #073664 ;
-	font-size: 20px;
+	color: #2d2b2b;
+	font-size: 18px;
 	text-transform:none;
 	text-align: center;
-	padding-bottom:2%;
+	padding-bottom:5px;
 	letter-spacing: 1px;
 	margin-top: 10px;
 	}
@@ -1150,13 +1123,15 @@
 	
 	#repair-list .list-repairs-link{
 	margin-bottom:20px;
-	background-color:#073664;
-	max-width:260px;
+	background-color:#fafafa;
+	max-width:255px;
 	margin-right: 25px;
 	padding-left: 0;padding-right: 0;
-	padding-top:40px;
-	background: url(../img/blue-lines.png);
-	 background-repeat: no-repeat;
+	padding-top:20px;
+    padding-bottom: 10px;
+    border: 1px solid #dedbdb;
+	 /* background: url(../img/blue-lines.png); */
+	 /* background-repeat: no-repeat; */
 	 transition: all .2s ease-in-out;
 
 	}
@@ -1171,13 +1146,13 @@
 
 	#repair-list .list-repairs-link  h5{
 	font-weight: 500;
-	color: #ffffff;
+	color: #2d2b2b;
 	font-family: "Roboto";
 	text-align: center;
-	margin-top:40px;
+	margin-top:5px;
 	font-size: 17px;
 	width: 100%;
-	background:#00C853;
+	background:#fafafa;
 	text-transform: uppercase;
 	padding-top: 10px;padding-bottom: 10px;
 	letter-spacing: 1px;
@@ -1187,10 +1162,9 @@
 	text-decoration: none;
 	}
 
-	.list-repairs-link a:hover h5{
-	color: #ffffff;
-	background: #ce2027 !important;
-	}
+    .list-repairs-link a:hover h5{
+    color: #073664;
+    } 
 
 	.list-repairs-link a:hover img{
 	transform: scale(1.1) !important;
@@ -1207,6 +1181,9 @@
     margin-top:0;
     padding-top: 35px;
     padding-bottom:0;
+        background-image: url(../img/blue-banner-background.jpg);
+    background-size: cover;
+
     
     }
 
@@ -1230,7 +1207,7 @@
     font-family: "Roboto";
     font-weight: 500;
     color:#f7f5f5;
-    font-size: 30px;
+    font-size: 32px;
     text-align:center;
     padding-bottom: 7px;
     margin-top: 15px;
@@ -1323,7 +1300,7 @@
 	.ipad-devices-list .text-box-top h2{
 	font-family: "Roboto";
 	font-weight: 400;
-	color: #073664;
+	color: #2d2b2b;
 	font-size:2.3vw;
 	text-align: center;
 	text-transform:none;
@@ -1368,28 +1345,43 @@
 	}
 
 	.logo-carousel .carousel-item p{
-	margin-top: 20px;
-	font-family: "Roboto";
-	font-weight: 400;
-	color:#000000;
-	font-size: 15px;
-	text-align: center;
+	    margin-top: 14px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #2f2f2f;
+    font-size: 15px;
+    text-align: center;
 	}
 
 	.logo-carousel .carousel-item img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	}
+    transition: all .2s ease-in-out;
+    }
+
+     .logo-carousel .carousel-item a:hover img{
+         transform: scale(1.04);
+    }
+
+     .logo-carousel .carousel-item a:hover{
+     text-decoration: none;
+    }
+
+
+    .logo-carousel .carousel-item a:hover p{
+    color: #073664;
+    text-decoration: none;
+    }
 
 	.logo-carousel .carousel-control-prev {
-    bottom: 70px;
+    bottom: 55px;
     left:-40px;
 	}
 
 	.logo-carousel .carousel-control-next {
     right:-40px;
-    bottom: 70px;
+    bottom: 55px;
 	}
 
 	.logo-carousel .carousel-control-prev-icon{
@@ -1399,6 +1391,29 @@
 	.logo-carousel  .carousel-control-next-icon{
 	background-image:url(../img/arrow-right.png) !important; 	
 	}
+
+    /* The indicators */
+    .logo-carosusel-ind {
+       right: 19%;
+    top: auto;
+    bottom: -30px;
+    margin-right: -19px;
+    }
+    /* The colour of the indicators */
+    .logo-carosusel-ind li {
+    background: #e4e2e2;
+        display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    }
+    .logo-carosusel-ind .active {
+    background: #609acb;
+    }
 
 
 
@@ -1427,7 +1442,7 @@
     font-family: "Roboto";
     font-weight: 300;
     color:#ffffff;
-    font-size:28px;
+    font-size:30px;
     text-align:center;
     padding-bottom: 7px;
     margin-top: 15px;
@@ -1438,7 +1453,7 @@
     font-family: "Roboto";
     font-weight: 500;
     color:#ffffff;
-    font-size:28px;
+    font-size:30px;
     text-align:center;
     padding-bottom: 7px;
     margin-top: 15px;
@@ -1540,7 +1555,8 @@
 	text-align: left;
 	color: #073664;
 	font-weight:300;
-	letter-spacing: 1px;	
+	letter-spacing: 1px;
+    margin-bottom: 20px;	
 	}
 
 	.banner-cover-repair .text-headline h2 span{
@@ -1551,12 +1567,18 @@
 	font-weight:500;	
 	text-transform: uppercase;
 	letter-spacing: 2px;
+    margin-bottom: 20px;
 	}
+
+    .banner-cover-repair .text-headline .img-fluid{
+        display: block;
+        margin-top: 35px;
+    }
 
 	.banner-cover-repair .text-headline  {
 	display: block;
 	width: 100%;
-	padding-top:10%;
+	padding-top:5%;
 	}
 
 	.banner-cover-repair  .picture-bckg img{
@@ -1570,8 +1592,8 @@
 
 
 	#repair-description{
-	padding-top:5%;
-	padding-bottom: 5%;
+	padding-top:4%;
+	padding-bottom: 3%;
 	background-color: #F7F7F7;
 	}
 
@@ -1649,8 +1671,12 @@
 
 	/* Gallery images  */
 
+    
+
+
+
 	.tz-gallery {
-	padding-top: 4%;padding-bottom:5%;
+	padding-top: 4%;padding-bottom:3%;
 	padding-left: 0;padding-right: 0;
 	
 	}
@@ -1661,13 +1687,13 @@
 	color: #2d2b2b !important;
 	font-size: 32px;
 	text-align:center;
-	margin-bottom: 40px;	
+	margin-bottom: 15px;	
 	}
 
 	.tz-gallery .lightbox img {
 	width: 100%;
 	margin-bottom: 20px;
-	margin-top: 25px;
+	margin-top: 20px;
 	transition: 0.2s ease-in-out;
 	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 	height: 90%;
@@ -1693,6 +1719,38 @@
 	display: block;
 	border: 1px solid #eee;
 	}
+
+
+     .btn-go-contact {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #073664;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin-right: 10px;
+    margin-top:45px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #073664;
+
+    }
+
+    .btn-go-contact .fa{
+    margin-left: 7px;
+    }
+
+    .btn-go-contact:hover{
+    color: #ffffff;
+    cursor: pointer;
+    background: #073664;
+    }
 	
 	/*  How it works section on repairs  page   */
 
@@ -1705,7 +1763,7 @@
 	width: 100%;
 	display: block;
 	margin-top: 4%;
-	margin-bottom: 40px;
+	margin-bottom:35px;
 	}
 
 	.txt-title-steps h4{
@@ -1728,7 +1786,7 @@
 	}
 
 	.columns-steps{
-	margin-bottom:30px;
+	margin-bottom:20px;
 	}
 
 	.columns-steps h5{
@@ -1737,8 +1795,8 @@
 	color: #2a2a2a;
 	font-size: 18px;
 	text-align: center;
-	margin-top:30px;
-	margin-bottom: 20px;
+	margin-top:20px;
+	margin-bottom:15px;
 	}
 
 	.columns-steps p{
@@ -1756,6 +1814,36 @@
 	position: relative;
 	}
 
+    .btn-go-services-steps {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #073664;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin-right: 10px;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #073664;
+
+    }
+
+    .btn-go-services-steps .fa{
+    margin-left: 5px;
+    }
+
+    .btn-go-services-steps:hover{
+    color: #ffffff;
+    cursor: pointer;
+    background: #073664;
+    }
 
 	/* ------------  PICK UP DROP OFF LOCATION  SERVICES  PAGE  -------------------   */
 
@@ -1764,17 +1852,22 @@
     padding-bottom:3%;
     padding-top:180px;  
     border-bottom: 1px solid #eee; 
+    background: url(../img/new-cover-drop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:480px;
     }
 
     #pickup-header-section .text-zone{
     display: block;
     width: 100%;
+    padding-top: 20px;
     }
 
     #pickup-header-section .text-zone h1{
-    font-size: 30px;
+    font-size: 35px;
     font-family: "Roboto";
-    text-align: left;
+    text-align:center;
     color: #073664 ;
     font-weight: 400;
     letter-spacing: 1px;
@@ -1790,64 +1883,14 @@
     font-weight: 500;
     }
 
-    #pickup-header-section .order-1 .graphic-representive{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    }
-
-    .pick-service-list{
-    list-style-type: none;
-    width: 100%;
-    display: block;
-    float: left;
-    }
-
-    .pick-service-list li{
-       width: 27%;
-    display: block;
-    float: left;
-    margin-bottom: 12px;
-    border: 1px solid #eee;
-    margin-left: 12px;
-    padding-top: 10px;
-    }
-
-    .pick-service-list li a img{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    }
-
-    .pick-service-list li a p{
-        font-family: "Roboto";
-    font-weight: 500;
-    color: #073664 !important;
-    font-size: 14px;
-    text-align: center;
-    margin-top: 4px;
-    margin-bottom: 7px;
-    }
-
-     .pick-service-list  .list-maintitle{
-        font-family: "Roboto";
-    font-weight: 400;
-    color: #073664 !important;
-    font-size: 19px;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 19px
-     }
-
 
 
 	.cover-locations-top{
-	padding-bottom:18%;
+	padding-bottom:30px;
     padding-top:40px;
-    background: url(../img/pick.png);
-	 background-repeat: no-repeat;
-  	background-size: 100% 100%;
+    background-color: #fafafa;
+    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #eee;
 	}
     
     .single-service{
@@ -1855,7 +1898,7 @@
     position: relative;
     padding-top: 10px;
     padding-left: 10px;padding-right: 10px;
-
+    margin-top: 25px;
     transition: all .2s ease-in-out;
     }
 
@@ -1881,55 +1924,61 @@
 
     }
 
+    .inline-steps{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #EEE;
+    padding-bottom:15px;
+    }
 
-	.cover-locations-top .text-area h3{
-	font-size: 35px;
-	font-family: "Roboto";
-	text-align: left;
-	color: #333131;
-	font-weight:400;
-	letter-spacing: 1px;	
-	margin-bottom: 25px;
-	}
+    .inline-steps:last-child{
+        border-bottom: none;
+    }
+	
+    .inline-steps img{
+    display: block;
+    float: left;
+    margin-right: 20px;
+    width: 34%;
+    }
 
-	.cover-locations-top .text-area p{
-	font-size: 14px;
-	font-family: "Roboto";
-	text-align: left;
-	color: #494848;
-	font-weight:500;
-		
-	}
-
-	.cover-locations-top .text-area .btn-go-book{
-	font-weight: 400;
+    .inline-steps h2{
     font-family: "Roboto";
-    color: #ffffff;
-    border-radius: 0;
-    width: 200px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    font-weight: 500;
+    color: #073664 !important;
+    font-size: 18px;
+    text-align:left;
+    margin-top:25px;
+    margin-bottom: 15px;
+    }
+
+    .inline-steps p{
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #585555;
+    font-size: 13px;
+    text-align:left;
+    margin-bottom: 0;
+    }
+
+
+    .cover-locations-top .loc-title{
+    font-size:30px;
+    font-family: "Roboto";
     text-align: center;
-    font-size: 15px;
-    background: #478d06;
-    margin-top: 35px;
-    text-transform: uppercase;
-	}	
-	
+    color:#2d2b2b;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 50px;   
+    }
 
+    
 
-	.cover-locations-top .text-area {
-	display: block;
-	width: 100%;
-	padding-top:3%;
-	padding-bottom:2%;
-	padding-right:30px;
-	}
-	
 	.cover-locations-top .locations-side{
 	display:block;
 	padding-left:60px;
-	padding-top: 0;
+	padding-top: 2%;
 	}
 	
 	.ny-area-list{
@@ -1946,7 +1995,7 @@
 	}
 
 	.ny-area-list li a{
-	font-size: 13px;
+	font-size: 12px;
 	font-family: "Roboto";	
 	color: #333131;
 	font-weight:500;
@@ -1962,6 +2011,7 @@
 	border-left: 5px solid #478d06;
 	padding-left: 15px;
 	text-align:center;
+    margin-left: 24px;
 	}
 
 	
@@ -1981,7 +2031,7 @@
 	font-size: 30px;
 	text-align: center;
 	letter-spacing: 3px;
-	color: #478d06;
+	color: #2d2b2b;
 	}
 
 	.appointment-text-box h6{
@@ -1993,11 +2043,13 @@
 	}
 
 	.appointment-text-box .border-line-div {
-    border-bottom: 1.5px solid #969698;
-    width: 30%;
-    margin-bottom: 15px;margin-top: 10px;
+       border-bottom: 1px solid #c1c1c3;
+    width: 25%;
+    margin-bottom: 15px;
+    margin-top: 10px;
     display: block;
-    margin-left: auto;margin-right: auto;
+    margin-left: auto;
+    margin-right: auto
 	}
 
 
@@ -2101,9 +2153,9 @@
 	width: 220px;
 	padding-top: 12px;padding-bottom: 12px;
 	text-align: center;
-	font-size: 20px;
+	font-size: 19px;
 	letter-spacing: 3px;
-	background: #478d06;
+	background: #073664;
 	margin-top: 25px;
 	}
 
@@ -2155,6 +2207,8 @@
     }
 
 
+
+
     .section-faq{
     padding-top: 4%;padding-bottom: 4%;
     }
@@ -2204,9 +2258,54 @@
 
     /* ---------------- PRICING PAGE ------------------------*/
     
+    .section-price{
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    .card-expand{
+    padding-top: 15px;
+    padding-bottom:20px;
+    margin-top: 20px;
+    }
+
+    .flex-md-last {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    }
+
+    .card-expand .expand-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    width: 60%;
+    }
+
+    .card-expand h4{
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #3a3939;
+    font-size: 21px;
+    margin-bottom: 15px;
+    text-align: center;   
+    }
+
+    .card-expand:hover{
+    background: #fcfbfb;
+    cursor: pointer;
+    }
+
+    .card-expand:hover a{
+     text-decoration:none;
+     color: #073664;
+    }
+
     .pricing-inner-1 {
     padding-top: 30px;padding-bottom:30px;
     border-bottom: 2px solid #eee;
+    background: #fafafa;
     }
 
     .pricing-inner-1 .left-inner .device-title{
@@ -2304,7 +2403,7 @@
     .pricing-list li .pr-item {
     font-weight: 400;
     font-family: "Roboto";
-    color: #757474;  
+    color: #3c3c3c;  
     font-size: 13px;
     float: left;
     margin-bottom: 0;
@@ -2313,7 +2412,7 @@
     .pricing-list li .cost {
     font-weight: 500;
     font-family: "Roboto";
-    color: #636262;  
+    color: #2d2d2d;  
     font-size: 13px;
     float:right;
     margin-bottom: 0;
