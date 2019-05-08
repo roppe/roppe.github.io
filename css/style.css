@@ -431,12 +431,12 @@
     #section-how-it-work .button-go-services{
     font-family: "Roboto";
     font-weight: 500;
-    color: #073664;
+    color: #ffffff;
     font-size: 13px;
     letter-spacing: 1px;
     text-transform: uppercase;
     border-radius: 3px;
-    background: transparent;
+    background: #ce2027;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -445,7 +445,7 @@
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #073664;
+    border: 1px solid #ce2027;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     position: relative;
@@ -467,7 +467,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #073664;
+    background-color: #bc1c22;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -626,19 +626,19 @@
     #repair-panel .btn-request-1{
 	font-family: "Roboto";
     font-weight: 500;
-    color: #073664;
+    color: #ffffff;
     font-size: 13px;
     letter-spacing: 1px;
     text-transform: uppercase;
     border-radius: 3px;
-    background:#fafafa;
+    background:#ce2027;
     padding-left: 20px;
     padding-right: 20px;
     padding-top:10px;padding-bottom:10px;
     margin-right: 10px;
     margin-top:20px;
     margin-left: auto;margin-right: auto;
-    border: 1px solid #fafafa;
+    border: 1px solid #bd1a21;
 	}
 
      #repair-panel .btn-request-1 .fa{
@@ -650,8 +650,8 @@
     #repair-panel .btn-request-1:hover{
     cursor: pointer;
     color: #ffffff;
-    background: #073664;
-    border: 1px solid #073664;
+    background: #bd1a21;
+    border: 1px solid #bd1a21;
     }
 	
 	/* Index Home Page - SECTION ABOUT US   */
@@ -1054,12 +1054,12 @@
     width: 180px;
     font-family: "Roboto";
     font-weight: 500;
-    color: #073664;
+    color: #ffffff;
     text-transform: uppercase;
-    background-color:transparent;
+    background-color:#ce2027;
     padding-top: 8px;
     padding-bottom: 8px;
-    border:1px solid #073664;
+    border:1px solid #ce2027;
     border-radius: 2px;
     margin-top: 40px;
     position: relative;
@@ -1070,7 +1070,7 @@
     }
 
     .cover-repair .text-area .btn-qet-quote:hover{
-        background-color:#073664;
+        background-color:#c0171d;
         color: #ffffff; 
     }
 
@@ -1102,7 +1102,7 @@
 	#repair-list .text-title h2{
 	font-family: "Roboto";
 	font-weight: 500;
-	color: #2d2b2b;
+	color: #073664;
 	font-size: 33px;
 	text-align: center;
 	text-transform: uppercase;
@@ -1115,7 +1115,7 @@
 	
 	font-family: "Roboto";
 	font-weight:400;
-	color: #2d2b2b;
+	color: #073664;
 	font-size: 18px;
 	text-transform:none;
 	text-align: center;
@@ -1137,11 +1137,10 @@
 	#repair-list .list-repairs-link{
 	margin-bottom:20px;
 	background-color:#fafafa;
-	max-width: 230px;
-    margin-right: 25px;
+	max-width: 11%;
     padding-left: 0;
     padding-right: 0;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 10px;
     border: 1px solid #dedbdb;
 	 /* background: url(../img/blue-lines.png); */
@@ -1154,21 +1153,21 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 110px;
-	height: 110px;
+	width: 100px;
+	height: 100px;
 	}
 
 	#repair-list .list-repairs-link  h5{
 	font-weight: 500;
-	color: #2d2b2b;
+	color: #073664;
 	font-family: "Roboto";
 	text-align: center;
-	margin-top:5px;
-	font-size: 17px;
+	margin-top:10px;
+	font-size: 15px;
 	width: 100%;
 	background:#fafafa;
 	text-transform: uppercase;
-	padding-top: 10px;padding-bottom: 10px;
+	padding-top:2px;padding-bottom:2px;
 	letter-spacing: 1px;
 	}
 
@@ -1183,6 +1182,31 @@
 	.list-repairs-link a:hover img{
 	transform: scale(1.1) !important;
 	}
+
+
+    #repair-list .go-services{
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background:#ce2027;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    }
+
+    #repair-list .go-services .fa{
+        margin-left: 5px;
+    }
 	
 
 /* Index Page - banner call npow */
@@ -1677,7 +1701,7 @@
 	}
 
 	#repair-description .right-pic img{
-	margin-top:15%;
+	margin-top:9%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -1686,12 +1710,12 @@
     #repair-description .left-content .btn-go-price{
         font-family: "Roboto";
     font-weight: 500;
-    color: #073664;
+    color: #ffffff;
     font-size: 13px;
     letter-spacing: 1px;
     text-transform: uppercase;
     border-radius: 3px;
-    background: transparent;
+    background: #ce2027;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -1700,7 +1724,7 @@
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #073664;    
+    border: 1px solid #ce2027;    
     }
 
      #repair-description .left-content .btn-go-price .fa{
@@ -1708,8 +1732,9 @@
      }
 
      .left-content .btn-go-price:hover{
-      background: #073664;
+      background:#bd1a21;
       color: #ffffff;  
+      cursor: pointer;
      }
 
 
@@ -1769,12 +1794,12 @@
      .btn-go-contact {
     font-family: "Roboto";
     font-weight: 500;
-    color: #073664;
+    color: #ffffff;
     font-size: 13px;
     letter-spacing: 1px;
     text-transform: uppercase;
     border-radius: 3px;
-    background: transparent;
+    background: #ce2027;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -1783,7 +1808,7 @@
     margin-top:45px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #073664;
+    border: 1px solid #ce2027;
 
     }
 
@@ -1794,7 +1819,7 @@
     .btn-go-contact:hover{
     color: #ffffff;
     cursor: pointer;
-    background: #073664;
+    background: #c31c22;
     }
 	
 	/*  How it works section on repairs  page   */
@@ -1862,12 +1887,12 @@
     .btn-go-services-steps {
     font-family: "Roboto";
     font-weight: 500;
-    color: #073664;
+    color: #fff;
     font-size: 13px;
     letter-spacing: 1px;
     text-transform: uppercase;
     border-radius: 3px;
-    background: transparent;
+    background:#ce2027;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -1876,7 +1901,7 @@
     margin-top:20px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #073664;
+    border: 1px solid #ce2027;
 
     }
 
@@ -1887,7 +1912,7 @@
     .btn-go-services-steps:hover{
     color: #ffffff;
     cursor: pointer;
-    background: #073664;
+    background: #bc1c22;
     }
 
 	/* ------------  PICK UP DROP OFF LOCATION  SERVICES  PAGE  -------------------   */
@@ -2206,7 +2231,7 @@
 	text-align: center;
 	font-size: 19px;
 	letter-spacing: 3px;
-	background: #073664;
+	background: #ce2027;
 	margin-top: 25px;
 	}
 
