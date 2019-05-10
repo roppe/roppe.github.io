@@ -975,7 +975,7 @@
 	}
 
 	.social-footer .btn-our-blog:hover{
-	background: #f2bd25;
+	background: #ce2027;
 	color: #ffffff;
 	cursor: pointer; 
 	}
@@ -2382,6 +2382,9 @@
     padding-top: 15px;
     padding-bottom:20px;
     margin-top: 20px;
+    -webkit-box-flex: 1;
+    
+
     }
 
     .flex-md-last {
@@ -2534,10 +2537,477 @@
     }
 
 
+    /* ----------- SELL IPAD PAGE  ---------------- */
 
 
+     #sell-ipad-header{
+    padding-bottom:3%;
+    padding-top:160px;  
+    border-bottom: 1px solid #eee; 
+    /*background: url(../img/new-cover-drop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:480px;*/
+    background: #fafafa;
+    }
+
+    #sell-ipad-header .button-get-offer{
+        font-family: "Roboto";
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: #ce2027;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ce2027;
+   
+    }
+
+     #sell-ipad-header .button-get-offer .fa{
+        margin-left: 7px;
+     }
+
+    /*  Selling ipad steps on header  */
+
+    #sell-ipad-header .txt-header{
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    }
+
+    #sell-ipad-header .txt-header h1{
+    font-size: 30px;
+    font-family: "Roboto";
+    text-align: center;
+    color: #073664;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+    }
+
+    #sell-ipad-header .txt-header h2{
+    font-size: 20px;
+    font-family: "Roboto";
+    text-align: center;
+    color: #073664;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+   }
+
+    .sell-ipad-steps{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;  
+    }
+
+    .sell-ipad-steps .headline{
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #073664 !important;
+    font-size: 18px;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 15px;
+    }
+
+    .sell-ipad-steps p{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #073664;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 0;
+
+    }
+
+    .sell-ipad-steps img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    }
+
+    #sell-device-description {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    background-color: #F7F7F7;
+    }
+
+    .sell-left-side h2{
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #073664 !important;
+    font-size: 30px;
+    text-align: left;
+    margin-top:5px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    }
+
+    .sell-left-side h5{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #073664 !important;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 35px;
+    }
 
 
+    .sell-left-side p{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #073664;
+    font-size: 14px;
+    text-align: left;
+    }
+
+    .sell-left-side .btn-quote-sell{
+         font-family: "Roboto";
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: #ce2027;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ce2027;  
+    }
+
+    .sell-left-side .btn-quote-sell .fa{
+        margin-left: 5px;
+    }
+
+    .sell-right-side img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    /*  Sell zour device contact form  */
+    
+    #sell-device-section{
+    padding-top: 3%;
+    padding-bottom: 6%;
+    border-top: 1px solid #eee;
+    }
+
+    #sell-device-section .sell-text-top{
+    margin-bottom:15px;  
+    }
+
+    #sell-device-section .sell-text-top h2{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #073664;   
+    }
+
+    #sell-device-section .sell-text-top h6{
+     font-family: "Roboto";
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #073664;   
+    }
+
+    #sell-device-section .sell-text-top .border-line-div-1{
+    border-bottom: 1px solid #c1c1c3;
+    width: 25%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    /* requst sell form  */
+
+    .sell-device-form .sell-form {
+    font-size: 16px;
+    color: #728292;
+    background: transparent;
+    border: 2px solid #a3adb7;
+    border-radius: 0;
+    font-family: "Roboto";
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    }
+
+    .sell-device-form .title-headline-form{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #073664;
+    margin-bottom: 20px;
+    font-size: 19px;
+    border-left: 4px solid #073664;
+    padding-left: 15px;
+    }
+
+    .sell-device-form .title-headline-form-2{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #073664;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    font-size:19px;
+    border-left: 4px solid #073664;
+    padding-left: 15px;
+    
+    }
+
+    .sell-device-form .question-form .question-title{
+     font-family: "Roboto";
+    font-weight: 500;
+    color: #3f3f40;
+    margin-bottom:10px;
+    font-size:15px;   
+    }
+
+
+    .sell-device-form .question-form {
+    margin-bottom: 15px;
+    }
+
+    .form-check-inline .form-check-input {
+    position: static;
+    margin-top: 0;
+    margin-right: .3125rem;
+    margin-left: 0;
+    width: 20px;
+    height: 20px;
+    }
+
+    .sell-device-form .insert-img label{
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #073664;
+    margin-bottom: 15px;
+    margin-top:5px;
+    font-size:15px;
+    border-left: 3px solid #073664;
+    padding-left: 15px;
+    }
+
+    .insert-img .form-control-file, .form-control-range {
+    display: block;
+    width: 100%;
+    border:2px solid #a3adb7;
+    background: #fdfbfb;
+    padding-bottom: 15px;padding-top:15px;
+    padding-left: 20px;
+    }
+
+    .sell-device-form .btn-submit-sell{
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: #ce2027;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ce2027;
+    }
+
+
+    /* --------------------- CONTACT US PAGE ---------------------  */
+
+    .banner-contact-cover {
+    background-color:#fffefe;
+    padding-top: 160px;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #eee;
+    }
+
+    .banner-contact-cover .contact-text-head h6{
+    font-size: 18px;
+    font-family: "Roboto";
+    text-align:center;
+    color: #073664;
+    font-weight: 400;
+    letter-spacing: 1px;
+    }
+
+    .banner-contact-cover .contact-text-head h2{
+      font-size:39px;
+    font-family: "Roboto";
+    text-align:center;
+    color: #073664;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;  
+    margin-top: 10px;
+    }
+
+    #contact-section{
+    padding-bottom: 7%;
+    padding-top: 4%;
+    background: #fafafa;
+    }
+
+    .contact-us-form{
+    border: 1px solid #eee;
+    padding-left: 30px;padding-right: 30px;
+    padding-bottom: 30px;padding-top:15px;
+    width: 90%;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+    }
+
+    .contact-us-form  .send-message{
+     font-family: "Roboto";
+    font-weight:400;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: #ce2027;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ce2027;   
+    }
+
+    .contact-us-form .contact-form-control{
+     font-size: 15px;
+    color: #728292;
+    background: #f0f4f6;
+    border:1px solid #f0f4f6;;
+    border-radius:5px;
+    font-family: "Roboto";
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;   
+    width: 100%;
+    }
+
+    .contact-us-form label{
+    font-size: 16px;
+    color: #073664;  
+     font-family: "Roboto";
+     font-weight: 500;
+    }
+
+    .contact-us-form .select-title{
+     font-size: 16px;
+    color: #073664;
+    font-family: "Roboto";
+    font-weight: 500;
+    }
+
+    .contact-us-form .select-reason{
+    height: 45px;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+
+
+     #contact-section .contact-informations{
+        display: block;
+     }
+
+
+    .contact-list-text{
+    list-style-type: none;
+    display: block;
+    margin-top: 40px;
+    }
+
+    .contact-list-text h2{
+     font-size: 28px;
+    font-family: "Roboto";
+    text-align: left;
+    color: #073664;
+    font-weight: 500;
+    letter-spacing: 1px;  
+    margin-bottom: 35px;
+    }
+
+    
+    .contact-list-text li{
+    display: block;
+    float: left;
+    border: 1px solid #eee;
+    width: 100%;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-top: 12px;padding-bottom:12px;
+    background: #fffefe;
+    }
+
+     .contact-list-text li p{
+    font-size: 16px;
+    font-family: "Roboto";
+    text-align: left;
+    color: #073664;
+    font-weight: 400;
+    margin-bottom: 0;
+     }
+
+    .contact-list-text li p .fa{
+    font-size: 20px;
+    margin-right:20px;
+    }
+
+    .contact-list-text li a{
+    font-size: 16px;
+    font-family: "Roboto";
+    text-align: left;
+    color: #073664;
+    font-weight: 400;
+    margin-bottom: 0;
+    text-decoration: none;
+    }
+
+    .contact-list-text li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    }
+
+    .contact-list-text .map{
+    border: none;
+    padding-left: 0;
+    }
 
 
 
@@ -2546,6 +3016,12 @@
 	/* Responsive Design Changes fixes CSS Tablet  */
 	
 	@media (max-width: 767.98px) {
+        
+         .section-price .col-sm-6 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25% !important;
+        max-width: 50%;
+        }
 
 		.nav-list .dropdown .nav-dropdown li a img{
 			width: 35%;
@@ -2557,23 +3033,26 @@
 		}	
 	
 		.nav-list .dropdown .nav-dropdown a p{
-			font-size: 12px;
+			font-size: 11px;
 		}
 
-		.inner-how-it-work-1 {
-		   
-		}
-		
+        .inner-how-it-work-1 .first-side-work{
+        border-bottom: 1px solid #eee;
+        padding-bottom: 20px;
+        }
+
 		.inner-how-it-work-1 .first-side-work .headline-app {
-	    font-size: 32px;
+	    font-size:17px;
 	    text-align:center;
+        margin-top: 20px;
+        margin-bottom: 15px;
 	   	}
 
 	   	.inner-how-it-work-1 .first-side-work .text-description {
 	    font-family: "Roboto";
 	    font-weight: 400;
 	    color: #696868;
-	    font-size: 16px;
+	    font-size: 13px;
 	    text-align: center;
 		}
 
@@ -2601,6 +3080,14 @@
 		text-align: center;
 		
 		}
+        
+        .repair-box-list li{
+          padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+       
 
 		.repair-txt-1 {
 		margin-top: 3%;
@@ -2803,6 +3290,8 @@
 			padding-left: 10px;padding-right: 10px;
 		}
 
+       
+
 
 	}   /* /End Tablet size */
 
@@ -2813,23 +3302,79 @@
 
 	
 	@media (max-width: 575.98px) { 
-	
+	   	
+        .main-navigation .nav-list .nav-link{
+            margin-top: 5px;
+            padding-top:4px;padding-bottom: 4px;
+             
+        }
+
+        .nav-list .dropdown{
+            margin-top: 5px;
+            margin-left:8px;
+        }
+
+        .nav-list .dropdown .nav-dropdown li{
+            padding-top: 5px;
+        }
+
+        .section-price .col-sm-6 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25% !important;
+        max-width: 50%;
+        }
+
 		
-
-		.inner-how-it-work-1 {
-		 
-		}
-
 		.inner-how-it-work-1 .first-side-work .headline-app {
-		font-size: 26px;
+		font-size: 17px;
 		text-align: center;
+        
 		}
+
+        #section-how-it-work .main-title{
+            font-size: 25px;
+        }
+
+        #section-how-it-work .main-subtitle-2{
+            font-size: 18px;
+            margin-bottom: 2%;
+        }
 
 		.inner-how-it-work-1 .first-side-work .text-description {
 	     color: #696868;
-	    font-size: 14px;
+	    font-size: 12px;
 	    text-align:center;
 		}
+
+        #about-us .about-main-1 .title span{
+            font-size: 32px;
+        }
+
+        #about-us .about-main-1 .ab-txt{
+            font-size: 13px;
+            font-weight:500;
+        }
+
+        #about-us .about-main-1{
+            margin-bottom: 5px;
+        }
+
+        .about-main-pic-2 img{
+            width: 60%;
+            margin-top: 5px;
+        }
+
+        #about-us .about-main-1 h5{
+            font-size: 22px;margin-bottom: 20px;
+        }
+
+        .inner-how-it-work-1 .first-side-work img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transition: all .2s ease-in-out;
+        width: 80%;
+        }
 
 		.inner-how-it-work-1 .second-side-work img {
 		display: block;
