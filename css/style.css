@@ -1024,7 +1024,7 @@
 	}
 
 	.cover-repair .text-area h3{
-	font-size: 37px;
+	font-size: 35px;
 	font-family: "Roboto";
 	text-align: left;
 	color: #073664;
@@ -1033,7 +1033,7 @@
 	}
 
 	.cover-repair .text-area h3 span{
-	font-size: 37px;
+	font-size: 35px;
 	font-family: "Roboto";
 	text-align: left;
 	color: #073664;
@@ -1245,7 +1245,7 @@
     font-family: "Roboto";
     font-weight: 500;
     color:#f7f5f5;
-    font-size: 32px;
+    font-size: 29px;
     text-align:center;
     padding-bottom: 7px;
     margin-top: 15px;
@@ -1282,7 +1282,7 @@
     background-color: #ce2027;
     padding-top:12px;padding-bottom:12px;
     padding-left: 15px;padding-right: 12px;
-   
+    margin-bottom: 20px;
     border:0;border-radius:0;
     letter-spacing: 1px;
     margin-top:25px;
@@ -1532,6 +1532,7 @@
     border:0;border-radius:0;
     letter-spacing: 1px;
     margin-top:25px;
+    margin-bottom: 15px;
 
     }
 
@@ -2053,6 +2054,7 @@
 	
 	.ny-area-list{
 	display: block;
+    padding-left: 60px;
 	}
 
 	.ny-area-list li{
@@ -2065,13 +2067,17 @@
 	}
 
 	.ny-area-list li a{
-	font-size: 12px;
+	font-size: 14px;
 	font-family: "Roboto";	
 	color: #073664;
 	font-weight:500;
 	text-decoration: none;
 	padding-left:3px;
 	}
+
+    .ny-area-list li a:hover{
+        color:#ce2027;
+    }
 
 	.locations-side .headline-location{
 	font-family: "Roboto";
@@ -2081,7 +2087,7 @@
 	border-left: 5px solid #073664 ;
 	padding-left: 15px;
 	text-align:center;
-    margin-left: 24px;
+    margin-left:0;
     color: #073664 ;
 	}
 
@@ -2239,6 +2245,7 @@
 
 	.cover-locations-top .locations-side {
 	padding-left: 0;
+    border-left: 1px solid #eee;
 	}
 
 
@@ -3115,8 +3122,262 @@
 
 	/* Responsive Design Changes fixes CSS Tablet  */
 	
-	@media (max-width: 767.98px) {
+
+    @media (max-width: 991px) {
         
+        .cover-repair .text-area h3{
+            font-size: 30px;
+        }
+
+        .cover-repair .text-area h3 span{
+            font-size: 30px;
+        }
+
+        .cover-repair .text-area{
+            padding-top: 11%;
+        }
+
+        #repair-list .text-title h2{
+            font-size: 28px;
+        }
+
+        #repair-list .text-title h4{
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+
+        #repair-list .list-repairs-link img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70px;
+        height: 66px;
+        }
+        #repair-list .list-repairs-link h5{
+            font-size: 11px;
+        }
+
+        #repair-list .go-services{
+            margin-top: 13px;
+        }
+
+        #sell-ipad-header .txt-header h1{
+            font-size: 27px;
+        }
+
+        #sell-ipad-header .txt-header h2{
+            font-size: 18px;
+        }
+
+        .sell-ipad-steps img{
+            width: 85%;
+        }
+
+        .sell-ipad-steps .headline{
+            font-size: 16px;
+        }
+
+        .sell-left-side h2{
+            font-size: 21px;
+        }
+
+        .sell-left-side h5{
+            font-size: 18px;
+        }
+
+        #sell-device-section .sell-text-top h6{
+            font-size: 13px;
+        }
+
+        .sell-left-side p{
+            font-size: 13px;
+        }
+
+        #sell-device-section .sell-text-top h2{
+            font-size: 25px;
+            letter-spacing: 1px;
+        }
+
+       .banner-pricing-cover .price-text-headline h2{
+        font-size: 24px;
+       }
+
+       .card-expand .expand-img{
+        width: 80%;
+       }
+
+        .single-service img{
+            width: 65%;
+        }
+
+        .single-service h5 {
+            font-size: 12px;
+        }
+        
+
+        .cover-locations-top .loc-title{
+            font-size: 25px;
+            margin-bottom: 30px;
+        }
+
+        .inline-steps img{
+            width: 60%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            float: none;
+        }
+
+        .inline-steps{
+            margin-top: 15px;
+            border-bottom: none;
+        }
+
+        .inline-steps h2{
+            float: left;
+        }
+
+        .inline-steps p{
+            float: left;
+            font-size: 12px;
+        }
+
+        .ny-area-list{
+        padding-left: 0;
+        }
+
+        .cover-locations-top .locations-side{
+            border-left:none;
+            border-top: 1px solid #eee;
+        }
+
+         .banner-faq-cover{
+            height: auto;
+            padding-bottom: 50px;
+         }
+         
+         .tz-gallery .gallery-main-title{
+            font-size: 28px;
+         }
+
+         .banner-cover-repair .text-headline{
+            padding-top: 8%;
+         }
+
+         .banner-contact-us .box-cnt-txt h3 span{
+            font-size: 27px;
+         }
+         .banner-contact-us .box-cnt-txt .btn-go-contact{
+            margin-bottom: 20px;
+         }
+
+         .banner-sell .box-content-bnr img{
+            margin-top: 20px;
+         }
+
+         .top-header .right-button{
+            float: none !important;
+            text-align: left !important;
+         }
+
+         .top-header .right-button .phone-info{
+            display: block !important;
+            float: left !important;
+         }
+
+         .top-header .right-button .email-info{
+            display: block;
+            float: left;
+         }
+    
+
+
+    }  /* end  max widht 991px  */
+	
+
+    @media (max-width: 767.98px) {
+        
+
+        #sell-ipad-header .txt-header h1{
+        font-size: 24px;
+        }
+
+        #sell-ipad-header .txt-header h2{
+        font-size: 15px;
+        }
+
+        .sell-ipad-steps{
+        padding-left: 5px;padding-right: 5px;
+        }
+
+        .sell-ipad-steps .headline{
+        font-size: 15px;
+        }
+
+        .sell-ipad-steps p{
+            font-size: 12px;
+        }
+
+        .sell-right-side img{
+            width: 60%;
+        }
+
+       .banner-pricing-cover .price-text-headline h2{font-size: 22px;}
+
+       .banner-pricing-cover .price-text-headline h6{
+        font-size: 16px;
+       }
+
+       .card-expand .expand-img{
+        width: 95%;
+       }
+
+       .card-expand h4{
+        font-size: 17px;
+       }
+
+        .banner-cover-repair .text-headline .img-fluid{
+            width: 40%;
+        }
+
+        #pickup-header-section .text-zone h1{
+            font-size: 27px;
+        }
+       
+        .single-service{
+            margin-top: 10px;
+        }
+
+        .cover-locations-top .loc-title{
+            font-size: 18px;
+        }
+
+        .inline-steps img{
+            width: 80%;
+        }
+
+        .ny-area-list li a{
+            font-size: 13px;
+        }
+
+        .appointment-text-box h2{
+            font-size: 24px;
+        }
+
+        .appointment-text-box h6{
+            font-size: 14px;
+        }
+
+        .inline-steps h2 {
+        font-family: "Roboto";
+        font-weight: 500;
+        color: #073664 !important;
+        font-size: 14px;
+        text-align: left;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        }
+
          .section-price .col-sm-6 {
         -ms-flex: 0 0 25%;
         flex: 0 0 25% !important;
@@ -3231,14 +3492,6 @@
 		
 		}
 
-		#repair-list .text-title h2{
-			font-size: 4vw;
-		}
-		
-		#repair-list .text-title h4{
-			font-size: 16px;
-			font-weight: 400;
-		}
 		
 		.ipad-devices-list .text-box-top h2{
 			font-size: 3vw;
@@ -3304,17 +3557,7 @@
 			width: 45%;
 			margin-top: 40px;
 		}
-
-		.cover-repair{
-			padding-top: 23%;
-		}
 		
-		.cover-repair .text-area h3,.cover-repair .text-area h3 span{
-			text-align: center;
-			font-size: 4vw;
-			margin-bottom: 30px;
-		}
-
 		.cover-repair .img-side img{
 			width:70%;
 		}
@@ -3356,11 +3599,11 @@
 		}
 
 		.txt-title-steps h4{
-			font-size: 25px;
+			font-size: 22px;
 		}
 
 		.txt-title-steps h6{
-			font-size: 17px;
+			font-size: 16px;
 		}
 
 		.tz-gallery .lightbox img{
@@ -3390,10 +3633,52 @@
 			padding-left: 10px;padding-right: 10px;
 		}
 
+        .banner-contact-cover .contact-text-head h2{
+            font-size: 32px;
+        }
+       
+        .cover-repair .text-area .btn-qet-quote{
+            font-size: 13px;
+            width: 160px;
+        }
+
+
+        #repair-list .text-title h2{
+            font-size:23px;
+        }
+        
+        #repair-list .text-title h4{
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        #repair-list .list-repairs-link img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60px;
+        height: 60px;
+        }
+
+        #repair-list .list-repairs-link h5{
+            font-size: 10px;
+        }
+
+        #repair-list .list-repairs-link{
+            border-right: 1px solid #dedbdb;
+            border-left: none;border-top: none;
+            border-bottom: none;
+        }
+
+        #repair-list .text-title{
+            margin-bottom: 10px;
+        }
+
+        
        
 
 
-	}   /* /End Tablet size */
+	}   /* /End responsive Tablet size */
 
 
 
@@ -3403,6 +3688,8 @@
 	
 	@media (max-width: 575.98px) { 
 	   	
+        
+
         .main-navigation .nav-list .nav-link{
             margin-top: 5px;
             padding-top:4px;padding-bottom: 4px;
@@ -3573,32 +3860,28 @@
 			font-size: 4vw;
 		}
 
-		#repair-list .text-title h2{
-			font-size: 5vw;
-		}
 		
-		#repair-list .text-title h4{
-			font-size: 14px;
-			font-weight: 400;
-			text-align: center;
-		}
 
-			.cover-repair{
-			padding-top:45%;
-		}
+        .cover-repair{
+        padding-top:10px;
+        }
 		
 		.cover-repair .text-area h3,.cover-repair .text-area h3 span{
-			text-align: center;
-			font-size: 4vw;
-			margin-bottom: 30px;
+			text-align:left;
+			font-size:18px;
+			margin-bottom:15px;
 		}
+
+        .cover-repair .text-area .btn-qet-quote{
+            margin-top: 10px;
+        }
 
 		.cover-repair .img-side img{
 			width:50%;
 		}
 		
 		#repair-list .list-repairs-link{
-			max-width: 230px;
+			max-width: 170px;
 		}
 
 		#repair-list .list-repairs-link h5{
@@ -3618,7 +3901,7 @@
 		}
 		
 		.tz-gallery .gallery-main-title{
-			font-size: 28px;
+			font-size: 24px;
 		}
 
 
@@ -3630,6 +3913,178 @@
 		}
 
 
+        .contact-us-form{
+        width: 98%;
+        }
 
-	} /* end mobile */
+        .banner-contact-cover .contact-text-head h2{
+        font-size: 26px;
+        }
+
+        .banner-contact-cover .contact-text-head h6{
+        font-size: 15px;
+        }
+
+        .contact-list-text h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        }
+
+        .contact-list-text{
+            padding-left: 10px;
+        }
+
+        .contact-list-text li p{
+            font-size: 15px;
+        }
+
+       
+
+         .faq-tabs .faq-question {
+        font-size: 13px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 15px;
+        }
+
+        .faq-tabs{
+        margin-bottom: 20px;
+        }
+
+        .faq-tabs p{
+        font-size: 13px;
+        }
+
+          .cover-locations-top{
+            background-color: #b2dbea;
+        }
+
+        #pickup-header-section .text-zone h1{
+            font-size: 23px;
+        }
+
+        .single-service img{
+            width: 50%;
+        }
+        .single-service h5{
+        font-size: 13px;
+        }
+
+        .inline-steps img{
+            width: 60%;
+        }
+
+        .inline-steps h2{
+            text-align: center;
+            float: none;
+            font-size: 15px;
+        }
+
+        .ny-area-list li a{
+            font-size: 11px;
+        }
+
+        .cover-locations-top .loc-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+        }
+        .appointment-text-box h2{
+        font-size: 20px;
+        }
+
+        .appointment-text-box h6 {
+        font-size: 12px;
+        }
+
+
+       .banner-pricing-cover .price-text-headline h2{
+        font-size: 15px;
+       }
+
+       .banner-pricing-cover .price-text-headline h6{
+        font-size: 12px;
+       }
+
+       .card-expand h4{
+        font-size: 14px;
+       }
+
+       .pricing-inner-1 .left-inner .device-img{
+        width: 35%;
+       }
+       .pricing-list li .pr-item{
+        font-size: 12px;
+       }
+
+       .sell-ipad-steps img{
+        width: 35%;
+       }
+
+       .sell-ipad-steps {
+            padding-left: 5px;
+        padding-right: 5px;
+        border-top: 1px solid #eee;
+        padding-top: 15px;
+        }
+
+        #sell-ipad-header .txt-header h1{
+        font-size: 17px;
+        }
+        #sell-ipad-header .txt-header h2{
+        font-size: 13px;
+        }
+
+        .sell-left-side p {
+            font-size: 12px;
+        }
+
+        .sell-left-side h2{
+            font-size: 18px;
+        }
+
+        .sell-left-side h5{
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        #sell-device-section .sell-text-top h2{
+            font-size: 18px;
+        }
+
+        .ipad-devices-list .text-box-top h2{
+            font-size: 18px;
+        }
+
+          #repair-list .text-title h2{
+           
+            font-size:20px;
+        }
+
+        #repair-list .text-title h4{
+            font-size: 11px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        #repair-list .list-repairs-link{
+        margin-bottom: 20px;
+        background-color: #fafafa;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border: 1px solid #dedbdb;
+        /* background: url(../img/blue-lines.png); */
+        /* background-repeat: no-repeat; */
+        transition: all .2s ease-in-out;   
+        }
+
+        .cover-repair{
+            height: auto;
+            padding-bottom: 40px;
+        }
+
+
+
+	} /* end mobile responsive media querie*/
 
