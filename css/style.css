@@ -1572,7 +1572,7 @@
 	}
 
 	.banner-cover-repair .text-headline h2{
-	font-size:37px;
+	font-size:35px;
 	font-family: "Roboto";
 	text-align: left;
 	color: #073664;
@@ -1582,7 +1582,7 @@
 	}
 
 	.banner-cover-repair .text-headline h2 span{
-	font-size:37px;
+	font-size:35px;
 	font-family: "Roboto";
 	text-align: left;
 	color: #073664;
@@ -1632,7 +1632,7 @@
     font-family: "Roboto";
     font-weight: 500;
     color: #073664;
-    font-size: 32px;
+    font-size: 30px;
     text-align: left;
     margin-top:15px;
     margin-bottom: 10px;
@@ -1643,7 +1643,7 @@
     font-family: "Roboto";
     font-weight:400;
     color: #073664;
-    font-size: 32px;
+    font-size: 30px;
     text-align: left;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -3118,12 +3118,16 @@
     @media (max-width: 991px) {
         
          .banner-cover-repair .text-headline h2 span{
-            font-size: 30px;
+            font-size:26px;
          }
 
 
          .banner-cover-repair .text-headline h2 {
-            font-size: 30px;
+            font-size: 26px;
+         }
+
+         #repair-description .left-content .screen-title span, #repair-description .left-content .screen-title{
+            font-size: 25px;
          }      
 
         .location-desc-left h2{
@@ -4196,7 +4200,7 @@
 		}
 
 		.banner-cover-repair .text-headline h2 span, .banner-cover-repair .text-headline h2{
-			font-size: 4vw;
+			font-size:20px;
 		}
 		
 		.tz-gallery .gallery-main-title{
