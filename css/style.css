@@ -756,6 +756,22 @@
     letter-spacing: 1px;
      }
 
+      footer .text-dispatch{
+     text-align: center;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #bbc1c5;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-left:0;
+    margin-top:0;
+    padding-top: 10px;
+    letter-spacing: 1px; 
+      }
+
      /* Footer contact inforamtion on left side */
 
 	.partners-left li {
@@ -2142,7 +2158,7 @@
 	border: 2px solid #728292;
 	border-radius: 0;
 	font-family: "Roboto";
-	padding-top: 15px;padding-bottom: 15px;
+	padding-top: 10px;padding-bottom: 10px;
 	padding-left: 20px;
 	}
 
@@ -2151,8 +2167,8 @@
 	font-family: "Roboto";
 	font-weight: 400;
     color: #073664;
-	margin-bottom: 25px;
-	font-size: 22px;
+	margin-bottom: 15px;
+	font-size: 19px;
 	border-left: 4px solid #073664;
 	padding-left: 15px;
 	}
@@ -2161,28 +2177,29 @@
 	font-family: "Roboto";
 	font-weight: 400;
     color: #073664;
-	margin-bottom: 25px;
-	margin-top: 35px;
-	font-size: 22px;
+	margin-bottom:15px;
+	margin-top:0px;
+	font-size:19px;
 	border-left: 4px solid #073664 ;
 	padding-left: 15px;
 	}
 
 	.pickup-dropoff-form .title-form-3{
-	font-family: "Roboto";
-	font-weight: 400;
+	    font-family: "Roboto";
+    font-weight: 400;
     color: #073664;
-	margin-bottom: 25px;
-	margin-top: 35px;
-	font-size: 22px;
-	border-left: 4px solid #073664 ;
-	padding-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 19px;
+    border-left: 4px solid #073664;
+    padding-left: 15px;
+
 	}
 
 	.pickup-dropoff-form .location-area{
 	margin-bottom: 15px;
 	margin-top: 0;
-	height: 60px;
+	height:48px;
 	border-radius: 0;
 	border: 2px solid #728292;
 	font-family: "Roboto";
@@ -2190,6 +2207,7 @@
 	padding-left: 15px;
 	text-transform:capitalize;
     color: #728292;
+    padding-bottom: 10px;padding-top: 10px;
 	}
 
 	.date-title{
@@ -2235,13 +2253,15 @@
 	font-family: "Roboto";
 	color: #ffffff;
 	border-radius: 0;
-	width: 220px;
+	width: 250px;
 	padding-top: 12px;padding-bottom: 12px;
 	text-align: center;
 	font-size: 19px;
 	letter-spacing: 3px;
 	background: #ce2027;
 	margin-top: 25px;
+    margin-right: auto;margin-left: auto;
+    display: block;
 	}
 
 	/* Location pick up drop off page  */
@@ -2327,6 +2347,8 @@
     
     }
 
+
+
     .faq-tabs:hover >.faq-question{
     cursor: pointer;
     color: #ffffff;
@@ -2341,11 +2363,32 @@
     cursor: pointer;
     }
 
+    .faq-tabs .btn-v-pricing{
+       font-weight: 500;
+    font-family: "Roboto";
+    color: #fff;  
+    font-size: 14px; 
+    text-transform: uppercase;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     background-color: #073664;
+     text-decoration: none;
+     border-radius:5px;
+     padding-top: 8px;padding-bottom: 8px;
+        width: 190px;
+        margin-top: 30px;
+    }
+
+    .faq-tabs .btn-v-pricing:hover{
+        background-color: #0e579e;
+    }
+
 
     /* ---------------- PRICING PAGE ------------------------*/
     
      .banner-pricing-cover{
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     margin-top: 100px;
     background-color: #fafafa;
     width: 100%;
@@ -2393,8 +2436,14 @@
     padding-bottom:20px;
     margin-top: 20px;
     -webkit-box-flex: 1;
+    border-right:1px solid #eee;
+    border-top: none;border-left:1px solid #eee;;border-bottom: none;
     
 
+    }
+
+    .section-price .col-xl-2{
+        max-width: 12% !important;
     }
 
     .flex-md-last {
@@ -2408,14 +2457,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;  
-    width: 60%;
+    width: 100%;
     }
 
     .card-expand h4{
     font-weight: 500;
     font-family: "Roboto";
     color: #3a3939;
-    font-size: 21px;
+    font-size: 15px;
     margin-bottom: 15px;
     text-align: center;   
     }
@@ -2440,7 +2489,7 @@
     font-weight: 500;
     font-family: "Roboto";
     color: #3a3939;  
-    font-size: 28px;
+    font-size: 19px;
     margin-bottom: 15px;
     text-align: center;
     }
@@ -3321,7 +3370,9 @@
         width: 80%;
        }
 
-     
+       .card-expand h4{
+        font-size: 12px;
+       }
 
         .cover-locations-top .loc-title{
             font-size: 25px;
@@ -3431,6 +3482,11 @@
 
     @media (max-width: 767.98px) {
         
+      
+
+
+
+
        #location-header-section .text-zone-location h1{
         font-size: 24px;
        }
@@ -3499,8 +3555,14 @@
        }
 
        .card-expand h4{
-        font-size: 17px;
+        font-size: 10px;
+        height: 40px;
        }
+
+       .section-price .col-xl-2 {
+      max-width: 12.5% !important;
+      padding-left: 4px;padding-right: 4px;
+    }
 
         .banner-cover-repair .text-headline .img-fluid{
             width: 40%;
@@ -3589,7 +3651,7 @@
         }
 
         #home-section .text-area h3{
-        font-size: 18px;
+        font-size: 16px;
         }
 
         .cta-buttons-home .btn-demo-home{
@@ -3619,7 +3681,7 @@
         }
 
         #repair-panel .rep-title{
-        font-size: 21px;
+        font-size: 18px;
         }
 
         #repair-panel .btn-request-1{
@@ -3835,7 +3897,7 @@
 		}
 
 		.txt-title-steps h6{
-			font-size: 16px;
+			font-size: 14px;
 		}
 
 		.tz-gallery .lightbox img{
@@ -3843,6 +3905,11 @@
 		display: block;
 		margin-right: auto;margin-left: auto;
 		}
+
+    #pickup-header-section{
+      height: 370px;
+      padding-top: 155px;
+    }
 
 		.tz-gallery{
 			width: 95%;
@@ -3995,38 +4062,46 @@
 
 		
 		.inner-how-it-work-1 .first-side-work .headline-app {
-		font-size: 15px;
+		font-size: 14px;
 		text-align: center;
         
 		}
 
         #section-how-it-work .main-title{
-            font-size: 20px;
+            font-size:17px;
         }
 
         #section-how-it-work .main-subtitle-2{
-            font-size: 16px;
+            font-size: 14px;
             margin-bottom: 2%;
         }
 
 		.inner-how-it-work-1 .first-side-work .text-description {
 	     color: #696868;
 	    font-size: 11px;
-	    text-align:center;
+	    text-align:left;
         font-weight: 500;
 		}
 
+    .ipad-devices-list .text-box-top h6{
+      font-size: 14px;
+    }
+
         #home-section .text-area h2 span{
-            font-size:18px;
+            font-size:14px;
             margin-top: 10px;
         }
         #home-section .text-area h2 {
-            font-size:18px;
+            font-size:14px;
             margin-top:10px;
         }
 
+        .banner-contact-us .box-img img{
+          width: 66%;
+        }
+
         #about-us .about-main-1 .title span{
-            font-size: 32px;
+            font-size:25px;
         }
 
         #section-how-it-work .button-go-services{
@@ -4035,13 +4110,17 @@
         }
 
         .logo-carousel .carousel-item p{
-            font-size: 13px;
+            font-size: 11px;
         }
 
         .carousel-inner{
-            width: 95%;
+            width: 98%;
         }
         
+        .logo-carosusel-ind{
+          bottom: -20px;
+        }
+
          .logo-carousel .carousel-control-prev {
         bottom: 44px;
         left: 5px;
@@ -4059,6 +4138,7 @@
 
         .repair-box-list h5{
             font-size: 12px;
+            margin-top: 5px;
         }
 
         .repair-box-list img{
@@ -4067,6 +4147,7 @@
 
         .repair-box-list{
             max-width: 100%;
+            margin-bottom: 8px;
         }
 
         #repair-panel .btn-request-1{
@@ -4088,7 +4169,7 @@
         }
 
         #about-us .about-main-1 h5{
-            font-size: 22px;margin-bottom: 20px;
+            font-size: 18px;margin-bottom: 20px;
         }
 
         .inner-how-it-work-1 .first-side-work img {
@@ -4099,6 +4180,10 @@
         width: 80%;
         }
 
+        footer .text-dispatch{
+          font-size: 10px;
+        }
+
 		.inner-how-it-work-1 .second-side-work img {
 		display: block;
 		margin-left: auto;
@@ -4106,6 +4191,10 @@
 		margin-top: 30px !important;
 		width: 60%;
 		}
+
+    .banner-sell .box-content-bnr img{
+      width: 70%;
+    }
 
 		.inner-how-it-work-2 .first-side-work .headline-app {
 		font-size: 26px;
@@ -4229,11 +4318,20 @@
 		}
 
 		#repair-description .left-content h5{
-			font-size: 15px;
+			font-size: 14px;
 		}
 
+    .tz-gallery h6{
+      font-size: 14px;
+      padding-left: 8px;
+    }
+
+    .banner-sell .box-content-bnr h3 span{
+      font-size: 21px !important;
+    }
+
 		.banner-cover-repair .text-headline h2 span, .banner-cover-repair .text-headline h2{
-			font-size:20px;
+			font-size:16px;
 		}
 		
 		.tz-gallery .gallery-main-title{
@@ -4294,12 +4392,12 @@
          
 
         #pickup-header-section .text-zone h1{
-            font-size: 23px;
+            font-size:19px;
         }
 
        
         .single-service h5{
-        font-size: 13px;
+        font-size: 12px;
         }
 
         .inline-steps img{
@@ -4316,37 +4414,67 @@
             font-size: 11px;
         }
 
+        .banner-pricing-cover{
+          margin-top: 130px;
+        }
+
         .cover-locations-top .loc-title {
         font-size: 16px;
         margin-bottom: 10px;
         }
         .appointment-text-box h2{
-        font-size: 20px;
+        font-size: 15px;
         }
 
         .appointment-text-box h6 {
         font-size: 12px;
         }
 
+        .pickup-dropoff-form .title-form-2{
+          font-size: 18px;
+        }
+
 
        .banner-pricing-cover .price-text-headline h2{
-        font-size: 15px;
-       }
-
-       .banner-pricing-cover .price-text-headline h6{
         font-size: 12px;
        }
 
-       .card-expand h4{
-        font-size: 14px;
+       .banner-pricing-cover .price-text-headline h6{
+        font-size: 11px;
        }
 
+       .card-expand{
+        border:none;
+       }
+
+       .card-expand h4{
+        font-size: 10px;
+        height:50px;
+       }
+
+
        .pricing-inner-1 .left-inner .device-img{
-        width: 35%;
+        width: 29%;
        }
        .pricing-list li .pr-item{
         font-size: 12px;
        }
+
+        .section-price .col-xl-2 {
+        max-width: 12.5% !important;
+        padding-left: 2px;padding-right: 2px;
+       }
+
+       .pricing-inner-1 .left-inner .device-title{
+        font-size: 13px;
+       }
+
+       .pricing-inner-1 .left-inner .btn-go-request{
+        font-size: 11px;
+        width: 150px;
+       }
+
+
 
        .sell-ipad-steps img{
         width: 35%;
@@ -4384,7 +4512,7 @@
         }
 
         .ipad-devices-list .text-box-top h2{
-            font-size: 18px;
+            font-size: 16px;
         }
 
           #repair-list .text-title h2{
@@ -4399,11 +4527,11 @@
         }
 
         #repair-list .list-repairs-link{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         background-color: #fafafa;
         padding-left: 0;
         padding-right: 0;
-        padding-top: 20px;
+        padding-top:10px;
         padding-bottom: 10px;
         border: 1px solid #dedbdb;
         /* background: url(../img/blue-lines.png); */
