@@ -3987,7 +3987,12 @@
 	
 	@media (max-width: 575.98px) { 
 	   	
-        #location-header-section .text-zone-location h1{
+       .pricing-list li .cost{
+        font-size: 11px;
+       }
+
+
+       #location-header-section .text-zone-location h1{
             font-size: 16px;
             margin-top: 5px;
         }
