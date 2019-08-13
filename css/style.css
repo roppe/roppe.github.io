@@ -1718,28 +1718,31 @@
 	display: block;
 	}
 
+
+
+
     #repair-description .left-content .btn-go-price{
-        font-family: "Roboto";
+      font-family: "Roboto";
     font-weight: 500;
-    color: #ffffff;
-    font-size: 13px;
+    color: #fff;
+    font-size: 18px;
     letter-spacing: 1px;
     text-transform: uppercase;
     border-radius: 3px;
-    background: #ce2027;
-    padding-left: 20px;
-    padding-right: 20px;
+    background:#ce2027;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom:10px;
     margin-right: 10px;
-    margin-top: 20px;
+    margin-top:8px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #ce2027;    
+    border: 1px solid #ce2027;   
     }
 
      #repair-description .left-content .btn-go-price .fa{
-        margin-left: 5px;
+        margin-left: 7px;
      }
 
      .left-content .btn-go-price:hover{
@@ -1908,13 +1911,13 @@
     font-family: "Roboto";
     font-weight: 500;
     color: #fff;
-    font-size: 15px;
+    font-size: 18px;
     letter-spacing: 1px;
     text-transform: uppercase;
     border-radius: 3px;
     background:#ce2027;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 10px;
     padding-bottom:10px;
     margin-right: 10px;
@@ -1926,7 +1929,7 @@
     }
 
     .btn-go-services-steps .fa{
-    margin-left: 5px;
+    margin-left: 7px;
     }
 
     .btn-go-services-steps:hover{
