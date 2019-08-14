@@ -1405,20 +1405,20 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-    transition: all .2s ease-in-out;
+    pointer-events: none;
+  
     }
 
-     .logo-carousel .carousel-item a:hover img{
-         transform: scale(1.04);
-    }
+    
 
      .logo-carousel .carousel-item a:hover{
      text-decoration: none;
+    
     }
 
 
     .logo-carousel .carousel-item a:hover p{
-    color: #073664;
+    
     text-decoration: none;
     }
 
@@ -4333,7 +4333,7 @@
     }
 
     .banner-sell .box-content-bnr h3 span{
-      font-size: 21px !important;
+      font-size: 15px !important;
     }
 
 		.banner-cover-repair .text-headline h2 span, .banner-cover-repair .text-headline h2{
@@ -4454,8 +4454,8 @@
        }
 
        .card-expand h4{
-        font-size: 10px;
-        height:50px;
+        font-size: 7px;
+        height:28px;
        }
 
 
@@ -4466,10 +4466,26 @@
         font-size: 12px;
        }
 
-        .section-price .col-xl-2 {
+        .section-price .col-2 {
         max-width: 12.5% !important;
-        padding-left: 2px;padding-right: 2px;
+        padding-left:0px;padding-right:0px;
        }
+
+
+        .card-expand {
+        padding-top: 15px;
+        padding-bottom: 20px;
+        margin-top: 5px;
+        -webkit-box-flex: 2;
+        border-right: 1px solid #eee;
+        border-top: none;
+        border-left: 1px solid #eee;
+        border-bottom: none;
+        }
+
+      
+
+
 
        .pricing-inner-1 .left-inner .device-title{
         font-size: 13px;
