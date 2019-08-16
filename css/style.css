@@ -2443,6 +2443,8 @@
 
     }
 
+
+  
     .section-price .col-xl-2{
         max-width: 12% !important;
     }
@@ -4252,10 +4254,7 @@
 		}
 
 		/* repair page mobile*/
-		.ipad-devices-list{
-			background-color: #eee;
-		}
-
+		
 		.banner-contact-us .box-img img {
 		margin-right: auto;margin-left: auto;
 		display: block;
