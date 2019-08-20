@@ -2426,8 +2426,6 @@
     }
 
 
-
-
     .section-price{
         padding-top: 3%;
         padding-bottom: 4%;
@@ -2448,10 +2446,6 @@
     border-top: none;border-left:1px solid #eee;
     padding-top:10px;
     }
-
-
-
-
   
     .section-price .col-xl-2{
         max-width: 12% !important;
@@ -2482,13 +2476,12 @@
 
     .card-expand a:focus{
         
-        background-color:#eceaea !important;
+        background-color:#e8e5e5 !important;
     }
 
-   
     
     .card-expand:hover{
-    background: #fcfbfb;
+    background: #e8e5e5;
     cursor: pointer;
     }
 
@@ -4499,11 +4492,8 @@
 
         .card-expand a{
         border-right: 1px solid #eee;
+        border-left: none;
         }
-
-
-      
-
 
 
        .pricing-inner-1 .left-inner .device-title{
