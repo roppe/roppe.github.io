@@ -9,7 +9,6 @@
  @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
 
 
-
 	/* MAIN HEADER NAVIGATION STYLE*/
 	
 	.top-header{
@@ -20,6 +19,8 @@
 	border-bottom: 1px solid  #c4c3c3;
 	}
 
+
+ 
 	
 
 	.top-header .right-button .phone-info{
@@ -2437,11 +2438,17 @@
     padding-bottom:20px;
     margin-top: 20px;
     -webkit-box-flex: 1;
-    border-right:1px solid #eee;
-    border-top: none;border-left:1px solid #eee;;border-bottom: none;
+   border:none;
     
 
     }
+
+    .card-expand a{
+         border-right:1px solid #eee;
+    border-top: none;border-left:1px solid #eee;;bo
+    }
+
+
 
 
   
@@ -2472,6 +2479,13 @@
     text-align: center;   
     }
 
+    .card-expand a:focus{
+        
+        background-color:#f7f4f4 !important;
+    }
+
+   
+    
     .card-expand:hover{
     background: #fcfbfb;
     cursor: pointer;
@@ -2485,7 +2499,7 @@
     .pricing-inner-1 {
     padding-top: 30px;padding-bottom:30px;
     border-bottom: 2px solid #eee;
-    background: #fafafa;
+    background: #f9f6f6;
     }
 
     .pricing-inner-1 .left-inner .device-title{
@@ -4476,11 +4490,16 @@
         padding-bottom: 20px;
         margin-top: 5px;
         -webkit-box-flex: 2;
-        border-right: 1px solid #eee;
+        border-right:none;
         border-top: none;
-        border-left: 1px solid #eee;
+        border-left:none;
         border-bottom: none;
         }
+
+        .card-expand a{
+        border-right: 1px solid #eee;
+        }
+
 
       
 
