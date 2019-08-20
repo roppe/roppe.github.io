@@ -2445,7 +2445,8 @@
 
     .card-expand a{
          border-right:1px solid #eee;
-    border-top: none;border-left:1px solid #eee;;bo
+    border-top: none;border-left:1px solid #eee;
+    padding-top:10px;
     }
 
 
