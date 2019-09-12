@@ -129,7 +129,7 @@
       <div class="container">
         <div class="justify-content-center row">
            <div sytle="width:100%;">
-            <h3 class="text-align-center main-title">How it works? Very Simple!</h3>
+            <h3 class="text-align-center main-title">How Does It Work? Very Simple!</h3>
             <h4 class="main-subtitle-2">You book us - We come to you - We repair your device.</h4>
            </div>
         </div>
@@ -140,26 +140,26 @@
           <div class="row">
              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6  order-1 first-side-work">
               <img class="img-fluid" src="img/step-1-picture.png" alt="picture step1">
-              <h2 class="headline-app">1.Need to repair your iPad?<br> Book us!</h2>
+              <h2 class="headline-app">1.Book An Appointment</h2>
               <p class="text-description">Do you have a broken iPad? Don't panic! Our experts can fix it for you right away! All you have to do is book us on our website or by calling us.When you need to fix an iPad in New York, we are your best option.
               </p>
              </div>
              
              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6  order-1 first-side-work">
               <img class="img-fluid" src="img/step-2-picture.png" alt="picture step2">
-               <h2 class="headline-app">2. We will come to you!</h2>
+               <h2 class="headline-app">2. We Pick Up The Device</h2>
               <p class="text-description">You appointment will be confirmed right away. One of our specialists will pick up the device at the requested date and hour.Remember, we can come to you anywhere in New York! Our New York iPad repairservices are very flexible. In fact, we can pick up the iPad from your home, workplace or any public area!</p>
              </div>
             
              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6  order-1 first-side-work">
               <img class="img-fluid" src="img/step-3-picture.png" alt="picture step1">
-              <h2 class="headline-app">3. We repair your device!</h2>
+              <h2 class="headline-app">3. We Repair Your Device</h2>
               <p class="text-description">We will quickly repair your Apple device.Rest assured that our New York iPad repair experts will fix all the problems and will make your phone look and work like brand new.Keep in mind that we can also perform any kind of school issued iPad repair and that our corporate iPad repair service is the most reliable in New York.</p>
              </div>
             
              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6  order-1 first-side-work">
                 <img class="img-fluid" src="img/step-4-picture.png" alt="picture step1">
-                <h2 class="headline-app">4. You get the device back!</h2>
+                <h2 class="headline-app">4. Your Device Is Dropped Off</h2>
                 <p class="text-description">After you iPad device is repaired, we will bring it back to your location. <br>Stop searching for “iPad repair near me” and let us repair your phone.<br> We will pick up the device and return it for free, anywhere in New York! </p>
              </div>
             
@@ -186,10 +186,7 @@
           <div class="row">
             <div class="col-lg-10 col-xs-12 col-md-12 col-sm-12 logo-carousel">
                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators logo-carosusel-ind">
-                    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-                 
-                  </ol>
+                  
 
                   <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -222,6 +219,8 @@
                   </div><!-- /carousel-inner -->
             
                </div><!-- /carouselExampleControls -->
+
+               <a href="pricing.html" class="btn btn-pr">View Pricing</a>
             </div>
           </div><!-- /row2 -->
 
@@ -485,6 +484,25 @@
             .appendTo('.slideshow');
         },  3000);
 
+     </script>
+
+     <script>
+       $(document).ready(function() {  
+            function toggleNavbarMethod() {  
+                if ($(window).width() > 768) {  
+                    $('.navbar-nav .dropdown').on('mouseover', function(){  
+                        $('.dropdown-toggle', this).trigger('click');   
+                    }).on('mouseout', function(){  
+                        $('.dropdown-toggle', this).trigger('click').blur();  
+                    });  
+                }  
+                else {  
+                    $('.navbar-nav .dropdown').off('mouseover').off('mouseout');  
+                }  
+            }  
+            toggleNavbarMethod();  
+            $(window).resize(toggleNavbarMethod);  
+        });  
      </script>
 
 

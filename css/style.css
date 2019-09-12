@@ -115,6 +115,7 @@
     text-align: center;
     position: relative;
     margin-top: 18px;
+    outline: none !important;
     }
 
     .nav-list .dropdown a{
@@ -123,9 +124,11 @@
     letter-spacing: 1px;
     font-size: 13px;
     text-align: center;
+    outline: none;
     }
     .nav-list .dropdown a:hover{
     text-decoration: none;
+    outline: none;
     }
 
     .nav-list .dropdown a .caret{
@@ -1409,6 +1412,28 @@
     pointer-events: none;
   
     }
+
+
+    .logo-carousel .btn-pr {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: #ce2027;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #bd1a21;
+    width: 170px;
+    display: block;
+}
 
     
 
@@ -3207,6 +3232,55 @@
 
 	/* Responsive Design Changes fixes CSS Tablet  */
 	
+  
+   
+    @media (min-width: 1920px) {
+      
+          #home-section {
+          padding: 170px 0 230px;
+          }
+
+          .cta-buttons-home .btn-demo-home {
+          width: 230px;
+          padding-top: 14px;
+          padding-bottom: 14px;
+          }
+
+          .cta-buttons-home .btn-demo-home span{
+            font-size: 19px;
+          }
+
+          #home-section .text-area{
+            margin-top: 60px;
+          }
+
+          #home-section .text-area h2 span{
+            font-size: 35px;
+          }
+
+          .banner-faq-cover{
+            height: 430px;
+          }
+
+          .banner-cover-repair{
+            height: 490px;
+          }
+
+          .banner-cover-repair .text-headline{
+            padding-top: 10%;
+          }
+
+          .cover-repair{
+            height: 480px;
+          }
+
+          .cover-repair .text-area{
+            padding-top: 11%;
+          }
+
+    }    /* end 1920  */
+
+
 
     @media (max-width: 991px) {
         
@@ -3490,6 +3564,7 @@
 
     }  /* end  max widht 991px  */
 	
+
 
     @media (max-width: 767.98px) {
         
