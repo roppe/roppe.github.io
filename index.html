@@ -428,23 +428,7 @@
     <!-- Custom JavaScript for this SITE -->
     <script src="js/scrolling-nav.js"></script>
 
-    <script>
-        /* Dropdown menu*/
-
-        $(document).ready(function(){
-            $(".dropdown").hover(            
-                function() {
-                    $('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideDown("fast");
-                    $(this).toggleClass('open');        
-                },
-                function() {
-                    $('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideUp("fast");
-                    $(this).toggleClass('open');       
-                }
-            );
-        });
-
-    </script>
+    
     
      <!-- JS Script Button back to top -->
     <script>
@@ -486,25 +470,8 @@
 
      </script>
 
-     <script>
-       $(document).ready(function() {  
-            function toggleNavbarMethod() {  
-                if ($(window).width() > 768) {  
-                    $('.navbar-nav .dropdown').on('mouseover', function(){  
-                        $('.dropdown-toggle', this).trigger('click');   
-                    }).on('mouseout', function(){  
-                        $('.dropdown-toggle', this).trigger('click').blur();  
-                    });  
-                }  
-                else {  
-                    $('.navbar-nav .dropdown').off('mouseover').off('mouseout');  
-                }  
-            }  
-            toggleNavbarMethod();  
-            $(window).resize(toggleNavbarMethod);  
-        });  
-     </script>
-
+   
+   
 
   </body>
 
