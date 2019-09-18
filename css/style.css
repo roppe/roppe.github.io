@@ -297,6 +297,7 @@
 	background-size:cover;
 	background-repeat: no-repeat;
 	 padding:170px 0 125px;
+     background-size: 100% 100%; 
 	}
 
 	#home-section .text-area{
@@ -3567,11 +3568,11 @@
         }
 
         #home-section .text-area h2 span{
-            font-size: 25px;
+            font-size: 21px;
         }
 
          #home-section .text-area h2{
-            font-size: 25px;
+            font-size: 21px;
         }
 
 
