@@ -1023,6 +1023,19 @@
     margin-bottom: 3px;
 	}
 
+    .sub-footer .copy a{
+          font-family: "Roboto";
+    font-weight: 400;
+    color: #d5d2d2 !important;
+    text-align: center;
+    display: block;
+    font-size: 11px;
+    float: right;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    }
+
 
 
 
