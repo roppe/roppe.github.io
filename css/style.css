@@ -19,10 +19,10 @@
     .main-navigation .logo-header{
     display: block;
     float: left;
-    width: 240px !important;height:55px;
+    width: 250px !important;height:58px;
     background:url(../img/nyc-restaurant-logo.png) 0 0 no-repeat;
     margin-right: 0 !important;
-    margin-top: 15px;
+    margin-top: 10px;
 
     }
 
@@ -601,6 +601,10 @@
     opacity: 1;
     }
 
+
+
+
+    
 
 	/* --------------- FOOTER STYLE -------------------  */ 
 
@@ -1227,6 +1231,61 @@
     text-transform: none;
     letter-spacing: 2px;
     margin-bottom: 15px;    
+    }
+
+
+
+    .section-how-it-work {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-bottom: 1px solid #fafafa;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .section-how-it-work .box-text-6 h2 {
+    font-size: 27px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: #273a44;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+    .section-how-it-work .how-steps {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    }
+
+    .section-how-it-work .how-steps .headline{
+        font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #131f28 !important;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    }
+
+    .section-how-it-work .how-steps p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #131f28;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+    }
+
+    .section-how-it-work .how-steps img{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;  
     }
 
    
