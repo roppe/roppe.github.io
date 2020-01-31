@@ -348,10 +348,10 @@
     font-weight: 500;
     color: #073664;
     text-transform: uppercase;
-    background-color:#0483c1;
+    background-color:#E69906;
     padding-top: 7px;
     padding-bottom: 7px;
-    border:1px solid #0483c1;
+    border:1px solid #E69906;
     border-radius: 5px;
     letter-spacing: 1px;
     margin-top: 30px;
@@ -831,7 +831,8 @@
     color:#fff;
     font-weight:500;
     letter-spacing: 1px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;  
+        text-shadow: 2px 2px #0d0d0d;  
     }
 
     .banner-cover-top .text-headline h2 span{
@@ -843,6 +844,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 20px;
+    text-shadow: 2px 2px #0d0d0d;
     }
 
     .banner-cover-top .text-headline{
@@ -984,8 +986,8 @@
     /* SELL PAGE  */
 
     #section-how-it-work{
-    padding-bottom:30px;
-    padding-top:3%;
+    padding-bottom:25px;
+    padding-top:25px;
     border-bottom: 1px solid #fafafa;
     background-color: #ffffff;
         background-image: url(../img/light-bck.png);
@@ -1068,10 +1070,10 @@
     .inner-how-it-work-1 .first-side-work .headline-app{
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    color: #131f28 !important;
+    color: #273a44 !important;
     font-size:18px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom:10px;
     }
 
@@ -1080,7 +1082,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #e69906;
+    border: 1.5px solid #e69906;
     width: 35px;
     margin-bottom: 15px;
     }
@@ -1096,7 +1098,7 @@
     .inner-how-it-work-1 .first-side-work .text-description{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    color: #131f28;
+    color: #273a44;
     font-size: 15px;
     text-align: center;
     margin-bottom: 0;
@@ -1113,6 +1115,8 @@
     margin-top: 35px;
     padding-top: 35px;
     padding-bottom: 35px;
+    background: url(../img/orange-cover.png);
+    background-repeat: repeat-x;
     }
 
     .demo-box .box-content{
@@ -1124,7 +1128,7 @@
     .demo-box .box-content h3{
     font-family: "Open Sans";
     font-weight: 600;
-    color:#f7f5f5;
+    color:#fff;
     font-size: 27px;
     text-align: center;
     padding-bottom: 5px;
@@ -1133,7 +1137,7 @@
     .demo-box .box-content p{
        font-family: "Open Sans";
     font-weight: 400;
-    color: #fafafa;
+    color: #fff;
     font-size: 18px;
     text-align: center;
     letter-spacing: 1px;
@@ -1141,7 +1145,7 @@
 
 
     .demo-box .box-content .border-line-5{
-      border-bottom: 1px solid #b7b7b9;
+      border-bottom: 1px solid #fafafa;
     width: 20%;
     margin-bottom: 10px;
     display: block;
@@ -1160,7 +1164,7 @@
     color: #fafafa;
     text-transform: uppercase;
     font-size: 14px;
-    background-color: #f2bc25;
+    background-color: #203c53;
     padding-top: 13px;padding-bottom: 13px;
     border:0;border-radius: 0;
     letter-spacing: 1px;
@@ -1178,60 +1182,153 @@
     /* CONTACT PAGE */
 
 
-
-    #contact{
-    padding-bottom:30px;
-    padding-top:50px;
-    background-size: cover;
-    background-repeat: no-repeat;
+     /* maap and hours of operatipon*/
+    #location-hour {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        border-top: 1px solid #eee;
+         border-bottom: 1px solid #eee;
     }
 
-    #contact .cnt-text{
-    display: block;
+    #location-hour .map-info {
+
+        background-color: #fdfcfc;
+        padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+    height: 290px;
+    }
+    
+
+
+    #location-hour .map-info .t-1{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color:  #273a44;
+    margin-top: 5px;
     width: 100%;
+    float: left;
+    margin-bottom: 0;
     }
 
-    .cnt-text .cnt-subtitle{
-        font-weight: 500;
-    color: #273a44;
-    font-size: 25px;
-    text-align: center;
-    text-transform: none;
-    letter-spacing: 2px;
-    margin-bottom: 25px; 
-     font-family: "Open Sans";   
-    }
-
-    .cnt-text .call-now-txt{
-     font-family: "Open Sans";
-
-    font-weight: 500;
-    color: #273a44;
-    font-size: 37px;
-    text-align: center;
-    text-transform: none;
-    letter-spacing: 2px;
-    margin-bottom:5%;   
-    border: 2px solid  #273a44;
-    width: 67%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 17px ;padding-bottom: 17px;
-    border-radius: 3px;
-    }
-
-    .cnt-text .call-now-txt span{
-     font-family: "Open Sans";
-
+    #location-hour .map-info  a span{
+    font-size: 35px;
     font-weight: 700;
-    color: #273a44;
-    font-size: 48px;
     text-align: center;
-    text-transform: none;
+    font-family: 'Open Sans', sans-serif;
+    color:  #273a44;    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
     letter-spacing: 2px;
-    margin-bottom: 15px;    
     }
+
+    #location-hour .map-info  a .fa{
+        margin-right: 10px;
+        float: left;
+        display: block;
+    }
+
+     #location-hour .map-info  a{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+     }
+
+    #location-hour .map-info  a:hover{
+    text-decoration: none;
+    }
+
+     #location-hour .map-info .t-2{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color:  #273a44;
+    margin-top:0;
+     margin-bottom: 20px;
+    }
+
+   
+
+    #location-hour .service-info{
+    padding-right: 25px;padding-left: 25px;
+    padding-top:0;
+
+    }
+
+    #location-hour .service-info .open-hours {
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+    float: left;
+    background-color: #fdfcfc;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+        box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+
+
+    }
+
+    .service-info .open-hours  li{
+    width: 100%;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    }
+
+    .service-info .open-hours li p{
+        font-family: "Open Sans";
+    font-weight: 600;
+    color: #273a44;
+    text-align: center !important;
+    font-size: 15px;
+    float: left;
+    background:#f1f0f0;
+    width: 140px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    }
+
+    .service-info .open-hours li span{
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+    color:  #273a44;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background:#f7f6f6;
+    }
+
+     .service-info .open-hours h3{
+    font-size: 20px;
+    font-family: "Open Sans";
+    text-align:center;
+     color: #273a44;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    }
+
+    
+
+
+
+
 
 
 
@@ -1287,6 +1384,8 @@
     margin-left: auto;
     margin-right: auto;  
     }
+
+
 
    
 
