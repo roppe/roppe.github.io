@@ -220,7 +220,7 @@
     position: relative;
     background-repeat: no-repeat;
      padding:180px 0 10px;
-        background-color: #f1f0f0;
+        background-color: #fff;
     }
 
 
@@ -372,7 +372,7 @@
 
     #top-section{
     padding-top: 40px;padding-bottom: 40px;
-    background: #f1f0f0;
+    background: #ffffff;
     }
 
     #top-section .tx-box-1{
@@ -409,7 +409,7 @@
     .catagories-home li{
     display: block;
     list-style-type: none;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     float: left;
     width: 20%;
     }
@@ -423,7 +423,7 @@
     .catagories-home li h6{
     font-size: 15px;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top:0;
     text-align: center;
     color: #131f28;
     font-family: "Open Sans"; 
@@ -1173,7 +1173,7 @@
 
     .box-content .btn-signup-5:hover{
         cursor: pointer;
-        background-color: #cc9d19;
+        /*background-color: #cc9d19;*/
         color: #ffffff;
     }
 
@@ -1198,7 +1198,12 @@
     padding-top: 35px;
     padding-bottom: 10px;
     box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
-    height: 290px;
+    height: 320px;
+     background-image: url(../img/nyc-silhuete.png); 
+    width: 100%;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
     }
     
 
@@ -1281,7 +1286,7 @@
     width: 100%;
     display: block;
     float: left;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     }
 
     .service-info .open-hours li p{
@@ -1289,7 +1294,7 @@
     font-weight: 600;
     color: #273a44;
     text-align: center !important;
-    font-size: 15px;
+    font-size: 13px;
     float: left;
     background:#f1f0f0;
     width: 140px;
@@ -1300,7 +1305,7 @@
 
     .service-info .open-hours li span{
     font-family: "Open Sans";
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
     color:  #273a44;
     text-align: center;
