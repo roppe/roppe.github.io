@@ -385,9 +385,9 @@
     font-family: "Open Sans";
     font-weight: 600;
     color: #273a44;
-    font-size: 26px;
+    font-size: 34px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     text-transform: uppercase;
     }
 
@@ -395,8 +395,8 @@
     font-family: "Open Sans";
     font-weight: 400;
     color: #273a44;
-    font-size: 20px;
-    text-align: center;
+    font-size: 15px;
+    text-align:left;
     }
 
     .catagories-home{
@@ -445,7 +445,7 @@
     font-size: 30px;
     text-align: left;
     margin-top:5px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     }
 
@@ -481,7 +481,7 @@
       font-family: "Open Sans";
     font-weight: 400;
     color:#273a44;
-    font-size: 14px;
+    font-size: 15px;
     text-align: left;
     }
 
@@ -517,6 +517,106 @@
 
 
     
+    /* FAQ  SECTION */
+
+    #faq-section-ta{
+    background-color: #ffffff;
+    display: block;
+    padding-top:30px;
+    padding-bottom:100px;
+       /* background-image: url(../img/line-pattern.png);*/
+    background-repeat: repeat-x;
+    margin-top:5px;
+    }
+
+    #faq-section-ta .text-faq-box{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    }
+
+    #faq-section-ta .text-faq-box h3{
+    font-family: "Open Sans";
+    font-weight: 500;
+   color: #151515;
+    font-size:18px;
+
+    text-align: center;
+    padding-bottom: 7px;
+     word-wrap: break-word !important;
+    }
+    
+    #faq-section-ta .text-faq-box h2{
+   font-weight: 600;
+    color: #151515;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    font-family: "Open Sans";
+    }
+
+    .card-faq{
+    margin-bottom: 15px;
+    border-radius: 0;
+    border: 1px solid #f5f0f0;
+    }
+
+    .webpro-faq .card-body{
+    background-color: #ffffff;
+    font-family: "Open Sans";
+    font-weight:500;
+    color: #151515;
+    font-size: 15px;
+    border-left: 2px solid #E69906;
+     }
+
+    .webpro-faq .faq-header{
+    padding-top:8px;padding-bottom:8px;
+    font-family: "Open Sans";
+    font-weight:700;
+    color: #313433; 
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fdfcfc;
+    border-bottom: 0;
+      white-space: normal !important;
+        word-wrap: break-word !important;
+    }
+
+    .webpro-faq .faq-header .btn{
+    font-family: "Open Sans";
+    font-weight:600;
+     color: #151515;
+    font-size: 15px;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    }
+
+     .webpro-faq .faq-header .btn .fa{
+    float: right;
+    color: #151515;
+
+    }
+      .webpro-faq .faq-header .btn:hover{
+    cursor: pointer;
+     color: #E69906;
+    }
+
+    .webpro-faq .btn:active,  .faq-header .btn:focus {
+    border-color: transparent;
+    box-shadow: none;
+    color:#E69906;
+    text-decoration: none;
+    }
+
+    .faq-header .btn:active .fa,  .faq-header .btn:focus .fa {
+    border-color: transparent;
+    color: #E69906;
+    }
 
 
 
@@ -1348,9 +1448,9 @@
 
     .section-how-it-work .box-text-6 h2 {
     font-size: 27px;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 5px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     text-align: center;
     color: #273a44;
     font-family: 'Open Sans', sans-serif;
