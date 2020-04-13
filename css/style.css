@@ -711,7 +711,7 @@
 
 	  footer{
     background:#0a0f13;
-    padding-top:30px;
+    padding-top:45px;
     padding-bottom:0;
     }
 
@@ -721,7 +721,7 @@
     list-style-type: none;
     padding-left: 0;
     width: 100%;
-    margin-top: 22px;
+    margin-top: 5px;
     }
 
      footer .text-rights{
@@ -772,6 +772,26 @@
 	color: #f2bd25;
 	}
 
+    .logo-left li h5{
+            font-family: "Open Sans";
+    font-weight: 600;
+    color: #e69906;
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 0;
+    }
+
+    .logo-left li p{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #ffffff;
+ 
+    font-size: 16px;
+    text-align:left;
+    letter-spacing: 1px;
+    }
+    
+
 
 	/* Footer Social networks icons   */
 
@@ -787,7 +807,7 @@
     font-family: "Open Sans";
     font-weight: 600;
     color: #e69906;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center; 
     padding-bottom:0;
     width:100%;
@@ -798,7 +818,7 @@
     font-weight: 600;
     color: #ffffff;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 32px;
     text-align: center; 
         margin-left: auto;
     margin-right: auto;
@@ -811,7 +831,7 @@
     font-weight: 600;
     color: #ffffff;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 32px;
     text-align: center; 
     letter-spacing: 1px;
    
@@ -829,7 +849,7 @@
     padding-top:8px;padding-bottom:8px;
         border-top: 1px solid #1c2934;
 
-    margin-top:5px;
+    margin-top:25px;
     }
 
     .sub-footer .copy {
