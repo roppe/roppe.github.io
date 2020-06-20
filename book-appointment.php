@@ -1,6 +1,6 @@
 <?php
 require_once "recaptchalib.php";
-$secret = "6LcTvVYUAAAAABOviJMksiZpUMmv_iik7hifd-ER";
+$secret = "#Secret Key goes here...";
 $response = null;
 $reCaptcha = new ReCaptcha($secret);
 if ($_POST["g-recaptcha-response"]) {
