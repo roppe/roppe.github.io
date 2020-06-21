@@ -657,7 +657,7 @@ h3, h4 {
   padding-top: 28px;
   padding-bottom: 25px;
   border-bottom: 1px solid #d9d9d9;
-  background-image: url("bg-reglaze.jpg");
+  background-image: url("section-price-bck.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -795,11 +795,11 @@ h3, h4 {
 }
 .section-heading.white {
   color: #fff;
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 32px;
   font-family: "Open Sans";
   font-weight: 600;
-  margin-bottom: 55px;
+  margin-bottom:30px;
 }
 .section-heading.smaller {
   font-size: 30px;
@@ -814,6 +814,14 @@ h3, h4 {
 .section-description {
   margin-bottom: 15px;
   font-size: 18px;
+}
+
+.pricing-section .section-description {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  margin-bottom:25px;
 }
 .section-description.white {
   color: #fff;
@@ -2988,6 +2996,13 @@ width:100%!important;
     margin: auto;
 }
 
+.choose-icon-box img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ width: 50px;height: 50px;
+}
+
 .choose-box  .line-white{
   display: block;
   border:1px solid #fff;
@@ -3006,14 +3021,14 @@ width:100%!important;
     text-align: center;
 }
 .choose-title {
-    margin-top: 10px;
+    margin-top: 5px;
     color: #fff;
     font-size: 15px;
     line-height: 18px;
     font-weight: 600;
     text-transform: uppercase;
    font-family: "Open Sans";
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     height: 30px;
     display: flex;
     justify-content: center;
@@ -3099,6 +3114,105 @@ a.w-inline-block.new-down-arrow .down-arrow {
 
 }
 
+.section-price{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-price-list{
+  display: inline-block;
+  margin-top: 20px;
+  width: 38%;
+  margin-left: auto;
+  margin-right: auto;
+  border:1px solid #bacbd4;
+}
+
+.home-price-list  .price-header .top-headline{
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  font-size: 22px;
+
+
+}
+
+.home-price-list  .price-header{
+  float: left;
+  display: block;
+  padding-bottom: 8px;padding-top: 8px;
+  padding-left: 25px;padding-right:25px;
+ width: 100%;
+  background-color: #009def;
+
+}
+
+
+
+.home-price-list .inner-prices{
+  width: 100%;
+  float: left;
+  display: block;
+  padding-bottom: 9px;padding-top: 9px;
+  padding-left: 25px;padding-right:25px;
+  border-bottom: 1px solid #bacbd4;
+}
+
+.home-price-list .inner-prices h6{
+  padding-top: 4px;
+  color: #3a3a3a;
+  font-weight: 600;
+  font-family: "Open Sans";
+  font-size: 15px;
+  float: left;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.home-price-list .inner-prices p{
+  color: #009def;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-family: "Open Sans";
+  font-size: 18px;
+  float: right;
+}
+
+
+.home-price-list .total-prices{
+  width: 100%;
+  float: left;
+  display: block;
+  padding-bottom: 18px;padding-top: 18px;
+  padding-left: 25px;padding-right:25px;
+ background-color: #009def !important;
+}
+
+.home-price-list .total-prices h6{
+  padding-top: 4px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Open Sans";
+  font-size: 18px;
+  float: left;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.home-price-list .total-prices p{
+  color: #fff;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-family: "Open Sans";
+  font-size: 23px;
+  float: right;
+}
+
 .maint-content{
       box-shadow: 0 5px 15px 0 rgba(0,0,0,.1);
     border: 1px solid #eee;
@@ -3166,7 +3280,7 @@ a.w-inline-block.new-down-arrow .down-arrow {
 }
 
 .pricing-section{
-	padding-top: 55px;
+	padding-top: 30px;
 }
 .featured-block-v2 h2 {
     font-size: 38px;
