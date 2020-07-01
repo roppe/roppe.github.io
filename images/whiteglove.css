@@ -1126,7 +1126,7 @@ font-family: "Open Sans";
 
   font-family: "Open Sans";
   color: #009def;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 50px;
   font-weight: 700;
   text-transform: uppercase;
@@ -3507,7 +3507,7 @@ ul.featured-buttons{
 .testimonial-box-home {
       background: #fafafa;
       padding: 15px 12px;
-    height: 380px;
+    height: 400px;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,.1);
       border: 1px solid #eee;
       position: relative;
@@ -3539,7 +3539,11 @@ ul.featured-buttons{
     clear: both;
 }
 @media only screen and (max-width: 1080px){
-	.contact-info.bigger {
+  
+  .nav-link{
+    font-size: 14px;
+  }
+  .contact-info.bigger {
  	   font-size: 26px;
 	}
 	.social-block {
@@ -3606,7 +3610,189 @@ div.icon-image p{
     margin-bottom: 60px;
 }
 @media only screen and (max-width: 980px){
-	.featureslist {
+  .home-content .hed-1 {
+  
+    font-size: 26px;
+}
+
+.home-price-list .price-header .top-headline {
+  font-size: 18px;
+}
+
+.blue-header-text{
+  font-size: 18px;
+}
+
+.maint-content img {
+  display:none;
+  float: right;
+}
+.maint-content .list-block li{
+  font-size: 14px;
+}
+.maint-content h2{
+  font-size: 24px;
+}
+.testimobials-content p {
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.col-md-left p{
+  font-size: 11px;
+}
+
+.testimonial-box-home{
+  height: 488px;
+}
+
+.col-md-right ul li .text-link{
+  font-size: 11px;
+}
+
+.content-top{
+  margin-top: 20px;
+}
+
+.content-top h1{
+  font-size: 23px;
+}
+
+.content-top h3{
+  font-size: 15px;
+}
+
+.content-top p{
+  font-size: 14px;
+}
+
+.nav-bar {
+  background-color: #2dade3;
+}
+
+.nav-link{
+  text-align: center;
+}
+
+.nav-menu .free-quote{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-menu {
+  background-color: #187ca7;
+  text-align: center;
+}
+
+.services-list li p{
+  font-size: 12px;
+}
+
+.services-main .ser-title{
+  font-size: 26px;
+}
+
+.services-list li h2{
+  font-size: 17px;
+}
+
+.row-contact{
+  padding-left: 10px;padding-right: 10px;
+}
+
+.choose-box {
+  display: block;
+  padding-bottom: 30px;
+  width: 48%;
+  margin: auto;
+  float: left;
+}
+
+.featured-block-v2 h2 {
+  font-size: 34px;
+  text-align: center;
+  font-family: "Open Sans";
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+.content-section h1{
+  font-size: 25px;
+}
+
+.featureslist li span.heading{
+  font-size: 16px;
+}
+
+.choose-title{
+  height: 50px;
+  font-size: 14px;
+}
+
+.color-content h4{
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.color-content .color-sub{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.section-heading.white{
+  font-size: 25px;
+}
+
+.choose-content{
+  font-size: 13px;
+}
+
+.home-content .hm-content h4 {
+  font-size: 20px;
+}
+
+.home-content .hm-content p{
+  font-size: 14px;
+}
+
+.w-col-6 {
+  width: 100%;
+}
+
+.section-heading{
+  font-size: 35px;
+  margin-top: 0;
+}
+
+.home-price-list{
+  width: 42%;
+  margin-right: 15px!important;
+}
+
+.why-choose-us{
+  width: 100%;
+}
+
+  .services-box{
+    padding-left: 10px;padding-right: 10px;
+  }
+
+  .banner-text-1{
+    font-size: 35px;
+  }
+
+  .services-title{
+    font-size: 15px;
+  }
+  .banner-text-2 {
+    font-size: 31px;
+    color: #2dade3;
+  }
+  .featureslist {
 	    list-style-type: none;
 		display: grid;
 		text-align: center;
@@ -3628,17 +3814,22 @@ div.icon-image p{
 	.choose-icons-block.choose-icon-block-3{
         display: block;
     }
-    .choose-box {
-        display: block;
-        padding-bottom: 30px;
-        width: 200px;
-        margin: auto;
-        float: none;
-    }
+  
 }
 
 @media only screen and (max-width: 767px) {
-    .content-section{
+   
+  .home-price-list .price-header .top-headline{
+    font-size: 18px;
+  }
+
+  .services-title {
+    font-size: 13px;
+}
+  .home-content .hed-1{
+   
+  }
+  .content-section{
         clear: both;
     }
 	.imageContentBlock {
@@ -3662,7 +3853,93 @@ div.icon-image p{
 	}
 }
 @media only screen and (max-width: 580px) {
-	.featureslist {
+  .home-content .hed-1 {
+   
+  }
+
+  .services-main .ser-title {
+  font-size: 17px;
+  }
+  .services-list{
+  padding-left: 0;
+  }
+  .services-list li {
+  width: 100%;
+  }
+
+  .services-list li p {
+  font-size: 13px;
+  }
+
+  .color-content .color-sub {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 23px;
+  }
+
+  .contact-top-h2-t{
+    font-size: 20px;
+  }
+
+  .w-checkbox, .w-radio {
+    float: left;
+    width: 100% !important;
+  }
+
+  .form-right-margin-2 {
+    margin-right:10px;
+}
+.featured-block-v2 h2 {
+  font-size: 26px;
+  text-align: center;
+  font-family: "Open Sans";
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+.featured-block-v2 p{
+  font-size: 18px;
+}
+
+.h3-sub{
+  font-size: 25px;
+}
+
+.col-md-right ul li a img {
+  display: none;
+  margin-right: 12px;
+  float: left;
+}
+
+.blue-header-text {
+  font-size: 16px;
+}
+
+.maint-content{
+  padding: 20px;
+}
+
+.maint-content h2 {
+  font-size: 21px;
+}
+
+.maint-content .inn-txt{
+  font-size: 14px;
+}
+
+.blue-header-text.center.bigger-text{
+  font-size: 22px;
+}
+.row-contact .form-title{
+  font-size: 16px;
+  padding-top: 6px;padding-bottom: 6px;
+}
+
+.box-question .form-label{
+  font-size: 14px;
+}
+  
+  .featureslist {
 	    list-style-type: none;
 		display: inline-block;
 		text-align: center;
@@ -3716,7 +3993,117 @@ div.icon-image p{
 	}
 	p{
 		padding-right: 10px;
-	}
-	
+  }
+  
+  .home-content .hed-1{
+    font-size: 24px;
+  }
+
+  .home-content .hm-content h4{
+    font-size: 17px;
+  }
+
+  .banner-text-1{
+    font-size: 25px;
+  }
+
+  .banner-text-2{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans";
+  }
+
+  .nav-bar {
+    background-color: #2dade3;
+  }
+
+  .nav-link{
+    text-align: center;
+  }
+  
+  .nav-menu .free-quote{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-menu {
+    background-color: #187ca7;
+    text-align: center;
+  }
+
+  .section-heading {
+    font-size: 26px;
+  }
+
+  .pricing-section {
+    padding-top: 10px;
+  }
+  .pricing-section .section-description{
+    font-size: 16px;
+  }
+
+  .home-price-list{
+    width: 100%;
+  }
+
+  .home-price-list .price-header .top-headline{
+    font-size: 20px;
+  }
+
+  .featured-buttons li a{
+    font-size: 15px;
+  }
+
+  .home-price-list .inner-prices h6{
+    font-size: 14px;
+  }
+
+  .home-price-list .inner-prices p{
+    font-size: 16px;
+  }
+
+  .home-price-list .inner-prices{
+    padding-top: 6px;padding-bottom: 6px;
+  }
+
+  .section-heading.white{
+    font-size: 22px;
+  }
+
+  .choose-box{
+    width: 100%;
+  }
+
+  .clinet-sub{
+    font-size: 20px;
+  }
+
+  .testimonial-box-home{
+    height: 385px;
+    margin-bottom: 20px;
+  }
+
+  .footer .col-md-left{
+    width: 100%;
+  }
+
+  .col-md-right ul li .text-link{
+    font-size: 14px !important;
+  }
+
+  .bottom-footer p{
+    font-size: 10px;
+  }
+
+  .content-top img {
+    display: block;
+    float: left;
+    padding-left: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
 
 }
